@@ -187,7 +187,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   margin-top: 15px;
   margin-bottom: 15px;
   font-weight: bold; }
-#wrapper .recent-posts-content .entry-title h4 a {
+#wrapper .recent-posts-content .entry-title a {
   color: #959595;
   font-size: 20px;
   line-height: 20px;
