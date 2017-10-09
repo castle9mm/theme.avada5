@@ -182,10 +182,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       text-shadow: none !important;
       transition: none;
   }
-  .button-hover,.rev-btn{
+  .button-hover,.rev-btn:hover{
       background-color: #fff;
       border: 2px solid $primary-color !important;
-      color: $primary-color !important !important;
+      color: $primary-color !important;
   }
   .searchform .search-table .search-button {
       padding-right: 20px;
@@ -273,7 +273,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       font-weight: bold
   }
   .recent-posts-content .entry-title a{
-      color: #959595;
+      color: $text-color;
       font-size: 20px;
       line-height: 20px;
       margin: 4px 0 0;
@@ -490,7 +490,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     }
 
 }
-@media (max-width: 450px) {
+@media (max-width: 600px) {
 
   #wrapper{
      .fusion-copyright-content {
@@ -507,13 +507,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       .tfs-slider .slide-content-container {
         top: 65%
       }
+       ul.eccles-links, ul.uni-links {
+         display: initial !important;
+      }
+      ul.eccles-links li, ul.uni-links li {
+        display: block;
+      }
   }
-  ul.eccles-links, ul.uni-links {
-    display: initial;
-  }
-  ul.eccles-links li, ul.uni-links li {
-    display: block;
-  }
+ 
   #footer {
     .EcclesLogo,.shell {
       text-align: -webkit-center;
@@ -522,8 +523,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       width: fit-content;
       margin: auto;
     }
-    .eccles-socials-wrapper ul li:first-child {
-      padding-left: 0px
+    .eccles-socials-wrapper ul{
+      padding-left: 0px !important;
     }
     
     .shell {

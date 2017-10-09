@@ -132,10 +132,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   width: auto;
   text-shadow: none !important;
   transition: none; }
-#wrapper .button-hover, #wrapper .searchform .search-table .search-button input[type=submit]:hover, #wrapper .fusion-button-wrapper .fusion-button:hover, #wrapper .rev-btn {
+#wrapper .button-hover, #wrapper .searchform .search-table .search-button input[type=submit]:hover, #wrapper .fusion-button-wrapper .fusion-button:hover, #wrapper .rev-btn:hover {
   background-color: #fff;
   border: 2px solid #CC0000 !important;
-  color: #CC0000 !important !important; }
+  color: #CC0000 !important; }
 #wrapper .searchform .search-table .search-button {
   padding-right: 20px; }
   #wrapper .searchform .search-table .search-button input[type=submit] {
@@ -188,7 +188,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   margin-bottom: 15px;
   font-weight: bold; }
 #wrapper .recent-posts-content .entry-title a {
-  color: #959595;
+  color: #333;
   font-size: 20px;
   line-height: 20px;
   margin: 4px 0 0;
@@ -343,7 +343,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #wrapper .fusion-rollover .fusion-link-wrapper {
   opacity: 0.9; }
 
-@media (max-width: 450px) {
+@media (max-width: 600px) {
   #wrapper .fusion-copyright-content {
     display: inline-block; }
   #wrapper .sub-menu .dotted {
@@ -353,11 +353,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     width: 245px; }
   #wrapper .tfs-slider .slide-content-container {
     top: 65%; }
-
-  ul.eccles-links, ul.uni-links {
-    display: initial; }
-
-  ul.eccles-links li, ul.uni-links li {
+  #wrapper ul.eccles-links, #wrapper ul.uni-links {
+    display: initial !important; }
+  #wrapper ul.eccles-links li, #wrapper ul.uni-links li {
     display: block; }
 
   #footer .EcclesLogo, #footer .shell {
@@ -365,8 +363,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   #footer .eccles-socials-wrapper {
     width: fit-content;
     margin: auto; }
-  #footer .eccles-socials-wrapper ul li:first-child {
-    padding-left: 0px; }
+  #footer .eccles-socials-wrapper ul {
+    padding-left: 0px !important; }
   #footer .shell {
     margin-top: 10px; }
   #footer .footer-bar {
