@@ -42,6 +42,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       .menu-item{
         padding-right: 45px;
         border: none;
+        margin-bottom: -3px;
           a{
             color: #545454;
           }
@@ -90,8 +91,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
             }
           }
           .dotted {
-            border-top: 1px #777 dotted !important;
-            padding-top: 3px;
+            border-top: 1px #ccc dotted !important;
           }
       }
     
@@ -160,6 +160,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding-left: 30px;
     padding-top: 10px;
     padding-bottom: 7px;
+  }
+  #main{
+    
+    padding-top: 5px;
   }
 
 }
@@ -263,10 +267,19 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   .entry-title a{
       font-size: 25px;
       line-height: 26px;
-      color: #000 !important;
+      color: #000;
       margin-top: 15px;
       margin-bottom: 15px;
       font-weight: bold
+  }
+  .recent-posts-content .entry-title h4 a{
+      color: #959595;
+      font-size: 20px;
+      line-height: 20px;
+      margin: 4px 0 0;
+      width: 89%;
+      display: inline-block;  
+      
   }
  
   

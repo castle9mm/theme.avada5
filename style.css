@@ -27,7 +27,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   color: #CC0000; }
 #wrapper .fusion-main-menu .menu-item {
   padding-right: 45px;
-  border: none; }
+  border: none;
+  margin-bottom: -3px; }
   #wrapper .fusion-main-menu .menu-item a {
     color: #545454; }
   #wrapper .fusion-main-menu .menu-item a:hover {
@@ -62,8 +63,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
         #wrapper .fusion-main-menu .sub-menu li ul li a span {
           font-size: 16px; }
   #wrapper .fusion-main-menu .sub-menu .dotted {
-    border-top: 1px #777 dotted !important;
-    padding-top: 3px; }
+    border-top: 1px #ccc dotted !important; }
 #wrapper .flex-direction-nav a, #wrapper .search-button input {
   font-family: icomoon !important;
   cursor: pointer;
@@ -116,6 +116,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding-left: 30px;
   padding-top: 10px;
   padding-bottom: 7px; }
+#wrapper #main {
+  padding-top: 5px; }
 
 /*End Header Styling*/
 /**
@@ -181,10 +183,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #wrapper .entry-title a {
   font-size: 25px;
   line-height: 26px;
-  color: #000 !important;
+  color: #000;
   margin-top: 15px;
   margin-bottom: 15px;
   font-weight: bold; }
+#wrapper .recent-posts-content .entry-title h4 a {
+  color: #959595;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 4px 0 0;
+  width: 89%;
+  display: inline-block; }
 
 /*End Button Links and Title*/
 /**
