@@ -1,0 +1,526 @@
+/*
+ Theme Name: Avada Child
+ Description: Child theme for Avada theme
+ Author: ThemeFusion
+ Author URI: https://theme-fusion.com
+ Template: Avada
+ Version: 1.0.0
+ Text Domain:  Avada
+ */
+
+$primary-color: #CC0000;
+$text-color: #333;
+$font: 'Myriad Pro', arial, sans-serif;
+$font-icon: icomoon !important;
+$font-quote: 'Times New Roman', Times, serif;
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  
+    border: 0;
+    font-family: $font;
+    font-size: 18px;
+    font-style: inherit;
+    font-weight: inherit;
+    outline: 0;
+    vertical-align: baseline;
+    color: $text-color;
+}
+#wrapper{  
+  a{
+    text-decoration: none;
+  }
+  h2 {
+    transition: none;
+  }
+  .fusion-main-menu {
+      .fusion-main-menu-search a,.fusion-main-menu-icon:after,.fusion-widget-cart-counter > a:before{
+         font-family:  $font-icon;
+         cursor: pointer;
+         color: $primary-color;
+      }
+      .menu-item{
+        border: none;
+          a{
+            color: #545454;
+          }
+          a:hover{
+            border-color: transparent;
+            span{
+              color: $primary-color !important;
+              border-color: transparent;
+            }
+          }
+      }
+      
+      #menu-header {
+        .current-menu-item > a, .current-menu-ancestor > a {
+          border-top-color: white;
+          color: $primary-color;
+        }
+      }
+      .sub-menu {
+        border-top: none;
+        background: white;
+        width: max-content;
+          li {
+            margin-left: 10px;
+            margin-right: 10px;
+            a {
+              border-bottom: none;
+              padding-top: 0px;
+              padding-bottom: 0px;
+            }
+            a:hover {
+              background-color: transparent;
+            }
+            ul {
+              position: inherit;
+              width: 180px;
+              visibility: visible;
+              display: inline;
+              left: 5px;
+              li {
+                width: 180px;
+                a span {
+                  font-size: 16px;
+                }
+              }
+            }
+          }
+          .dotted {
+            border-top: 1px #777 dotted !important;
+            padding-top: 3px;
+          }
+      }
+    
+  }
+  .flex-direction-nav a,  .search-button input{
+      font-family:  $font-icon;
+      cursor: pointer;
+      color: $primary-color;
+  }
+  header {
+    border-bottom: .2em solid $primary-color;
+      .fusion-row {
+  
+        max-width: none;
+      }
+      .fusion-custom-menu-item-contents {
+            padding: 3px 0;
+            height: 53px;
+            border-bottom: 3px solid $primary-color;
+            background-color: #fff;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            width: 50vw;
+            top: 70px;
+            transition: all .3s;
+            overflow: hidden;
+            right: 0;
+            z-index: 999999;
+           
+            input {
+                padding-bottom: 10px;
+                border: none;
+                font-size: 30px;
+                color: #858585;
+                font-weight: 300;
+                position: relative;
+                height: 100%;
+                border: 0;
+                text-align: left;
+                background: transparent;
+                padding: 0 18% 0 3%;
+                margin-top: 10px;
+                float: left;
+                width: 80%;
+            }
+            input:focus {
+                outline: none;
+            }
+      }
+      .fusion-custom-menu-item-contents .search-field {
+          border: none;
+      }
+  }
+  .fusion-page-title-bar, .fusion-logo,.fusion-post-content-wrapper .fusion-post-content-container, .fusion-meta-info .fusion-alignright {
+      display: none;
+  }
+  .fusion-meta-info .fusion-alignleft{
+     width: 100%;
+  }
+  #custom-header-logo {
+
+    width: 300px;
+    position: absolute;
+    z-index: 100000;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+  }
+
+}
+/*End Header Styling*/
+/**
+ *   
+ */
+/* Buttons - Links and Titles*/
+#wrapper{
+  .button{
+      background-color: $primary-color;
+      color: #fff !important;
+      border: 2px solid $primary-color;
+      border-radius: 0;
+      width: auto;
+      text-shadow: none !important;
+      transition: none;
+  }
+  .button-hover{
+      background-color: #fff;
+      border: 2px solid $primary-color;
+      color: $primary-color !important;
+  }
+  .searchform .search-table .search-button {
+      padding-right: 20px;
+      input[type=submit] {
+          @extend .button;
+          text-align: center !important;
+          font-family: $font-icon;
+          font-size: 18px;
+          margin-right: 0px;
+          padding-right: 15px;
+          padding-left: 15px;
+          line-height: inherit;
+      }
+      input[type=submit]:hover{
+        @extend .button-hover
+      }
+  }
+  .the-button-style, .btn.btn-red, .ms-protection-msg input[type="submit"], .gform_button[type="submit"] {
+      @extend .button;
+      font-family: $font !important;
+      padding: .5em 1.5em;
+      font-size: 16px;
+      margin: 1em 0;
+      display: inline-block;
+      text-transform: none;
+      line-height: initial;
+  }
+  .fusion-button-wrapper{ 
+    
+    .fusion-button {
+      @extend .the-button-style;
+      span {
+        color: #fff;
+        transition: none;
+        line-height: inherit;
+        font-size: 16px;
+      }
+    }
+    .fusion-button:hover{
+       @extend .button-hover;
+    }
+  
+  }
+    
+  
+  .btn-red, .fusion-date-box,.nav-tabs .active a  {
+     background: $primary-color;
+  }
+  .btn {
+    text-align: center;
+  }
+  .nav-tabs {
+
+    a h4{
+    font-size: 16px;
+    }
+    .active a  h4{
+        color: #fff;
+        text-shadow: 2px 2px 4px #000;
+    }
+  }
+  a:hover, a:hover:after,a:hover:before,.fusion-format-box i, .fusion-button-wrapper .fusion-button:hover span , .red-text, .heading-link h2:hover,.fusion-content-boxes .heading .heading-link:hover h2 ,
+  .entry-title:hover a,#wrapper .fusion-single-line-meta a:hover, .fusion-single-line-meta span,.fn:hover a,.fusion-popover,.content-box-counter i, .content-box-counter span {
+      color: $primary-color !important;
+  }
+  .fusion-single-line-meta span{
+      font-style: italic;
+  }
+  .fusion-post-content .sep-double, .fusion-post-content-wrapper .fusion-meta-info{
+      margin-top: 10px;
+  } 
+  .quote .quote-text p {
+
+    font-family: $font-quote;
+    font-style: italic;
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .entry-title a{
+      font-size: 25px;
+      line-height: 26px;
+      color: #000 !important;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      font-weight: bold
+  }
+ 
+  
+}
+/*End Button Links and Title*/
+/**
+ *
+ *
+ *
+ *
+ * */
+/* Footer*/
+#wrapper{
+  
+  .fusion-footer{ 
+      .footer-section h5 {
+        margin-bottom: 16px;
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.025em;
+        color: #333333;
+      }
+      .fusion-row {
+        max-width: 100%;
+      }
+      .fusion-columns {
+         width: fit-content;
+         margin: auto;
+      }
+      .footer-section {
+          display: inline-block;
+          padding: 0 3em;
+          vertical-align: top;
+          text-align: left;
+      }
+  }
+  .fusion-footer-widget-area {
+      color: #8C8989;
+      padding-top: 43px;
+      padding-bottom: 40px;
+      border-top: 12px solid #e9eaee;
+      background: #d8d9da;
+      li {
+
+        border: none;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        a:before {
+          display: none;
+        }
+      }
+      a {
+        color: #333333;
+        text-decoration: none;
+        font-size: 14px;
+      }
+      li:hover a {
+
+        color: $primary-color  !important;
+      }
+      .current-menu-item a {
+        color: $primary-color !important;
+      }
+   }
+   
+}
+#footer{
+  .fusion-row {
+    max-width: 100%;
+  }
+  .fusion-body .fusion-footer-copyright-center .fusion-copyright-content {
+
+    display: block;
+    text-align: center;
+  }
+  .footer-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+  ul.eccles-links, ul.uni-links {
+
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    .first{
+      display: -webkit-box !important;
+      content: "";
+    }
+    a {
+      color: #fff;
+      font-size: 12px;
+    }
+    li {
+      color: #fff;
+      font-size: 12px;
+      margin-right: 1.64em;
+    }
+  }
+  .eccles-socials-wrapper {
+      padding-top: 15px;
+      ul {
+      display: flex;
+      }
+      li {
+        display: block;
+        padding-left: 15px;
+        a {
+          font-size: 14px;
+          .fa-circle {
+            color: #8f8f8f;
+          }
+        }
+        a:hover .fa-circle {
+          color: $primary-color;
+        }
+      }
+  } 
+}
+#toTop:hover {
+
+  background-color: $primary-color !important;
+}
+#toTopHover:hover {
+
+  background-color: $primary-color !important;
+}
+/*End Footer*/
+/*
+ * 
+ * 
+ * */
+/* Fusion Slider*/
+#wrapper{
+  .flex-direction-nav{ 
+        a {
+        display: block;
+        opacity: 1;
+        border-radius: 100%;
+        background: transparent;
+        border: 1px solid $primary-color;
+        height: 52px;
+        width: 52px;
+        line-height: 52px;
+        }
+        a:hover {
+          background-color: rgba(111,109,109,0.26);
+        }
+        .flex-prev {
+          margin-left: 5%;
+        }
+        .flex-next {
+          margin-right: 5%;
+        }
+  }
+  .slide-content{
+     .title-heading-center {
+        background: none;
+        font-weight: bold;
+        text-align: center;
+        padding: .24em 0 0 0;
+        font-size: 55px;
+        line-height: 1.1em;
+        display: block;
+        width: 94%;
+        margin: auto;
+        text-shadow: 2px 2px 3px #333;
+      }
+      .heading {
+        margin-bottom: 0px;
+      }
+      .heading .fusion-title-sc-wrapper, .heading .fusion-title-sc-wrapper .fusion-title, .fusion-title-sc-wrapper, .fusion-title-sc-wrapper .fusion-title {
+        width: 100%;
+      }
+      
+   }
+   .caption .fusion-title-sc-wrapper  .title-heading-center {
+      padding-top: 0px;
+      font-size: 24px;
+      font-weight: 400;
+      text-shadow: 2px 2px 3px #333;
+    }
+    .tfs-slider .slide-content-container {
+      top: 80%;
+      .tfs-button-1, .tfs-button-2 {
+        margin-top: 0.25%;
+      }
+      .buttons a {
+        line-height: inherit;
+      }
+    }
+    .fusion-flip-box .flip-box-back, .fusion-rollover .fusion-link-wrapper {
+      background-color: $primary-color !important;
+    }
+    .fusion-flip-box .flip-box-back .flip-box-back-inner p,.fusion-flip-box .flip-box-back .flip-box-back-inner {
+      text-shadow: 2px 2px 3px #333;
+      color: #fff;
+    }
+    .fusion-rollover .fusion-link-wrapper {
+        opacity: 0.9;
+    }
+
+}
+@media (max-width: 450px) {
+
+  #wrapper{
+     .fusion-copyright-content {
+
+        display: inline-block;
+      }
+      .sub-menu .dotted {
+        border-top: none !important;
+        padding-top:0px;
+      }
+      #custom-header-logo {
+        width: 245px;
+      }
+      .tfs-slider .slide-content-container {
+        top: 65%
+      }
+  }
+  ul.eccles-links, ul.uni-links {
+    display: initial;
+  }
+  ul.eccles-links li, ul.uni-links li {
+    display: block;
+  }
+  #footer {
+    .EcclesLogo,.shell {
+      text-align: -webkit-center;
+    }
+    .eccles-socials-wrapper {
+      width: fit-content;
+      margin: auto;
+    }
+    .eccles-socials-wrapper ul li:first-child {
+      padding-left: 0px
+    }
+    
+    .shell {
+      margin-top: 10px;
+    }
+    .footer-bar{ 
+      display: block;
+      justify-content: none;
+      .eccles-links, .uni-links {
+         a,li {
+          font-size: 16px;
+          margin-right: 0px;
+        }
+      }
+    }
+  }
+}
