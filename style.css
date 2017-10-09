@@ -175,7 +175,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font-style: italic; }
 #wrapper .fusion-post-content .sep-double, #wrapper .fusion-post-content-wrapper .fusion-meta-info {
   margin-top: 10px; }
-#wrapper .quote .quote-text p {
+#wrapper .quote-text h6, #wrapper .quote-text h3 {
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
   font-size: 38px;

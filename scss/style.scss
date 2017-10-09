@@ -257,12 +257,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   .fusion-post-content .sep-double, .fusion-post-content-wrapper .fusion-meta-info{
       margin-top: 10px;
   } 
-  .quote .quote-text p {
+  .quote-text {
 
-    font-family: $font-quote;
-    font-style: italic;
-    font-size: 38px;
-    line-height: 46px;
+    h6,h3{
+        font-family: $font-quote;
+        font-style: italic;
+        font-size: 38px;
+        line-height: 46px;
+      }
   }
   .entry-title a{
       font-size: 25px;
