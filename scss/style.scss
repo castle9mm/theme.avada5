@@ -293,6 +293,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       display: inline-block;  
       
   }
+  @media only screen and (max-width: 800px){
+    .fusion-columns .fusion-column:not(.fusion-column-last){
+      margin: 0 0 20px;
+    }
+  }
  
 }
 /*End Button Links and Title*/
@@ -416,8 +421,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
           
         }
       }
-       
-      
   } 
 }
 #toTop:hover {
