@@ -59,7 +59,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       display: inline;
       left: 5px; }
       #wrapper .fusion-main-menu .sub-menu li ul li {
-        width: 180px; }
+        padding-right: 0px;
+        width: fit-content; }
         #wrapper .fusion-main-menu .sub-menu li ul li a span {
           font-size: 16px; }
   #wrapper .fusion-main-menu .sub-menu .dotted {
