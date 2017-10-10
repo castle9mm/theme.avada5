@@ -163,7 +163,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   #main{
     
-    padding-top: 5px;
+    padding-top: 0px;
+  }
+  .fusion-recent-posts {
+    .fusion-column{
+      padding: 0px
+    }
   }
 
 }
@@ -259,11 +264,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   } 
   .quote-text {
 
-    h6,h3{
+    h6{
         font-family: $font-quote;
         font-style: italic;
         font-size: 38px;
         line-height: 46px;
+        color: $primary-color;
+      }
+      h3 em{
+        font-size: 30px;
+        line-height: 36px;
       }
   }
   .entry-title a{
@@ -287,7 +297,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 /*End Button Links and Title*/
 /**
- *
  *
  *
  *
@@ -388,20 +397,27 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       padding-top: 15px;
       ul {
       display: flex;
-      }
-      li {
-        display: block;
-        padding-left: 15px;
-        a {
-          font-size: 14px;
-          .fa-circle {
-            color: #8f8f8f;
+        
+        li {
+          display: block;
+          padding-left: 15px;
+          a {
+            font-size: 14px;
+            .fa-circle {
+              color: #8f8f8f;
+            }
+          }
+          a:hover .fa-circle {
+            color: $primary-color;
           }
         }
-        a:hover .fa-circle {
-          color: $primary-color;
+        li:first-child{
+          padding-left: 0px;
+          
         }
       }
+       
+      
   } 
 }
 #toTop:hover {
