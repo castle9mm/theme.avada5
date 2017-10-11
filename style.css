@@ -120,8 +120,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding-bottom: 7px; }
 #wrapper #main {
   padding-top: 0px; }
-#wrapper .fusion-recent-posts .fusion-column {
-  padding: 0px; }
+#wrapper .fusion-recent-posts {
+  margin-bottom: 30px; }
+  #wrapper .fusion-recent-posts .fusion-column {
+    padding: 0px; }
+#wrapper .recent-post-carousel {
+  border-bottom: 10px solid #CC0000 !important;
+  background-color: #ededed !important;
+  margin-bottom: 30px; }
 
 /*End Header Styling*/
 /**
