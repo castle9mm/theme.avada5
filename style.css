@@ -64,7 +64,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
         #wrapper .fusion-main-menu .sub-menu li ul li a span {
           font-size: 16px; }
   #wrapper .fusion-main-menu .sub-menu .dotted {
-    border-top: 1px #ccc dotted !important; }
+    border-top: 1px #ccc dotted !important;
+    padding-top: 3px; }
 #wrapper .flex-direction-nav a, #wrapper .search-button input {
   font-family: icomoon !important;
   cursor: pointer;
