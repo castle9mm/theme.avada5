@@ -103,10 +103,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       cursor: pointer;
       color: $primary-color;
   }
-  header {
+  .fusion-header{
     border-bottom: .2em solid $primary-color;
+  }
+  header {
+    /*border-bottom: .2em solid $primary-color;*/
       .fusion-row {
-  
+        height: 85px;
         max-width: none;
       }
       .fusion-custom-menu-item-contents {
@@ -148,8 +151,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
           border: none;
       }
   }
-  .fusion-page-title-bar, .fusion-logo,.fusion-post-content-wrapper .fusion-post-content-container, .fusion-meta-info .fusion-alignright {
+  .fusion-page-title-bar,.fusion-logo-2x.fusion-post-content-wrapper .fusion-post-content-container, .fusion-meta-info .fusion-alignright {
       display: none;
+  }
+  .fusion-logo-1x{
+   height: 65px; 
+  }
+  .fusion-header .fusion-logo{
+    
+    margin: auto;
+        padding: 10px;
   }
   .fusion-meta-info .fusion-alignleft{
      width: 100%;
@@ -177,6 +188,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     border-bottom: 10px solid $primary-color !important;
     background-color: rgb(237, 237, 237) !important;
     margin-bottom: 30px;
+  }
+  .fusion-header{
+    height: 85px;
   }
 
 }

@@ -70,9 +70,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font-family: icomoon !important;
   cursor: pointer;
   color: #CC0000; }
-#wrapper header {
+#wrapper .fusion-header {
   border-bottom: 0.2em solid #CC0000; }
+#wrapper header {
+  /*border-bottom: .2em solid $primary-color;*/ }
   #wrapper header .fusion-row {
+    height: 85px;
     max-width: none; }
   #wrapper header .fusion-custom-menu-item-contents {
     padding: 3px 0;
@@ -107,8 +110,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       outline: none; }
   #wrapper header .fusion-custom-menu-item-contents .search-field {
     border: none; }
-#wrapper .fusion-page-title-bar, #wrapper .fusion-logo, #wrapper .fusion-post-content-wrapper .fusion-post-content-container, #wrapper .fusion-meta-info .fusion-alignright {
+#wrapper .fusion-page-title-bar, #wrapper .fusion-logo-2x.fusion-post-content-wrapper .fusion-post-content-container, #wrapper .fusion-meta-info .fusion-alignright {
   display: none; }
+#wrapper .fusion-logo-1x {
+  height: 65px; }
+#wrapper .fusion-header .fusion-logo {
+  margin: auto;
+  padding: 10px; }
 #wrapper .fusion-meta-info .fusion-alignleft {
   width: 100%; }
 #wrapper #custom-header-logo {
@@ -128,6 +136,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   border-bottom: 10px solid #CC0000 !important;
   background-color: #ededed !important;
   margin-bottom: 30px; }
+#wrapper .fusion-header {
+  height: 85px; }
 
 /*End Header Styling*/
 /**

@@ -55,7 +55,7 @@ function avada_header_template_child( $slider_position = 'Below' ) {
 					 */
 					
 					//Logo Eccles HTML Custom
-					
+				/*	
 					?>
 					<div id ="custom-header-logo" class="logo">
 						
@@ -65,7 +65,7 @@ function avada_header_template_child( $slider_position = 'Below' ) {
 					</div>
 					
 					<?php
-					
+					*/
 					
 					//Menu function - logo removed by css child theme
 					do_action( 'avada_header' );
@@ -93,4 +93,7 @@ function avada_header_template_child( $slider_position = 'Below' ) {
 			do_action( 'avada_after_header_wrapper' );
 		} // End if().
 	}
+
+
+	
 ?>
