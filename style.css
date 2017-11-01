@@ -17,127 +17,142 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   vertical-align: baseline;
   color: #333; }
 
-#wrapper a {
-  text-decoration: none; }
-#wrapper h2 {
-  transition: none; }
-#wrapper .fusion-main-menu .fusion-main-menu-search a, #wrapper .fusion-main-menu .fusion-main-menu-icon:after, #wrapper .fusion-main-menu .fusion-widget-cart-counter > a:before {
-  font-family: icomoon !important;
-  cursor: pointer;
-  color: #CC0000; }
-#wrapper .fusion-main-menu .menu-item {
-  padding-right: 45px;
-  border: none;
-  margin-bottom: 0px; }
-  #wrapper .fusion-main-menu .menu-item a {
-    color: #545454; }
-  #wrapper .fusion-main-menu .menu-item a:hover {
-    border-color: transparent; }
-    #wrapper .fusion-main-menu .menu-item a:hover span {
-      color: #CC0000 !important;
+#wrapper {
+  /*Header of Eccles Custom and Sub header*/ }
+  #wrapper a {
+    text-decoration: none; }
+  #wrapper h2 {
+    transition: none; }
+  #wrapper .fusion-main-menu .fusion-main-menu-search a, #wrapper .fusion-main-menu .fusion-main-menu-icon:after, #wrapper .fusion-main-menu .fusion-widget-cart-counter > a:before {
+    font-family: icomoon !important;
+    cursor: pointer;
+    color: #CC0000; }
+  #wrapper .fusion-main-menu .menu-item {
+    padding-right: 45px;
+    border: none;
+    margin-bottom: 0px; }
+    #wrapper .fusion-main-menu .menu-item a {
+      color: #545454; }
+    #wrapper .fusion-main-menu .menu-item a:hover {
       border-color: transparent; }
-#wrapper .fusion-main-menu #menu-header .current-menu-item > a, #wrapper .fusion-main-menu #menu-header .current-menu-ancestor > a {
-  border-top-color: white;
-  color: #CC0000; }
-#wrapper .fusion-main-menu .sub-menu {
-  border-top: none;
-  background: white;
-  width: max-content; }
-  #wrapper .fusion-main-menu .sub-menu li {
-    margin-left: 10px;
-    margin-right: 10px; }
-    #wrapper .fusion-main-menu .sub-menu li a {
-      border-bottom: none;
-      padding-top: 0px;
-      padding-bottom: 0px; }
-    #wrapper .fusion-main-menu .sub-menu li a:hover {
-      background-color: transparent; }
-    #wrapper .fusion-main-menu .sub-menu li ul {
-      position: inherit;
-      width: 180px;
-      visibility: visible;
-      display: inline;
-      left: 5px; }
-      #wrapper .fusion-main-menu .sub-menu li ul li {
-        padding-right: 0px;
-        width: fit-content; }
-        #wrapper .fusion-main-menu .sub-menu li ul li a span {
-          font-size: 16px; }
-  #wrapper .fusion-main-menu .sub-menu .dotted {
-    border-top: 1px #ccc dotted !important;
-    padding-top: 3px; }
-#wrapper .flex-direction-nav a, #wrapper .search-button input {
-  font-family: icomoon !important;
-  cursor: pointer;
-  color: #CC0000; }
-#wrapper .fusion-header {
-  border-bottom: 0.2em solid #CC0000; }
-#wrapper header {
-  /*border-bottom: .2em solid $primary-color;*/ }
-  #wrapper header .fusion-row {
-    height: 85px;
-    max-width: none; }
-  #wrapper header .fusion-custom-menu-item-contents {
-    padding: 3px 0;
-    height: 53px;
-    border-bottom: 3px solid #CC0000;
-    background-color: #fff;
+      #wrapper .fusion-main-menu .menu-item a:hover span {
+        color: #CC0000 !important;
+        border-color: transparent; }
+  #wrapper .fusion-main-menu #menu-header .current-menu-item > a, #wrapper .fusion-main-menu #menu-header .current-menu-ancestor > a {
+    border-top-color: white;
+    color: #CC0000; }
+  #wrapper .fusion-main-menu .sub-menu {
     border-top: none;
-    border-left: none;
-    border-right: none;
-    width: 50vw;
-    top: 70px;
-    transition: all .3s;
-    overflow: hidden;
-    right: 0;
-    z-index: 999999; }
-    #wrapper header .fusion-custom-menu-item-contents input {
-      padding-bottom: 10px;
-      border: none;
-      font-size: 30px;
-      color: #858585;
-      font-weight: 300;
-      position: relative;
-      height: 100%;
-      border: 0;
-      text-align: left;
-      background: transparent;
-      padding: 0 18% 0 3%;
-      margin-top: 10px;
-      float: left;
-      width: 80%; }
-    #wrapper header .fusion-custom-menu-item-contents input:focus {
-      outline: none; }
-  #wrapper header .fusion-custom-menu-item-contents .search-field {
-    border: none; }
-#wrapper .fusion-page-title-bar, #wrapper .fusion-logo-2x.fusion-post-content-wrapper .fusion-post-content-container, #wrapper .fusion-meta-info .fusion-alignright {
-  display: none; }
-#wrapper .fusion-logo-1x {
-  height: 65px; }
-#wrapper .fusion-header .fusion-logo {
-  margin: auto;
-  padding: 10px; }
-#wrapper .fusion-meta-info .fusion-alignleft {
-  width: 100%; }
-#wrapper #custom-header-logo {
-  width: 300px;
-  position: absolute;
-  z-index: 100000;
-  padding-left: 30px;
-  padding-top: 10px;
-  padding-bottom: 7px; }
-#wrapper #main {
-  padding-top: 0px; }
-#wrapper .fusion-recent-posts {
-  margin-bottom: 30px; }
-  #wrapper .fusion-recent-posts .fusion-column {
-    padding: 0px; }
-#wrapper .recent-post-carousel {
-  border-bottom: 10px solid #CC0000 !important;
-  background-color: #ededed !important;
-  margin-bottom: 30px; }
-#wrapper .fusion-header {
-  height: 85px; }
+    background: white;
+    width: max-content; }
+    #wrapper .fusion-main-menu .sub-menu li {
+      margin-left: 10px;
+      margin-right: 10px; }
+      #wrapper .fusion-main-menu .sub-menu li a {
+        border-bottom: none;
+        padding-top: 0px;
+        padding-bottom: 0px; }
+      #wrapper .fusion-main-menu .sub-menu li a:hover {
+        background-color: transparent; }
+      #wrapper .fusion-main-menu .sub-menu li ul {
+        position: inherit;
+        width: 180px;
+        visibility: visible;
+        display: inline;
+        left: 5px; }
+        #wrapper .fusion-main-menu .sub-menu li ul li {
+          padding-right: 0px;
+          width: fit-content; }
+          #wrapper .fusion-main-menu .sub-menu li ul li a span {
+            font-size: 16px; }
+    #wrapper .fusion-main-menu .sub-menu .dotted {
+      border-top: 1px #ccc dotted !important;
+      padding-top: 3px; }
+  #wrapper .flex-direction-nav a, #wrapper .search-button input {
+    font-family: icomoon !important;
+    cursor: pointer;
+    color: #CC0000; }
+  #wrapper .fusion-header {
+    border-bottom: 0.2em solid #CC0000; }
+  #wrapper header {
+    /*border-bottom: .2em solid $primary-color;*/ }
+    #wrapper header .fusion-row {
+      height: 85px;
+      max-width: none; }
+    #wrapper header .fusion-custom-menu-item-contents {
+      padding: 3px 0;
+      height: 53px;
+      border-bottom: 3px solid #CC0000;
+      background-color: #fff;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      width: 50vw;
+      top: 70px;
+      transition: all .3s;
+      overflow: hidden;
+      right: 0;
+      z-index: 999999; }
+      #wrapper header .fusion-custom-menu-item-contents input {
+        padding-bottom: 10px;
+        border: none;
+        font-size: 30px;
+        color: #858585;
+        font-weight: 300;
+        position: relative;
+        height: 100%;
+        border: 0;
+        text-align: left;
+        background: transparent;
+        padding: 0 18% 0 3%;
+        margin-top: 10px;
+        float: left;
+        width: 80%; }
+      #wrapper header .fusion-custom-menu-item-contents input:focus {
+        outline: none; }
+    #wrapper header .fusion-custom-menu-item-contents .search-field {
+      border: none; }
+  #wrapper .fusion-page-title-bar, #wrapper .fusion-logo-2x.fusion-post-content-wrapper .fusion-post-content-container, #wrapper .fusion-meta-info .fusion-alignright {
+    display: none; }
+  #wrapper .fusion-logo-1x {
+    height: 65px; }
+  #wrapper .fusion-header .fusion-logo {
+    margin: auto;
+    padding: 10px; }
+  #wrapper .fusion-meta-info .fusion-alignleft {
+    width: 100%; }
+  #wrapper #custom-header-logo {
+    width: 300px;
+    position: absolute;
+    z-index: 100000;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 7px; }
+  #wrapper #main {
+    padding-top: 0px; }
+  #wrapper .fusion-recent-posts {
+    margin-bottom: 30px; }
+    #wrapper .fusion-recent-posts .fusion-column {
+      padding: 0px; }
+  #wrapper .recent-post-carousel {
+    border-bottom: 10px solid #CC0000 !important;
+    background-color: #ededed !important;
+    margin-bottom: 30px; }
+  #wrapper .fusion-header {
+    height: 85px; }
+  #wrapper #menu-eccles .fusion-header {
+    background-color: #282a2b; }
+    #wrapper #menu-eccles .fusion-header a, #wrapper #menu-eccles .fusion-header span {
+      color: white; }
+  #wrapper #menu-eccles .fusion-row {
+    width: 100%;
+    max-width: none; }
+  #wrapper header {
+    max-height: 65px; }
+    #wrapper header .fusion-header, #wrapper header .fusion-row, #wrapper header ul li a {
+      max-height: 65px; }
+    #wrapper header .fusion-logo img {
+      max-height: 40px; }
 
 /*End Header Styling*/
 /**

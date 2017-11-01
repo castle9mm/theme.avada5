@@ -192,6 +192,36 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   .fusion-header{
     height: 85px;
   }
+  
+/*Header of Eccles Custom and Sub header*/
+  
+  #menu-eccles{ 
+      .fusion-header{
+        
+        background-color: #282a2b;
+        a,span{
+          
+          color: white;
+        }
+      }
+      .fusion-row{
+        
+        width:100%;
+        max-width: none;
+      } 
+  }
+  header{ 
+    max-height: 65px;
+    .fusion-header,.fusion-row,ul li a{
+      max-height: 65px;
+      
+    }
+     .fusion-logo img{
+      max-height: 40px;
+      
+    }
+   
+  }
 
 }
 /*End Header Styling*/
