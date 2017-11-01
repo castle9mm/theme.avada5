@@ -49,7 +49,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 					<?php if ( ( Avada()->settings->get( 'footer_widgets' ) && 'no' !== $display_footer ) || ( ! Avada()->settings->get( 'footer_widgets' ) && 'yes' === $display_footer ) ) : ?>
 						<?php $footer_widget_area_center_class = ( Avada()->settings->get( 'footer_widgets_center_content' ) ) ? ' fusion-footer-widget-area-center' : ''; ?>
 
-						<footer role="contentinfo" class="fusion-footer-widget-area fusion-widget-area<?php echo esc_attr( $footer_widget_area_center_class ); ?>">
+						<footer role="contentinfo" style="display: none" class="fusion-footer-widget-area fusion-widget-area<?php echo esc_attr( $footer_widget_area_center_class ); ?>">
 							<div class="fusion-row">
 								<div class="fusion-columns fusion-columns-<?php echo esc_attr( Avada()->settings->get( 'footer_widgets_columns' ) ); ?> fusion-widget-area">
 									<?php
@@ -63,7 +63,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 								/* Custom HTML Footer*/
 									?>
 
-  <div class="footer-sections">
+  <div class="footer-sections" style="display: none">
         <div class="footer-section">
           <h5>About Us</h5>
           <ul>
@@ -146,21 +146,6 @@ if ( ! defined( 'ABSPATH' ) ) {
         </div>
         <!-- /.footer-section -->
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -268,12 +253,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	</div>
 									
 									
-									
-									
-									
-									
-									
-									
 									<?php
 									/**
 									 * Footer Content (Copyright area) avada_footer_copyright_content hook.
@@ -301,6 +280,55 @@ if ( ! defined( 'ABSPATH' ) ) {
 				</div> <!-- fusion-footer -->
 			<?php endif; // End is not blank page check. ?>
 		</div> <!-- wrapper -->
+
+
+
+
+<div id="footer-container" class="clearfix">
+         <footer class="wrapper clearfix">
+         	 <section class="brand-area clearfix">
+            
+               <div class="bottom-brand">
+                  <div class="spacer"><a href="http://imagineu.utah.edu/"><img src="https://www.utah.edu/_images/imagine_u.png" alt="Imagine U: The University of Utah"></a>
+</div>
+               </div>
+              
+               <section class="address">
+                  <div class="spacer">
+<p><a href="/">The University of Utah</a></p>
+<p>201 Presidents Circle<br> Salt Lake City, UT 84112</p>
+<p>801-581-7200</p>
+<p><small>© 2017 The University of Utah</small></p>
+
+</div>
+               </section>
+            </section>
+            <nav id="bottom-nav" role="navigation">
+<ul class="menu">
+<li>
+<h3><a href="https://www.utah.edu/nondiscrimination/">Nondiscrimination &amp; Accessibility</a></h3>
+
+</li>
+<li>
+<h3><a href="https://www.utah.edu/disclaimer/">Disclaimer</a></h3>
+
+</li>
+<li>
+<h3><a href="https://www.utah.edu/a-z/">A-Z Index</a></h3>
+
+</li>
+<li>
+<h3><a href="https://www.utah.edu/contact/">Contact - Feedback</a></h3>
+
+</li>
+</ul>
+</nav>
+           
+         </footer>
+      </div>
+
+
+
 
 		<?php
 		/**
