@@ -366,7 +366,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   color: white; }
 
 #footer-container .wrapper {
-  padding: 20px; }
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  margin: auto;
+  padding-left: 80px;
+  padding-right: 80px; }
 
 #footer-container a:focus,
 #footer-container a:hover,
@@ -375,10 +380,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* --- bottom navigation ---*/
 #bottom-nav {
-  width: 60%;
-  float: left;
-  margin: 0;
-  padding-left: 3%; }
+  width: 70%;
+  margin: auto; }
 
 #bottom-nav .menu,
 #bottom-nav .submenu {
@@ -386,10 +389,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   position: static;
   background: transparent; }
 
-#bottom-nav .menu > li {
+#bottom-nav .menu li {
   float: left;
   line-height: .8em;
-  width: 25%; }
+  padding-right: 60px; }
 
 #bottom-nav .menu h3 {
   color: #cc0000;
@@ -419,23 +422,20 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* ---- branding area -----*/
 #footer-container .brand-area {
-  float: right;
-  width: 40%; }
+  float: right; }
 
 /* -- bottom brand --*/
 #footer-container .bottom-brand {
   float: left;
-  margin-top: 0px;
-  width: 65%; }
+  margin-top: 0px; }
 
 #footer-container .bottom-brand .spacer {
   margin-left: 2em; }
 
 /* -- address ---*/
 #footer-container .address {
-  float: right;
   margin: 0;
-  width: 30%; }
+  width: 10%; }
 
 #footer-container .address .spacer {
   margin: 0 0 0 5px; }

@@ -286,14 +286,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <div id="footer-container" class="clearfix">
          <footer class="wrapper clearfix">
-         	 <section class="brand-area clearfix">
-            
-               <div class="bottom-brand">
-                  <div class="spacer"><a href="http://imagineu.utah.edu/"><img src="https://www.utah.edu/_images/imagine_u.png" alt="Imagine U: The University of Utah"></a>
-</div>
-               </div>
-              
-               <section class="address">
+         	  <section class="address">
                   <div class="spacer">
 <p><a href="/">The University of Utah</a></p>
 <p>201 Presidents Circle<br> Salt Lake City, UT 84112</p>
@@ -302,8 +295,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 </div>
                </section>
-            </section>
-            <nav id="bottom-nav" role="navigation">
+                        <nav id="bottom-nav" role="navigation">
 <ul class="menu">
 <li>
 <h3><a href="https://www.utah.edu/nondiscrimination/">Nondiscrimination &amp; Accessibility</a></h3>
@@ -323,6 +315,16 @@ if ( ! defined( 'ABSPATH' ) ) {
 </li>
 </ul>
 </nav>
+         	 <section class="brand-area ">
+            
+               <div class="bottom-brand">
+                  <div class="spacer"><a href="http://imagineu.utah.edu/"><img src="https://www.utah.edu/_images/imagine_u.png" alt="Imagine U: The University of Utah"></a>
+</div>
+               </div>
+              
+             
+            </section>
+   
            
          </footer>
       </div>
