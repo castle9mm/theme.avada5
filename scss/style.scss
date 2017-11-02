@@ -544,7 +544,7 @@ width: 100%;
 /* --- bottom navigation ---*/
 #bottom-nav {
   width: 70%;
-  
+  float:left;
   margin: auto;
 }
 
@@ -554,8 +554,12 @@ width: 100%;
   position:static;
   background:transparent;
 }
+#bottom-nav .menu{
+  
+  text-align: center;
+}
 #bottom-nav .menu  li {
-  float: left;
+ display: inline-block;
   line-height: .8em;
   padding-right:60px 
 }

@@ -381,6 +381,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /* --- bottom navigation ---*/
 #bottom-nav {
   width: 70%;
+  float: left;
   margin: auto; }
 
 #bottom-nav .menu,
@@ -389,8 +390,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   position: static;
   background: transparent; }
 
+#bottom-nav .menu {
+  text-align: center; }
+
 #bottom-nav .menu li {
-  float: left;
+  display: inline-block;
   line-height: .8em;
   padding-right: 60px; }
 
