@@ -515,6 +515,19 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   float: left;
   margin: 0 20px 15px 0; }
 
+@media (max-width: 960px) {
+  #footer-container .wrapper {
+    padding-left: 20px;
+    padding-right: 20px; }
+  #footer-container .address, #footer-container #bottom-nav, #footer-container #bottom-nav li, #footer-container .brand-area {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px; }
+  #footer-container #bottom-nav ul {
+    padding-left: 0px; }
+  #footer-container #bottom-nav li {
+    padding-right: 0px;
+    float: none; } }
 /*End Footer*/
 /*
  * 
