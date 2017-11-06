@@ -762,7 +762,10 @@ footer .top-container{
     }
   }
   }
-  
+  #footer-container .bottom-brand .spacer {
+    float:none;
+    margin-left:0px;
+  }
 footer  .shell{
     padding-top: 20px;
   }

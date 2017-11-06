@@ -561,6 +561,10 @@ footer .top-container {
     padding-right: 0px;
     float: none; }
 
+  #footer-container .bottom-brand .spacer {
+    float: none;
+    margin-left: 0px; }
+
   footer .shell {
     padding-top: 20px; }
 
