@@ -312,6 +312,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     justify-content: space-around; }
     #footer .footer-bar a:hover {
       text-decoration: underline; }
+  #footer .shell {
+    padding-top: 20px; }
   #footer ul.eccles-links, #footer ul.uni-links {
     display: flex;
     width: fit-content;
@@ -393,7 +395,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   background: transparent; }
 
 #bottom-nav .menu {
-  text-align: center; }
+  padding-left: 0px;
+  margin-bottom: 5px; }
 
 #bottom-nav .menu li {
   display: inline-block;
@@ -441,7 +444,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /* -- address ---*/
 #footer-container .address {
   margin: 0;
-  width: 10%; }
+  width: 100%;
+  text-align: center; }
+  #footer-container .address .spacer {
+    display: -webkit-inline-box;
+    margin: auto;
+    text-align: center; }
+    #footer-container .address .spacer a {
+      text-decoration: none; }
 
 #footer-container .address .spacer {
   margin: 0 0 0 5px; }
@@ -469,7 +479,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font-size: 10px; }
 
 #footer-container h3 a {
-  color: #cc0000; }
+  color: #fff; }
 
 #footer-container .brand-area {
   margin: 0 auto; }
@@ -529,11 +539,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     width: 100%;
     text-align: center;
     margin-bottom: 10px; }
+  #footer-container .address .spacer {
+    display: block; }
   #footer-container #bottom-nav ul {
     padding-left: 0px; }
   #footer-container #bottom-nav li {
     padding-right: 0px;
-    float: none; } }
+    float: none; }
+
+  footer .shell {
+    padding-top: 20px; } }
 /*End Footer*/
 /*
  * 

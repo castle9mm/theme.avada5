@@ -208,7 +208,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                                 <li><a rel="nofollow" href="http://eccles.link/help">IT Support</a></li>
                                 <li><a rel="nofollow" href="http://intranet.eccles.utah.edu">Intranet</a></li>
                         </ul></div>
-			<div><ul class="uni-links">
+			<div><ul class="uni-links" style="display: none !important">
 				<li class="first">© <a href="http://www.utah.edu">University of Utah</a></li>
 				<li><a href="http://www.utah.edu/a-z/">A - Z Index</a></li>
 				<li><a href="http://people.utah.edu/uWho/basic.hml">U of U Directory</a></li>
@@ -286,15 +286,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <div id="footer-container" class="clearfix">
          <footer class="wrapper clearfix">
-         	  <section class="address">
-                  <div class="spacer">
-<p><a href="/">The University of Utah</a></p>
-<p>201 Presidents Circle<br> Salt Lake City, UT 84112</p>
-<p>801-581-7200</p>
-<p><small>© 2017 The University of Utah</small></p>
-
-</div>
-               </section>
+         	 
                         <nav id="bottom-nav" role="navigation">
 <ul class="menu">
 <li>
@@ -324,6 +316,15 @@ if ( ! defined( 'ABSPATH' ) ) {
               
              
             </section>
+             <section class="address">
+                  <div class="spacer">
+<p><a href="/">The University of Utah</a></p>
+<p>201 Presidents Circle Salt Lake City, UT 84112</p>
+<p>801-581-7200</p>
+<p><small>© 2017 The University of Utah</small></p>
+
+</div>
+               </section>
    
            
          </footer>

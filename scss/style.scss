@@ -462,6 +462,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       text-decoration: underline;
     }
   }
+  .shell{
+    padding-top: 20px;
+  }
   ul.eccles-links, ul.uni-links {
 
     display: flex;
@@ -559,8 +562,9 @@ width: 100%;
   background:transparent;
 }
 #bottom-nav .menu{
-  
-  text-align: center;
+  padding-left:0px;
+  //text-align: center;
+  margin-bottom: 5px;
 }
 #bottom-nav .menu  li {
  display: inline-block;
@@ -610,7 +614,19 @@ width: 100%;
 #footer-container .address {
   
   margin:0;
-  width:10%;
+  width:100%;
+      text-align: center;
+      
+      .spacer{
+        display: -webkit-inline-box;
+    margin: auto;
+    text-align: center;
+    a{
+      
+      text-decoration:none;
+    }
+        
+      }
 }
 #footer-container .address .spacer {
   margin:0 0 0 5px;
@@ -646,7 +662,8 @@ p,h2, small,a{
 }
 #footer-container h3 a{
   
-  color: #cc0000;
+  color: #fff;
+  
 }
 #footer-container .brand-area {
   
@@ -713,6 +730,10 @@ p,h2, small,a{
       text-align:center;
       margin-bottom: 10px;
     }
+    .address .spacer{
+      
+          display: block;
+    }
     #bottom-nav{
       ul{
         padding-left: 0px;
@@ -723,6 +744,9 @@ p,h2, small,a{
       float:none;
     }
   }
+  }
+footer  .shell{
+    padding-top: 20px;
   }
 }
 
