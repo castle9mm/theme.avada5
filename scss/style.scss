@@ -550,7 +550,7 @@ width: 100%;
 
 /* --- bottom navigation ---*/
 #bottom-nav {
-  width: 70%;
+  width: 50%;
   float:left;
   margin: auto;
 }
@@ -563,13 +563,13 @@ width: 100%;
 }
 #bottom-nav .menu{
   padding-left:0px;
-  //text-align: center;
+  text-align: center;
   margin-bottom: 5px;
 }
 #bottom-nav .menu  li {
  display: inline-block;
   line-height: .8em;
-  padding-right:60px 
+  padding-right:10px 
 }
 #bottom-nav .menu h3 {
   color: rgb(204, 0, 0);
@@ -598,12 +598,12 @@ width: 100%;
 
 /* ---- branding area -----*/
 #footer-container .brand-area {
-  float: right;
+  width: 25%;
  
 }
 /* -- bottom brand --*/
 #footer-container .bottom-brand {
-  float:left;
+  float:right;
   margin-top:0px;
  
 }
@@ -721,6 +721,9 @@ p,h2, small,a{
   float:left;
   margin:0 20px 15px 0;
 }
+footer .top-container{
+    display: flex;
+  }
 @media(max-width:960px){
   #footer-container{
     .wrapper{
@@ -753,6 +756,9 @@ p,h2, small,a{
   }
 footer  .shell{
     padding-top: 20px;
+  }
+  footer .top-container{
+    display: block;
   }
 }
 

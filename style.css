@@ -384,7 +384,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* --- bottom navigation ---*/
 #bottom-nav {
-  width: 70%;
+  width: 50%;
   float: left;
   margin: auto; }
 
@@ -396,12 +396,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 #bottom-nav .menu {
   padding-left: 0px;
+  text-align: center;
   margin-bottom: 5px; }
 
 #bottom-nav .menu li {
   display: inline-block;
   line-height: .8em;
-  padding-right: 60px; }
+  padding-right: 10px; }
 
 #bottom-nav .menu h3 {
   color: #cc0000;
@@ -431,11 +432,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* ---- branding area -----*/
 #footer-container .brand-area {
-  float: right; }
+  width: 25%; }
 
 /* -- bottom brand --*/
 #footer-container .bottom-brand {
-  float: left;
+  float: right;
   margin-top: 0px; }
 
 #footer-container .bottom-brand .spacer {
@@ -533,6 +534,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   float: left;
   margin: 0 20px 15px 0; }
 
+footer .top-container {
+  display: flex; }
+
 @media (max-width: 960px) {
   #footer-container .wrapper {
     padding-left: 20px;
@@ -552,7 +556,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     float: none; }
 
   footer .shell {
-    padding-top: 20px; } }
+    padding-top: 20px; }
+
+  footer .top-container {
+    display: block; } }
 /*End Footer*/
 /*
  * 
