@@ -319,8 +319,8 @@ if ( ! defined( 'ABSPATH' ) ) {
              <section class="address">
                   <div class="spacer">
 <p><a href="/">The University of Utah</a></p>
-<p>201 Presidents Circle Salt Lake City, UT 84112</p>
-<p>801-581-7200</p>
+<p>201 Presidents Circle Salt Lake City, UT 84112 </p>
+<p>801-581-7200 </p>
 <p><small>© 2017 The University of Utah</small></p>
 
 </div>

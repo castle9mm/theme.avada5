@@ -694,6 +694,9 @@ p,h2, small,a{
 }
 #footer-container .address .spacer {
   margin-left:5px ;
+   p{
+            margin-right:5px;
+          }
 }
 /* ------ footer social icons ---------*/
 #footer-container .socons {
@@ -733,6 +736,9 @@ p,h2, small,a{
     .address .spacer{
       
           display: block;
+          p{
+            margin-right:0px;
+          }
     }
     #bottom-nav{
       ul{
