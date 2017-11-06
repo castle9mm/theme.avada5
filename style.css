@@ -313,7 +313,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     #footer .footer-bar a:hover {
       text-decoration: underline; }
   #footer .shell {
-    padding-top: 20px; }
+    padding-top: 20px;
+    width: 50%; }
+  #footer .EcclesLogo, #footer .eccles-socials-wrapper {
+    width: 25%; }
+  #footer .eccles-socials-wrapper ul {
+    float: right; }
   #footer ul.eccles-links, #footer ul.uni-links {
     display: flex;
     width: fit-content;
@@ -374,8 +379,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding-bottom: 20px;
   width: 100%;
   margin: auto;
-  padding-left: 80px;
-  padding-right: 80px; }
+  padding-left: 30px;
+  padding-right: 30px; }
 
 #footer-container a:focus,
 #footer-container a:hover,
@@ -436,11 +441,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* -- bottom brand --*/
 #footer-container .bottom-brand {
-  float: right;
   margin-top: 0px; }
 
 #footer-container .bottom-brand .spacer {
-  margin-left: 2em; }
+  margin-left: 2em;
+  float: right; }
 
 /* -- address ---*/
 #footer-container .address {
@@ -560,7 +565,14 @@ footer .top-container {
     padding-top: 20px; }
 
   footer .top-container {
-    display: block; } }
+    display: block; }
+
+  #footer .shell {
+    width: 100%; }
+  #footer .EcclesLogo, #footer .eccles-socials-wrapper {
+    width: 100%; }
+  #footer .shell {
+    padding-top: 20px; } }
 /*End Footer*/
 /*
  * 
