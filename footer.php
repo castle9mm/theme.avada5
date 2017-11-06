@@ -356,5 +356,6 @@ $page_bg_layout = ($c_page_id) ? get_post_meta($c_page_id, 'pyre_page_bg_layout'
 echo Avada() -> settings -> get('space_body');
 // WPCS: XSS ok.
 ?>
+
 </body>
 </html>
