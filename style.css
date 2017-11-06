@@ -163,7 +163,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     #wrapper #menu-eccles .fusion-row {
       /*display: flex;*/ }
     #wrapper header .fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header {
-      padding-top: 0px; } }
+      padding-top: 0px; }
+    #wrapper header .fusion-logo img {
+      width: 100%; } }
 
 /*End Header Styling*/
 /**
