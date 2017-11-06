@@ -135,40 +135,32 @@ if(get_option( 'siteurl' )!="http://eccles.utah.edu"){
 								<nav class="fusion-mobile-nav-holder fusion-mobile-menu-text-align-left">
 									<ul role="menubar" id="mobile-menu-main-menu" class="fusion-menu">
 										<li role="menuitem" id="mobile-menu-item-157" class="fusion-mobile-nav-item" style="">
-											<span href="#" aria-haspopup="true" class="fusion-open-submenu"></span><a href="http://dmz-test.eccles.utah.edu/ecclesv5/about/"><span class="menu-text">About</span></a>
+											<span href="#" aria-haspopup="true" class="fusion-open-submenu"></span>
+											<a href="http://eccles.utah.edu/about/"><span class="menu-text">About</span></a>
 											
 										</li>
 										<li role="menuitem" id="mobile-menu-item-401" class="fusion-mobile-nav-item" style="">
-											<span href="#" aria-haspopup="true" class="fusion-open-submenu"></span><a href="http://dmz-test.eccles.utah.edu/ecclesv5/programs/"><span class="menu-text">Programs</span></a>
+											<span href="#" aria-haspopup="true" class="fusion-open-submenu"></span>
+											<a href="http://eccles.utah.edu/programs/"><span class="menu-text">Programs</span></a>
 											
 										</li>
 										<li role="menuitem" id="mobile-menu-item-490" class="fusion-mobile-nav-item" style="">
-											<span href="#" aria-haspopup="true" class="fusion-open-submenu"></span><a href="http://dmz-test.eccles.utah.edu/ecclesv5/students/"><span class="menu-text">Students</span></a>
+											<span href="#" aria-haspopup="true" class="fusion-open-submenu"></span>
+											<a href="http://eccles.utah.edu/students/"><span class="menu-text">Students</span></a>
 											
 										</li>
 										<li role="menuitem" id="mobile-menu-item-559" class="fusion-mobile-nav-item" style="">
-											<span href="#" aria-haspopup="true" class="fusion-open-submenu"></span><a href="http://dmz-test.eccles.utah.edu/ecclesv5/faculty-staff/"><span class="menu-text">Faculty &amp; Staff</span></a>
+											<span href="#" aria-haspopup="true" class="fusion-open-submenu"></span>
+											<a href="http://eccles.utah.edu/faculty-staff/"><span class="menu-text">Faculty &amp; Staff</span></a>
 											
 										</li>
 										<li role="menuitem" id="mobile-menu-item-747" class="fusion-mobile-nav-item" style="">
-											<span href="#" aria-haspopup="true" class="fusion-open-submenu"></span><a href="http://dmz-test.eccles.utah.edu/ecclesv5/alumni/"><span class="menu-text">Alumni</span></a>
-											<ul role="menu" class="sub-menu" style="display: none;">
-												<li role="menuitem" id="mobile-menu-item-797" class="fusion-mobile-nav-item" style="">
-													<a href="https://eccles.qualtrics.com/jfe/form/SV_bwpafqxJluIWCNv"><span>Where are you?</span></a>
-												</li>
-												<li role="menuitem" id="mobile-menu-item-798" class="fusion-mobile-nav-item" style="">
-													<a href="http://alumni.eccles.utah.edu/give-back/"><span>Giving</span></a>
-												</li>
-												<li role="menuitem" id="mobile-menu-item-799" class="fusion-mobile-nav-item" style="">
-													<a href="http://alumni.eccles.utah.edu/events/"><span>Events</span></a>
-												</li>
-												<li role="menuitem" id="mobile-menu-item-800" class="fusion-mobile-nav-item" style="">
-													<a href="http://alumni.eccles.utah.edu/eccles-exchange/"><span>Alumni Magazine</span></a>
-												</li>
-											</ul>
+											<span href="#" aria-haspopup="true" class="fusion-open-submenu"></span>
+											<a href="http://eccles.utah.edu/alumni/"><span class="menu-text">Alumni</span></a>
+											
 										</li>
 										<li role="menuitem" id="mobile-menu-item-815" class="fusion-mobile-nav-item" style="">
-											<a href="http://dmz-test.eccles.utah.edu/ecclesv5/employers/"><span class="menu-text">Employers</span></a>
+											<a href="http://eccles.utah.edu/employers/"><span class="menu-text">Employers</span></a>
 										</li>
 									</ul>
 								</nav>
