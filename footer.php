@@ -282,35 +282,35 @@ if (defined('ICL_SITEPRESS_VERSION') && 'footer_parallax_effect' ===  Avada() ->
 <footer class="wrapper clearfix">
 
 <div class="top-container" style="">
-<div style="width:25%"></div>
-<nav id="bottom-nav" role="navigation">
-<ul class="menu">
-<li>
-<h3><a href="https://www.utah.edu/nondiscrimination/">Nondiscrimination &amp; Accessibility</a></h3>
-
-</li>
-<li>
-<h3><a href="https://www.utah.edu/disclaimer/">Disclaimer</a></h3>
-
-</li>
-<li>
-<h3><a href="https://www.utah.edu/a-z/">A-Z Index</a></h3>
-
-</li>
-<li>
-<h3><a href="https://www.utah.edu/contact/">Contact - Feedback</a></h3>
-
-</li>
-</ul>
-</nav>
-<section class="brand-area ">
-
-<div class="bottom-brand">
-<div class="spacer"><a href="http://imagineu.utah.edu/"><img src="https://www.utah.edu/_images/imagine_u.png" alt="Imagine U: The University of Utah"></a>
-</div>
-</div>
-
-</section>
+	<div style="width:25%"></div>
+	<nav id="bottom-nav" role="navigation">
+	<ul class="menu">
+	<li>
+	<h3><a href="https://www.utah.edu/nondiscrimination/">Nondiscrimination &amp; Accessibility</a></h3>
+	
+	</li>
+	<li>
+	<h3><a href="https://www.utah.edu/disclaimer/">Disclaimer</a></h3>
+	
+	</li>
+	<li>
+	<h3><a href="https://www.utah.edu/a-z/">A-Z Index</a></h3>
+	
+	</li>
+	<li>
+	<h3><a href="https://www.utah.edu/contact/">Contact - Feedback</a></h3>
+	
+	</li>
+	</ul>
+	</nav>
+	<section class="brand-area ">
+	
+	<div class="bottom-brand">
+	<div class="spacer"><a href="http://imagineu.utah.edu/"><img src="https://www.utah.edu/_images/imagine_u.png" alt="Imagine U: The University of Utah"></a>
+	</div>
+	</div>
+	
+	</section>
 </div>
 <section class="address">
 <div class="spacer">
