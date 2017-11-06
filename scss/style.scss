@@ -103,11 +103,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       cursor: pointer;
       color: $primary-color;
   }
-  .fusion-header{
-    border-bottom: .2em solid $primary-color;
-  }
+  
   header {
     /*border-bottom: .2em solid $primary-color;*/
+   .fusion-header{
+    border-bottom: .2em solid $primary-color;
+  }
       .fusion-row {
         height: 85px;
         max-width: none;
@@ -201,7 +202,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   #menu-eccles{ 
       .fusion-header{
         
-        background-color: #282a2b;
+        background-color: #000;
         a,span{
           
           color: white;
