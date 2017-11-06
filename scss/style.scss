@@ -239,9 +239,15 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       }
     }
     header {
+      .fusion-logo{
+       width: 85%; 
+      }
     .fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header{
-      padding-top:0px;
+      /*padding-top:0px;*/
     }
+    .fusion-logo a {
+        max-width: 60%;
+      }
     .fusion-logo img{
       width: 100%;
     }
