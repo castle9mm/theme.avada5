@@ -156,10 +156,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     #wrapper header .fusion-logo img {
       max-height: 40px; }
   @media (max-width: 960px) {
+    #wrapper #menu-eccles .fusion-logo {
+      width: 85%; }
     #wrapper #menu-eccles .fusion-logo a {
-      max-width: 65%; }
+      max-width: 60%; }
     #wrapper #menu-eccles .fusion-row {
-      display: flex; } }
+      /*display: flex;*/ } }
 
 /*End Header Styling*/
 /**
