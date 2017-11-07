@@ -114,6 +114,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       line-height: 65px; }
     #wrapper header .fusion-custom-menu-item-contents .search-field {
       border: none; }
+    #wrapper header .fusion-mobile-nav-holder ul .eccles-mobile-menu-item {
+      padding-left: 20px; }
   #wrapper .fusion-page-title-bar, #wrapper .fusion-logo-2x.fusion-post-content-wrapper .fusion-post-content-container, #wrapper .fusion-meta-info .fusion-alignright {
     display: none; }
   #wrapper .fusion-logo-1x {

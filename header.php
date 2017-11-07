@@ -139,14 +139,14 @@ if(get_option( 'siteurl' )!="http://eccles.utah.edu"){
 	document.addEventListener('DOMContentLoaded', function() {
    // your code here
    	var para = document.createElement("ul");
-para.innerHTML= '<li role="menuitem" id="mobile-menu-item-157-1" class="fusion-mobile-nav-item" style=""><a href="http://eccles.utah.edu/about/"><span class="menu-text">About</span></a></li><li role="menuitem" id="mobile-menu-item-401-1" class="fusion-mobile-nav-item" style=""><a href="http://eccles.utah.edu/programs/"><span class="menu-text">Programs</span></a></li>	<li role="menuitem" id="mobile-menu-item-490-1" class="fusion-mobile-nav-item" style=""><a href="http://eccles.utah.edu/students/"><span class="menu-text">Students</span></a></li><li role="menuitem" id="mobile-menu-item-559-1" class="fusion-mobile-nav-item" style=""><a href="http://eccles.utah.edu/faculty-staff/"><span class="menu-text">Faculty &amp; Staff</span></a></li><li role="menuitem" id="mobile-menu-item-747-1" class="fusion-mobile-nav-item" style=""><a href="http://eccles.utah.edu/alumni/"><span class="menu-text">Alumni</span></a></li><li role="menuitem" id="mobile-menu-item-815-1" class="fusion-mobile-nav-item" style=""><a href="http://eccles.utah.edu/employers/"><span class="menu-text">Employers</span></a></li>';
+	para.innerHTML= '<li role="menuitem" id="mobile-menu-item-156-1" class="fusion-mobile-nav-item" style=""><a href="http://eccles.utah.edu"><span>David Eccles School</span></a></li><li role="menuitem" id="mobile-menu-item-157-1" class="fusion-mobile-nav-item" style=""><a href="http://eccles.utah.edu/about/"><span class="menu-text eccles-mobile-menu-item">About</span></a></li><li role="menuitem" id="mobile-menu-item-401-1" class="fusion-mobile-nav-item" style=""><a href="http://eccles.utah.edu/programs/"><span class="menu-text eccles-mobile-menu-item">Programs</span></a></li>	<li role="menuitem" id="mobile-menu-item-490-1" class="fusion-mobile-nav-item" style=""><a href="http://eccles.utah.edu/students/"><span class="menu-text eccles-mobile-menu-item">Students</span></a></li><li role="menuitem" id="mobile-menu-item-559-1" class="fusion-mobile-nav-item" style=""><a href="http://eccles.utah.edu/faculty-staff/"><span class="menu-text eccles-mobile-menu-item">Faculty &amp; Staff</span></a></li><li role="menuitem" id="mobile-menu-item-747-1" class="fusion-mobile-nav-item" style=""><a href="http://eccles.utah.edu/alumni/"><span class="menu-text eccles-mobile-menu-item">Alumni</span></a></li><li role="menuitem" id="mobile-menu-item-815-1" class="fusion-mobile-nav-item" style=""><a href="http://eccles.utah.edu/employers/"><span class="menu-text eccles-mobile-menu-item">Employers</span></a></li>';
 
 
-var element = document.getElementById("mobile-menu-main-menu");
-
-var child = document.getElementById("mobile-menu-item-157");
-element.insertBefore(para,child);
-}, false);
+	var element = document.getElementById("mobile-menu-main-menu");
+	
+	var child = document.getElementById("mobile-menu-item-157");
+	element.insertBefore(para,child);
+	}, false);
 
 </script>
 				<?php
