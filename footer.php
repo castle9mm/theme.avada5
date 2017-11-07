@@ -306,7 +306,7 @@ if (defined('ICL_SITEPRESS_VERSION') && 'footer_parallax_effect' ===  Avada() ->
 	<section class="brand-area ">
 	
 	<div class="bottom-brand">
-	<div class="spacer"><a href="http://imagineu.utah.edu/"><img src="https://www.utah.edu/_images/imagine_u.png" alt="Imagine U: The University of Utah"></a>
+	<div class="spacer"><a href="http://www.utah.edu/"><img src="https://www.utah.edu/_images/imagine_u.png" alt="Imagine U: The University of Utah"></a>
 	</div>
 	</div>
 	
