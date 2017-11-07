@@ -335,6 +335,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     width: 50%; }
   #footer .EcclesLogo, #footer .eccles-socials-wrapper {
     width: 25%; }
+  #footer .EcclesLogo img {
+    padding-top: 10px; }
   #footer .eccles-socials-wrapper ul {
     float: right; }
   #footer ul.eccles-links, #footer ul.uni-links {
@@ -346,10 +348,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       content: ""; }
     #footer ul.eccles-links a, #footer ul.uni-links a {
       color: #fff;
-      font-size: 12px; }
+      font-size: 14px; }
     #footer ul.eccles-links li, #footer ul.uni-links li {
       color: #fff;
-      font-size: 12px;
+      font-size: 14px;
       margin-right: 1.64em; }
   #footer .eccles-socials-wrapper {
     padding-top: 15px; }
