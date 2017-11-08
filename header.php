@@ -142,10 +142,10 @@ if(get_option( 'siteurl' )!="http://eccles.utah.edu"){
 	para.innerHTML= '<li role="menuitem" id="mobile-menu-item-156-1" class="fusion-mobile-nav-item" style=""><span href="#" aria-haspopup="true" class="fusion-open-submenu eccles-open" onclick="show_sub_menu();"></span><a href="http://eccles.utah.edu"><span>David Eccles School</span></a><ul id="eccles-sub" role="menu" class="sub-menu" style="display: none;"><li role="menuitem" id="mobile-menu-item-157-1" class="fusion-mobile-nav-item" style=""><a href="http://eccles.utah.edu/about/"><span class="menu-text eccles-mobile-menu-item">About</span></a></li><li role="menuitem" id="mobile-menu-item-401-1" class="fusion-mobile-nav-item" style=""><a href="http://eccles.utah.edu/programs/"><span class="menu-text eccles-mobile-menu-item">Programs</span></a></li>	<li role="menuitem" id="mobile-menu-item-490-1" class="fusion-mobile-nav-item" style=""><a href="http://eccles.utah.edu/students/"><span class="menu-text eccles-mobile-menu-item">Students</span></a></li><li role="menuitem" id="mobile-menu-item-559-1" class="fusion-mobile-nav-item" style=""><a href="http://eccles.utah.edu/faculty-staff/"><span class="menu-text eccles-mobile-menu-item">Faculty &amp; Staff</span></a></li><li role="menuitem" id="mobile-menu-item-747-1" class="fusion-mobile-nav-item" style=""><a href="http://eccles.utah.edu/alumni/"><span class="menu-text eccles-mobile-menu-item">Alumni</span></a></li><li role="menuitem" id="mobile-menu-item-815-1" class="fusion-mobile-nav-item" style=""><a href="http://eccles.utah.edu/employers/"><span class="menu-text eccles-mobile-menu-item">Employers</span></a></li></ul></li>';
 
 
-	var element = document.getElementById("mobile-menu-main-menu");
+	var element = document.getElementsByClassName("fusion-mobile-nav-holder");
 	
-	var child = document.getElementById("mobile-menu-item-157");
-	element.insertBefore(para,child);
+	var child = document.getElementsByClassName("fusion-menu");
+	element[0].innerHTML="<ul>"+para.innerHTML+"</ul>"+element[0].innerHTML;
 	}, false);
 
 function show_sub_menu(){
