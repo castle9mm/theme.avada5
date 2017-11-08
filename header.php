@@ -144,8 +144,9 @@ if(get_option( 'siteurl' )!="http://eccles.utah.edu"){
 
 	var element = document.getElementsByClassName("fusion-mobile-nav-holder");
 	
-	var child = document.getElementsByClassName("fusion-menu");
-	element[0].innerHTML="<ul>"+para.innerHTML+"</ul>"+element[0].innerHTML;
+	//var child = document.getElementsByClassName("fusion-menu");
+	//element[0].innerHTML=para.innerHTML+element[0].innerHTML;
+	element[0].insertBefore(para,element[0].children[0]);
 	}, false);
 
 function show_sub_menu(){
