@@ -8,7 +8,7 @@
  Text Domain:  Avada
  */
 @font-face {
-  font-family: Myriad-U;
+  font-family: Myriad-Pro;
   src: url("fonts/MyriadPro-Regular.eot");
   /* IE9 Compat Modes */
   src: url("fonts/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/MyriadPro-Regular.woff") format("woff"), url("fonts/MyriadPro-Regular.ttf") format("truetype"), url("fonts/MyriadPro-Regular.svg#svgFontName") format("svg");
@@ -16,7 +16,7 @@
   font-weight: normal; }
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   border: 0;
-  font-family: "Myriad-U", arial, sans-serif;
+  font-family: "Myriad-Pro", arial, sans-serif;
   font-size: 18px;
   font-style: inherit;
   font-weight: inherit;
@@ -221,7 +221,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding-left: 15px;
     line-height: inherit; }
 #wrapper .the-button-style, #wrapper .fusion-button-wrapper .fusion-button, #wrapper .btn.btn-red, #wrapper .ms-protection-msg input[type="submit"], #wrapper .gform_button[type="submit"] {
-  font-family: "Myriad-U", arial, sans-serif !important;
+  font-family: "Myriad-Pro", arial, sans-serif !important;
   padding: .5em 1.5em;
   font-size: 16px;
   margin: 1em 0;
