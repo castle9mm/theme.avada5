@@ -31,7 +31,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   #wrapper h2 {
     transition: none; }
   #wrapper header .fusion-main-menu {
-    float: left; }
+    float: none;
+    width: fit-content;
+    margin: auto;
+    overflow: -webkit-paged-x; }
   #wrapper .fusion-main-menu .fusion-main-menu-search a, #wrapper .fusion-main-menu .fusion-main-menu-icon:after, #wrapper .fusion-main-menu .fusion-widget-cart-counter > a:before {
     font-family: icomoon !important;
     cursor: pointer;
@@ -136,7 +139,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   #wrapper .fusion-page-title-bar, #wrapper .fusion-logo-2x.fusion-post-content-wrapper .fusion-post-content-container, #wrapper .fusion-meta-info .fusion-alignright {
     display: none; }
   #wrapper .fusion-logo-1x {
-    height: 65px; }
+    height: 40px; }
   #wrapper .fusion-header .fusion-logo {
     margin: auto;
     padding: 10px; }
@@ -160,11 +163,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     background-color: #ededed !important;
     margin-bottom: 30px; }
   #wrapper .fusion-header {
-    height: 85px; }
+    height: 65px; }
   #wrapper #menu-eccles .fusion-header {
     background-color: #000; }
     #wrapper #menu-eccles .fusion-header a, #wrapper #menu-eccles .fusion-header span {
+      font-size: 14px;
       color: white; }
+  #wrapper #menu-eccles .fusion-main-menu > ul > li > a {
+    height: 65px;
+    line-height: 65px; }
+  #wrapper #menu-eccles nav {
+    height: 65px; }
   #wrapper #menu-eccles .fusion-row {
     width: 100%;
     max-width: none; }

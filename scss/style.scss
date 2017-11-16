@@ -44,7 +44,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     transition: none;
   }
   header .fusion-main-menu {
-    float: left;
+    float: none;
+        width: fit-content;
+    margin: auto;
+        overflow: -webkit-paged-x;
   }
   .fusion-main-menu {
       .fusion-main-menu-search a,.fusion-main-menu-icon:after,.fusion-widget-cart-counter > a:before{
@@ -192,7 +195,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       display: none;
   }
   .fusion-logo-1x{
-   height: 65px; 
+   height: 40px; 
   }
   .fusion-header .fusion-logo{
     
@@ -226,8 +229,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     background-color: rgb(237, 237, 237) !important;
     margin-bottom: 30px;
   }
-  .fusion-header{
-    height: 85px;
+  .fusion-header,{
+    height: 65px;
   }
   
 /*Header of Eccles Custom and Sub header*/
@@ -237,15 +240,23 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
         
         background-color: #000;
         a,span{
-          
+          font-size:14px;
           color: white;
         }
+      }
+      .fusion-main-menu > ul > li > a{
+      height: 65px;
+    line-height: 65px;
+    }
+      nav{
+        height: 65px;
       }
       .fusion-row{
         
         width:100%;
         max-width: none;
       } 
+      
   }
   header{ 
     max-height: 65px;
