@@ -16,13 +16,12 @@ $font-quote: 'Times New Roman', Times, serif;
 
 @font-face {
     font-family: Myriad-Pro;  
-      src: url('fonts/MyriadPro-Regular.eot'); /* IE9 Compat Modes */
-         src: url('fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('fonts/MyriadPro-Regular.woff') format('woff'), /* Modern Browsers */
-         url('fonts/MyriadPro-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-         url('fonts/MyriadPro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
-    
-    font-weight: normal;  
+    src: url('fonts/MyriadPro-Regular.eot'); /* IE9 Compat Modes */
+    src: url('fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/MyriadPro-Regular.woff') format('woff'), /* Modern Browsers */
+    url('fonts/MyriadPro-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('fonts/MyriadPro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-weight: normal;
 }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
@@ -43,6 +42,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   h2 {
     transition: none;
+  }
+  header .fusion-main-menu {
+    float: left;
   }
   .fusion-main-menu {
       .fusion-main-menu-search a,.fusion-main-menu-icon:after,.fusion-widget-cart-counter > a:before{
