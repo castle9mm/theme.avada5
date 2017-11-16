@@ -180,7 +180,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   #wrapper header {
     max-height: 65px; }
     #wrapper header .fusion-header, #wrapper header .fusion-row, #wrapper header ul li a {
-      max-height: 65px; }
+      max-height: 60px; }
     #wrapper header .fusion-logo img {
       max-height: 40px; }
   @media (max-width: 800px) {
