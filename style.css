@@ -32,9 +32,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     transition: none; }
   #wrapper header .fusion-main-menu {
     float: none;
-    width: fit-content;
+    width: max-content;
     margin: auto;
-    overflow: -webkit-paged-x; }
+    overflow: initial !important; }
   #wrapper .fusion-main-menu .fusion-main-menu-search a, #wrapper .fusion-main-menu .fusion-main-menu-icon:after, #wrapper .fusion-main-menu .fusion-widget-cart-counter > a:before {
     font-family: icomoon !important;
     cursor: pointer;
@@ -56,7 +56,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   #wrapper .fusion-main-menu .sub-menu {
     border-top: none;
     background: white;
-    width: max-content; }
+    width: -moz-max-content;
+    width: -webkit-max-content;
+    width: max-content;
+    min-width: 260px;
+    opacity: 1; }
     #wrapper .fusion-main-menu .sub-menu li {
       margin-left: 10px;
       margin-right: 10px; }
@@ -170,19 +174,24 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       font-size: 14px;
       color: white; }
   #wrapper #menu-eccles .fusion-main-menu > ul > li > a {
-    height: 65px;
-    line-height: 65px; }
+    height: 60px;
+    line-height: 60px; }
   #wrapper #menu-eccles nav {
-    height: 65px; }
+    height: 60px; }
   #wrapper #menu-eccles .fusion-row {
     width: 100%;
     max-width: none; }
   #wrapper header {
-    max-height: 65px; }
-    #wrapper header .fusion-header, #wrapper header .fusion-row, #wrapper header ul li a {
-      max-height: 60px; }
-    #wrapper header .fusion-logo img {
-      max-height: 40px; }
+    max-height: 70px; }
+    #wrapper header .fusion-header, #wrapper header .fusion-row {
+      height: 70px; }
+    #wrapper header .fusion-main-menu > ul > li > a {
+      line-height: 70px;
+      height: 70px; }
+    #wrapper header .fusion-logo {
+      display: none; }
+      #wrapper header .fusion-logo img {
+        max-height: 40px; }
   @media (max-width: 800px) {
     #wrapper #menu-eccles {
       display: none; }
