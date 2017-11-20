@@ -194,18 +194,17 @@ $display_copyright = get_post_meta($c_page_id, 'pyre_display_copyright', true);
 <div class="footer-bar">
 <div class="EcclesLogo"><img width="300px" src="http://eccles.utah.edu/wp-content/themes/uudesb/images/logo3.png"></div>
 <div class="shell clear">
-<div><ul class="eccles-links">
-<li class="first"><a href="http://www.business.utah.edu">David Eccles School of Business</a></li>
-<li>Spencer Fox Eccles Business Building,  1655 East Campus Center Drive,  Salt Lake City, Utah  84112-8939</li>
-</ul></div>
+
 <div><ul class="uni-links">
 <li class="first"><a rel="nofollow" href="tel:18015817676">801-581-7676</a></li>
 <li><a rel="nofollow" href="http://eccles.utah.edu/contact">Contact</a></li>
 <li><a rel="nofollow" href="http://eccles.utah.edu/directory">Eccles Directory</a></li>
-<li><a rel="nofollow" href="http://cis.utah.edu">CIS</a></li>
-<li><a rel="nofollow" href="http://www.umail.utah.edu/a-z/">UMail</a></li>
 <li><a rel="nofollow" href="http://eccles.link/help">IT Support</a></li>
 <li><a rel="nofollow" href="http://intranet.eccles.utah.edu">Intranet</a></li>
+</ul></div>
+<div><ul class="eccles-links">
+<li class="first"><a href="http://www.business.utah.edu">David Eccles School of Business</a></li>
+<li>Spencer Fox Eccles Business Building,  1655 East Campus Center Drive,  Salt Lake City, Utah  84112-8939</li>
 </ul></div>
 <div><ul class="uni-links" style="display: none !important">
 <li class="first">© <a href="http://www.utah.edu">University of Utah</a></li>
@@ -282,7 +281,7 @@ if (defined('ICL_SITEPRESS_VERSION') && 'footer_parallax_effect' ===  Avada() ->
 <footer class="wrapper clearfix">
 
 <div class="top-container" style="">
-	<div style="width:25%"></div>
+	<div style="width:24%"></div>
 	<nav id="bottom-nav" role="navigation">
 	<ul class="menu">
 	<li>
@@ -293,6 +292,8 @@ if (defined('ICL_SITEPRESS_VERSION') && 'footer_parallax_effect' ===  Avada() ->
 	<h3><a href="https://www.utah.edu/disclaimer/">Disclaimer</a></h3>
 	
 	</li>
+	<li><h3><a rel="nofollow" href="http://cis.utah.edu">CIS</a></h3></li>
+<li><h3><a rel="nofollow" href="http://www.umail.utah.edu/a-z/">UMail</a></h3></h3></li>
 	<li>
 	<h3><a href="https://www.utah.edu/a-z/">A-Z Index</a></h3>
 	

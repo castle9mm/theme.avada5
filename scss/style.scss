@@ -568,7 +568,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   .eccles-socials-wrapper ul{
     float:right;
   }
-  ul.eccles-links, ul.uni-links {
+  ul.eccles-links {
 
     display: flex;
     width: fit-content;
@@ -584,6 +584,26 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     li {
       color: #fff;
       font-size: 14px;
+      margin-right: 1.64em;
+    }
+  }
+  ul.uni-links {
+
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 15px;
+    .first{
+      display: -webkit-box !important;
+      content: "";
+    }
+    a {
+      color: #fff;
+      font-size: 22px;
+    }
+    li {
+      color: #fff;
+      font-size: 22px;
       margin-right: 1.64em;
     }
   }
@@ -623,7 +643,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* --- bottom navigation ---*/
 #bottom-nav {
-  width: 50%;
+  width: 52%;
   float:left;
   margin: auto;
   .menu, .submenu {
@@ -684,7 +704,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     color: #fff;
   }
   .brand-area {
-     width: 25%;
+     width: 24%;
     text-align: center;
     margin:0 auto;
     h3 { 

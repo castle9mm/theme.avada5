@@ -378,19 +378,34 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding-top: 10px; }
   #footer .eccles-socials-wrapper ul {
     float: right; }
-  #footer ul.eccles-links, #footer ul.uni-links {
+  #footer ul.eccles-links {
     display: flex;
     width: fit-content;
     margin: auto; }
-    #footer ul.eccles-links .first, #footer ul.uni-links .first {
+    #footer ul.eccles-links .first {
       display: -webkit-box !important;
       content: ""; }
-    #footer ul.eccles-links a, #footer ul.uni-links a {
+    #footer ul.eccles-links a {
       color: #fff;
       font-size: 14px; }
-    #footer ul.eccles-links li, #footer ul.uni-links li {
+    #footer ul.eccles-links li {
       color: #fff;
       font-size: 14px;
+      margin-right: 1.64em; }
+  #footer ul.uni-links {
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 15px; }
+    #footer ul.uni-links .first {
+      display: -webkit-box !important;
+      content: ""; }
+    #footer ul.uni-links a {
+      color: #fff;
+      font-size: 22px; }
+    #footer ul.uni-links li {
+      color: #fff;
+      font-size: 22px;
       margin-right: 1.64em; }
   #footer .eccles-socials-wrapper {
     padding-top: 15px; }
@@ -416,7 +431,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* --- bottom navigation ---*/
 #bottom-nav {
-  width: 50%;
+  width: 52%;
   float: left;
   margin: auto; }
   #bottom-nav .menu, #bottom-nav .submenu {
@@ -470,7 +485,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   #footer-container h3 a {
     color: #fff; }
   #footer-container .brand-area {
-    width: 25%;
+    width: 24%;
     text-align: center;
     margin: 0 auto; }
     #footer-container .brand-area h3 {
