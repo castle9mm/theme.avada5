@@ -57,11 +57,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
          color: $primary-color;
       }
       .menu-item{
-        padding-right: 45px;
+        padding-right: 25px;
         border: none;
         margin-bottom: 0px;
+        transition: none;
           a{
+            padding: 0px 10px; 
             color: #545454;
+            transition: none;
           }
           a:hover{
             border-color: transparent;
@@ -70,6 +73,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
               border-color: transparent;
             }
           }
+      }
+      .menu-item:hover a{
+        background-color:white;
+        
       }
       
       #menu-header {
@@ -82,11 +89,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       .sub-menu {
         border-top: none;
         background: white;
-         width: -moz-max-content;
-  width: -webkit-max-content;
-  width: max-content;
-  min-width: 260px;
-  opacity:1;
+        width: -moz-max-content;
+        width: -webkit-max-content;
+        width: max-content;
+        min-width: 260px;
+        opacity:1;
+        margin-top:-5px;
+        padding: 5px 0px;
           li {
             margin-left: 10px;
             margin-right: 10px;
@@ -578,11 +587,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       content: "";
     }
     a {
-      color: #fff;
+      color: #333;
       font-size: 14px;
     }
     li {
-      color: #fff;
+      color: #333;
       font-size: 14px;
       margin-right: 1.64em;
     }
@@ -598,12 +607,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       content: "";
     }
     a {
-      color: #fff;
-      font-size: 22px;
+      color: #333;
+      font-size: 18px;
+      text-transform: uppercase;
     }
     li {
-      color: #fff;
-      font-size: 22px;
+      color: #333;
+      font-size: 18px;
       margin-right: 1.64em;
     }
   }

@@ -40,16 +40,21 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     cursor: pointer;
     color: #CC0000; }
   #wrapper .fusion-main-menu .menu-item {
-    padding-right: 45px;
+    padding-right: 25px;
     border: none;
-    margin-bottom: 0px; }
+    margin-bottom: 0px;
+    transition: none; }
     #wrapper .fusion-main-menu .menu-item a {
-      color: #545454; }
+      padding: 0px 10px;
+      color: #545454;
+      transition: none; }
     #wrapper .fusion-main-menu .menu-item a:hover {
       border-color: transparent; }
       #wrapper .fusion-main-menu .menu-item a:hover span {
         color: #CC0000 !important;
         border-color: transparent; }
+  #wrapper .fusion-main-menu .menu-item:hover a {
+    background-color: white; }
   #wrapper .fusion-main-menu #menu-header .current-menu-item > a, #wrapper .fusion-main-menu #menu-header .current-menu-ancestor > a {
     border-top-color: white;
     color: #CC0000; }
@@ -60,7 +65,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     width: -webkit-max-content;
     width: max-content;
     min-width: 260px;
-    opacity: 1; }
+    opacity: 1;
+    margin-top: -5px;
+    padding: 5px 0px; }
     #wrapper .fusion-main-menu .sub-menu li {
       margin-left: 10px;
       margin-right: 10px; }
@@ -386,10 +393,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       display: -webkit-box !important;
       content: ""; }
     #footer ul.eccles-links a {
-      color: #fff;
+      color: #333;
       font-size: 14px; }
     #footer ul.eccles-links li {
-      color: #fff;
+      color: #333;
       font-size: 14px;
       margin-right: 1.64em; }
   #footer ul.uni-links {
@@ -401,11 +408,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       display: -webkit-box !important;
       content: ""; }
     #footer ul.uni-links a {
-      color: #fff;
-      font-size: 22px; }
+      color: #333;
+      font-size: 18px;
+      text-transform: uppercase; }
     #footer ul.uni-links li {
-      color: #fff;
-      font-size: 22px;
+      color: #333;
+      font-size: 18px;
       margin-right: 1.64em; }
   #footer .eccles-socials-wrapper {
     padding-top: 15px; }
