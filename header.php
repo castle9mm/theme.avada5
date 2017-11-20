@@ -161,6 +161,15 @@ function show_sub_menu(){
 
 </script>
 				<?php
+				}else{
+?>
+					<style>
+					#wrapper header nav{
+						
+						float:right !important;
+					}
+					</style>
+					<?php					
 				}
 				?>
 
