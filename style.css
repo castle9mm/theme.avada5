@@ -35,6 +35,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     width: max-content;
     margin: auto;
     overflow: initial !important; }
+    #wrapper header .fusion-main-menu .menu-item:hover a {
+      background-color: white; }
   #wrapper .fusion-main-menu .fusion-main-menu-search a, #wrapper .fusion-main-menu .fusion-main-menu-icon:after, #wrapper .fusion-main-menu .fusion-widget-cart-counter > a:before {
     font-family: icomoon !important;
     cursor: pointer;
@@ -53,8 +55,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       #wrapper .fusion-main-menu .menu-item a:hover span {
         color: #CC0000 !important;
         border-color: transparent; }
-  #wrapper .fusion-main-menu .menu-item:hover a {
-    background-color: white; }
   #wrapper .fusion-main-menu #menu-header .current-menu-item > a, #wrapper .fusion-main-menu #menu-header .current-menu-ancestor > a {
     border-top-color: white;
     color: #CC0000; }
