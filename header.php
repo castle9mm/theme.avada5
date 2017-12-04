@@ -172,7 +172,10 @@ function show_sub_menu(){
 						background-color: #000;
 					}
 					#wrapper .fusion-header span{
-						color :#fff;
+						color :#CCCCCC;
+					}
+					#wrapper .fusion-header .sub-menu span{
+						color : #333;
 					}
 					
 					
