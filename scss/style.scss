@@ -244,6 +244,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     border-bottom: 10px solid $primary-color !important;
     background-color: rgb(237, 237, 237) !important;
     margin-bottom: 30px;
+    h4{
+          font-size: 18px;
+          text-align: center;
+          margin-bottom: 20px;
+        }
   }
   .fusion-header,{
     height: 60px;
@@ -482,7 +487,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       font-size: 50px;
     }
   }
- 
+  .post .flex-active-slide {
+  max-height: 500px;
+}
+ .news-feed .flex-active-slide {
+  max-height: 230px;
+  
+}
 }
 /*End Button Links and Title*/
 /**

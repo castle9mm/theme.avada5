@@ -174,6 +174,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     border-bottom: 10px solid #CC0000 !important;
     background-color: #ededed !important;
     margin-bottom: 30px; }
+    #wrapper .recent-post-carousel h4 {
+      font-size: 18px;
+      text-align: center;
+      margin-bottom: 20px; }
   #wrapper .fusion-header {
     height: 60px; }
   #wrapper #menu-eccles .fusion-header {
@@ -317,6 +321,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     display: none; }
 #wrapper .fusion-counter-box span {
   font-size: 50px; }
+#wrapper .post .flex-active-slide {
+  max-height: 500px; }
+#wrapper .news-feed .flex-active-slide {
+  max-height: 230px; }
 
 /*End Button Links and Title*/
 /**
