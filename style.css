@@ -210,7 +210,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     #wrapper #menu-eccles {
       display: none; }
       #wrapper #menu-eccles .fusion-logo {
-        width: 85%; }
+        width: 85%;
+        display: block; }
       #wrapper #menu-eccles .fusion-logo a {
         max-width: 60%; }
       #wrapper #menu-eccles .fusion-row {
