@@ -239,7 +239,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   border-radius: 0;
   width: auto;
   text-shadow: none !important;
-  transition: none; }
+  transition: none;
+  background-image: none; }
 #wrapper .button-hover, #wrapper .searchform .search-table .search-button input[type=submit]:hover, #wrapper .fusion-button-wrapper .fusion-button:hover, #wrapper .fusion-button-wrapper .fusion-button:hover, #wrapper .rev-btn:hover {
   background-color: #fff !important;
   border: 2px solid #CC0000 !important;
