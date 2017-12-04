@@ -325,6 +325,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   max-height: 500px; }
 #wrapper .news-feed .flex-active-slide {
   max-height: 230px; }
+#wrapper .job-grid .recent-posts-content a {
+  font-size: 20px; }
 
 /*End Button Links and Title*/
 /**
