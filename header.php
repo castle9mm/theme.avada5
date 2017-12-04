@@ -168,12 +168,13 @@ function show_sub_menu(){
 						
 						float:right !important;
 					}
-					#wrapper .fusion-header{
+					#wrapper .fusion-header,#wrapper .fusion-header-wrapper.fusion-is-sticky .fusion-header{
 						background-color: #000;
 					}
 					#wrapper .fusion-header span{
 						color :#fff;
 					}
+					
 					
 					</style>
 					<?php					
