@@ -169,7 +169,7 @@ function show_sub_menu(){
 						float:right !important;
 					}
 					#wrapper .fusion-header,#wrapper .fusion-header-wrapper.fusion-is-sticky .fusion-header{
-						background-color: #000;
+						background-color: #000 !important;
 					}
 					#wrapper .fusion-header span{
 						color :#CCCCCC;

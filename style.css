@@ -101,6 +101,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   #wrapper header {
     /*border-bottom: .2em solid $primary-color;*/ }
     #wrapper header .fusion-header {
+      background-color: #fff;
       border-bottom: 0.2em solid #CC0000; }
     #wrapper header .fusion-row {
       height: 85px;
