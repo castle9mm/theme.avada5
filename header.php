@@ -94,8 +94,8 @@ if(get_option( 'siteurl' )!="//eccles.utah.edu"){
 									<!--	<img src="wp-content/themes/Avada-Child-Theme/logos/logo-white.png" width="" height="" alt="The David Eccles School of Business Logo" class="fusion-logo-1x fusion-standard-logo"> 
 										<img src="wp-content/themes/Avada-Child-Theme/logos/logo-white.png"width="" height="" alt="The David Eccles School of Business Retina Logo" class="fusion-standard-logo fusion-logo-2x"> <!-- mobile logo --> <!-- sticky header logo --> 
 										
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/logos/logo-white.png" width="" height="" alt="The David Eccles School of Business Logo" class="fusion-logo-1x fusion-standard-logo"> 
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/logos/logo-white.png"width="" height="" alt="The David Eccles School of Business Retina Logo" class="fusion-standard-logo fusion-logo-2x"> <!-- mobile logo --> <!-- sticky header logo --> 
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/logos/logo-white-old.png" width="" height="" alt="The David Eccles School of Business Logo" class="fusion-logo-1x fusion-standard-logo"> 
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/logos/logo-white-old.png"width="" height="" alt="The David Eccles School of Business Retina Logo" class="fusion-standard-logo fusion-logo-2x"> <!-- mobile logo --> <!-- sticky header logo --> 
 										
 									</a>
 								</div>

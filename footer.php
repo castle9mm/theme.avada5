@@ -192,7 +192,7 @@ $display_copyright = get_post_meta($c_page_id, 'pyre_display_copyright', true);
 /*Custom Footer*/
 ?>
 <div class="footer-bar">
-<div class="EcclesLogo"><img width="300px" src="http://eccles.utah.edu/wp-content/themes/uudesb/images/logo3.png"></div>
+<div class="EcclesLogo"><img width="300px" src="<?php echo get_stylesheet_directory_uri(); ?>/logos/logo-black.png"></div>
 <div class="shell clear">
 
 <div><ul class="uni-links">
