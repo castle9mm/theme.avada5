@@ -357,7 +357,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       transition: none;
   }
   .button-hover,.fusion-button-wrapper .fusion-button:hover,.rev-btn:hover{
-      background-color: #fff;
+      background-color: #fff !important;
       border: 2px solid $primary-color !important;
       color: $primary-color !important;
   }
