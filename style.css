@@ -470,20 +470,21 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     margin-bottom: 5px; }
     #bottom-nav .menu li {
       display: inline-block;
-      line-height: .8em;
+      line-height: 14px;
       padding-right: 10px; }
-    #bottom-nav .menu h3 a {
-      color: #fff; }
     #bottom-nav .menu h3 {
       color: #cc0000;
       cursor: auto;
       background: transparent;
       border: none;
-      font-size: 0.8em;
+      font-size: 14px;
       letter-spacing: 0.07em;
       margin: 0 .5em .5em .5em;
       padding: 0;
       text-shadow: 0 0 5px #000; }
+      #bottom-nav .menu h3 a {
+        color: #fff;
+        font-size: 14px; }
 
 /* ------- FOOTER HOME -------*/
 .home #footer-container {
