@@ -178,6 +178,9 @@ function show_sub_menu(){
 					#wrapper .fusion-header .sub-menu span{
 						color : #333;
 					}
+					#wrapper header .fusion-logo{
+						display: block !important;
+					}
 					
 					
 					</style>
