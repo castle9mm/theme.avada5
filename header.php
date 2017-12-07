@@ -172,7 +172,7 @@ function show_sub_menu(){
 					#wrapper .fusion-header,#wrapper .fusion-header-wrapper.fusion-is-sticky .fusion-header{
 						background-color: #000 !important;
 					}
-					#wrapper .fusion-header span{
+					#wrapper .fusion-header span, #wrapper .fusion-header span .fa-external-link:before{
 						color :#CCCCCC;
 					}
 					#wrapper .fusion-header .sub-menu span{
