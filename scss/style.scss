@@ -278,6 +278,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       height: 60px;
       line-height: 60px;
     }
+    .fusion-logo {
+       img{
+         
+         max-height:40px;
+       }
+    }
       nav{
         height: 60px;
       }
@@ -312,10 +318,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       
       .fusion-logo{
        width: 85%; 
-       img{
-         
-         max-height:40px;
-       }
+      
        
       }
       .fusion-logo a {
