@@ -80,8 +80,8 @@ if (!defined('ABSPATH')) {
 
 				<?php
 //Custom Top Menu
-echo get_option( 'siteurl' );
-if(get_option( 'siteurl' )!="//eccles.utah.edu" or get_option( 'siteurl' )!="http://dmz-test.eccles.utah.edu/ecclesv5/"){
+
+if(get_option( 'siteurl' )!="//eccles.utah.edu" and get_option( 'siteurl' )!="//dmz-test.eccles.utah.edu/ecclesv5"){
 
 				?>
 				<div id="menu-eccles" class="fusion-header-wrapper-eccles">
