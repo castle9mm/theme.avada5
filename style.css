@@ -234,7 +234,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       width: auto; }
     #wrapper header .fusion-header {
       padding-top: 15px;
-      padding-left: 5px; } }
+      padding-left: 5px; }
+      #wrapper header .fusion-header span {
+        color: #333; } }
 
 /*End Header Styling*/
 /**
