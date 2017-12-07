@@ -175,7 +175,7 @@ function show_sub_menu(){
 					#wrapper .fusion-header span, #wrapper .fusion-header span .fa-external-link:before{
 						color :#CCCCCC;
 					}
-					#wrapper .fusion-header li:hover a span, #wrapper .fusion-header li:hover a span .fa-external-link:before{
+					#wrapper .fusion-header li:hover a > span, #wrapper .fusion-header li:hover a span >.fa-external-link:before{
 						color :#CC0000;
 					}
 					#wrapper .fusion-header .sub-menu span{
