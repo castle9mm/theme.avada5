@@ -173,7 +173,7 @@ function show_sub_menu(){
 						background-color: #000 !important;
 					}
 					#wrapper .fusion-header span, #wrapper .fusion-header span .fa-external-link:before{
-						color :#CCCCCC;
+						color :#DDDDDD;
 					}
 					#wrapper .fusion-header li:hover >a  span, #wrapper .fusion-header li:hover >a span .fa-external-link:before{
 						color :#CC0000;
