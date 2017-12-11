@@ -331,7 +331,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     header {
       .fusion-mobile-nav-holder{
         padding-top:0px;
-        float:none;       
+        float:none !important;       
       }
       .fusion-logo{
        width: 85%; 
