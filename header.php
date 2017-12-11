@@ -184,6 +184,9 @@ function show_sub_menu(){
 					#wrapper header .fusion-logo{
 						display: block !important;
 					}
+					#wrapper .fusion-logo-1x {
+						height: 40px !important;
+					}
 					</style>
 					<?php					
 				}
