@@ -59,6 +59,18 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       #wrapper .fusion-main-menu .menu-item a:hover span {
         color: #CC0000 !important;
         border-color: transparent; }
+    #wrapper .fusion-main-menu .menu-item .ribbon a {
+      background: black;
+      box-shadow: 3px 0px 6px #333;
+      border: none !important; }
+    #wrapper .fusion-main-menu .menu-item .ribbon span {
+      font-size: 22px;
+      color: white;
+      padding: 0em 0.5em;
+      font-weight: bold; }
+    #wrapper .fusion-main-menu .menu-item li:first-child span {
+      font-size: 22px;
+      font-weight: bold; }
   #wrapper .fusion-main-menu #menu-header .current-menu-item > a, #wrapper .fusion-main-menu #menu-header .current-menu-ancestor > a {
     border-top-color: white;
     color: #CC0000; }
@@ -72,7 +84,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     opacity: 1;
     margin-top: -5px;
     padding: 5px 0px;
-    box-shadow: none; }
+    box-shadow: none;
+    margin-top: 0px; }
     #wrapper .fusion-main-menu .sub-menu li {
       margin-left: 10px;
       margin-right: 10px; }
