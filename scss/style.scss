@@ -688,10 +688,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       margin-right: 1.64em;
     }
   }
-  /* IE6+ */
-  ul.uni-links {
-    display:table;
-  }
+  
   
   ul.uni-links {
 
@@ -719,6 +716,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
  li{
    display:inline;
  }
+  }
+  /* IE6+ */
+  ul.uni-links {
+    display:table;
   }
   
   .eccles-socials-wrapper {
