@@ -414,7 +414,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   background-color: #d8d9da;
   border-top: 10px solid #e9eaee;
   /* IE6+*/
-  /* IE6+*/ }
+  /* IE6+*/
+  /* IE6+ */ }
   #footer .fusion-row {
     max-width: 100%; }
   #footer .fusion-body .fusion-footer-copyright-center .fusion-copyright-content {
@@ -455,6 +456,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       color: #333;
       font-size: 14px;
       margin-right: 1.64em; }
+  #footer ul.uni-links {
+    display: table; }
   #footer ul.uni-links {
     display: flex;
     width: fit-content;
