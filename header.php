@@ -188,6 +188,10 @@ function show_sub_menu(){
 						height: 45px !important;
 						max-height: 45px !important;
 					}
+					/* IE6+ */
+					#wrapper header .fusion-row{
+						display: block !important;
+					}
 					</style>
 					<?php					
 				}
