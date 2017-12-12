@@ -590,11 +590,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       margin-left: 5px;
       display: -webkit-inline-box;
       margin: auto;
-      text-align: center; }
+      text-align: center;
+      /* IE6+ */ }
       #footer-container .address .spacer a {
         text-decoration: none; }
       #footer-container .address .spacer p {
         margin-right: 5px; }
+      #footer-container .address .spacer p {
+        display: ruby; }
   #footer-container .socons {
     float: left;
     padding: 0;
