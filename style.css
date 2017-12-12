@@ -215,11 +215,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     width: 100%;
     max-width: none; }
   #wrapper header {
-    max-height: 70px; }
+    max-height: 70px;
+    /* IE6+ */ }
     #wrapper header .fusion-header, #wrapper header .fusion-row {
       height: 70px; }
     #wrapper header .fusion-row {
       width: -moz-fit-content; }
+    #wrapper header .fusion-row {
+      display: table; }
     #wrapper header .fusion-main-menu > ul > li > a {
       line-height: 66px;
       height: 66px; }

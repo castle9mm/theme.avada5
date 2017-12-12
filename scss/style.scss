@@ -325,6 +325,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     .fusion-row{
       width: -moz-fit-content;
     }
+    /* IE6+ */
+    .fusion-row{
+      display:table;
+    }
     .fusion-main-menu > ul > li > a{
       line-height: 66px;
       height:66px;
