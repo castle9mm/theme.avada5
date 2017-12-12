@@ -412,7 +412,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 #footer {
   background-color: #d8d9da;
-  border-top: 10px solid #e9eaee; }
+  border-top: 10px solid #e9eaee;
+  /* IE6+*/
+  /* IE6+*/ }
   #footer .fusion-row {
     max-width: 100%; }
   #footer .fusion-body .fusion-footer-copyright-center .fusion-copyright-content {
@@ -427,6 +429,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   #footer .shell {
     padding-top: 20px;
     width: 50%; }
+  #footer .shell {
+    display: table; }
+  #footer .shell .row-two {
+    display: table;
+    margin: auto; }
   #footer .EcclesLogo, #footer .eccles-socials-wrapper {
     width: 25%; }
   #footer .EcclesLogo img {
@@ -453,7 +460,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     width: fit-content;
     width: -moz-fit-content;
     margin: auto;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    /* IE6+*/ }
     #footer ul.uni-links .first {
       display: -webkit-box !important;
       content: ""; }
@@ -464,6 +472,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       color: #333;
       font-size: 18px;
       margin-right: 1.64em; }
+    #footer ul.uni-links li {
+      display: inline; }
   #footer .eccles-socials-wrapper {
     padding-top: 15px; }
     #footer .eccles-socials-wrapper ul {

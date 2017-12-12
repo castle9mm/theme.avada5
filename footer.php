@@ -195,14 +195,14 @@ $display_copyright = get_post_meta($c_page_id, 'pyre_display_copyright', true);
 <div class="EcclesLogo"><a href="http://eccles.utah.edu"><img width="300px" src="<?php echo get_stylesheet_directory_uri(); ?>/logos/logo-black.png"></a></div>
 <div class="shell clear">
 
-<div><ul class="uni-links">
+<div class="row-one"><ul class="uni-links">
 <li class="first"><a rel="nofollow" href="tel:18015817676">801-581-7676</a></li>
 <li><a rel="nofollow" href="http://eccles.utah.edu/contact">Contact</a></li>
 <li><a rel="nofollow" href="http://eccles.utah.edu/directory">Eccles Directory</a></li>
 <li><a rel="nofollow" href="http://eccles.link/help">IT Support</a></li>
 <li><a rel="nofollow" href="http://intranet.eccles.utah.edu">Intranet</a></li>
 </ul></div>
-<div><ul class="eccles-links">
+<div class="row-two"><ul class="eccles-links">
 <li class="first">Spencer Fox Eccles Business Building,  1655 East Campus Center Drive,  Salt Lake City, Utah  84112-8939</li>
 </ul></div>
 <div><ul class="uni-links" style="display: none !important">

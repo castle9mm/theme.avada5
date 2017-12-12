@@ -648,6 +648,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding-top: 20px;
     width: 50%;
   }
+   /* IE6+*/
+   .shell{
+     display:table;
+   }
+   /* IE6+*/
+   .shell{
+     .row-two{
+       display:table;
+       margin:auto;
+     }
+   }
   .EcclesLogo,.eccles-socials-wrapper{
     width: 25%;
   }
@@ -699,7 +710,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       font-size: 18px;
       margin-right: 1.64em;
     }
+  /* IE6+*/
+ li{
+   display:inline;
+ }
   }
+  
   .eccles-socials-wrapper {
       padding-top: 15px;
       ul {
