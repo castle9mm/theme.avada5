@@ -433,6 +433,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   #footer ul.eccles-links {
     display: flex;
     width: fit-content;
+    width: -moz-fit-content;
     margin: auto; }
     #footer ul.eccles-links .first {
       display: -webkit-box !important;
@@ -447,6 +448,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   #footer ul.uni-links {
     display: flex;
     width: fit-content;
+    width: -moz-fit-content;
     margin: auto;
     margin-bottom: 15px; }
     #footer ul.uni-links .first {
