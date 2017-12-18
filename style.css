@@ -58,7 +58,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       #wrapper .fusion-main-menu .menu-item a .fusion-megamenu-icon {
         color: #333; }
     #wrapper .fusion-main-menu .menu-item a:hover {
-      border-color: transparent; }
+      border-color: transparent;
+      color: #CC0000 !important; }
       #wrapper .fusion-main-menu .menu-item a:hover span {
         color: #CC0000 !important;
         border-color: transparent; }
