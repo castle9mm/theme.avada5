@@ -43,6 +43,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
        
     
   }
+  .fusion-body .fusion-main-menu .current-menu-ancestor > a, .fusion-body .fusion-main-menu .current-menu-item > a, .fusion-body .fusion-main-menu .current-menu-item:not(.fusion-main-menu-cart) > a:before, .fusion-body .fusion-main-menu .current-menu-parent > a, .fusion-body .fusion-main-menu .current_page_item > a{
+    
+    
+    color: $primary-color;
+    border-color: $primary-color;
+  }
   a{
     text-decoration: none;
   }
@@ -401,7 +407,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   .button,.rev-btn{
       background-color: $primary-color;
       color: #fff !important;
-      border: 2px solid $primary-color !important;
+      border: 2px solid $primary-color;
       border-radius: 0;
       width: auto;
       text-shadow: none !important;
@@ -411,8 +417,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   .button-hover,.fusion-button-wrapper .fusion-button:hover,.rev-btn:hover{
       background-color: #fff !important;
-      border: 2px solid $primary-color !important;
-      color: $primary-color !important;
+      border: 2px solid $primary-color;
+      color: $primary-color;
   }
   .searchform .search-table .search-button {
       padding-right: 20px;
