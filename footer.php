@@ -197,7 +197,7 @@ $display_copyright = get_post_meta($c_page_id, 'pyre_display_copyright', true);
 
 <div class="row-one"><ul class="uni-links">
 <li class="first"><a rel="nofollow" href="tel:18015817676">801-581-7676</a></li>
-<li><a rel="nofollow" href="http://eccles.utah.edu/contact">Contact</a></li>
+<li><a rel="nofollow" href="http://eccles.utah.edu/about/connect-with-us/">Contact</a></li>
 <li><a rel="nofollow" href="http://eccles.utah.edu/directory">Eccles Directory</a></li>
 <li><a rel="nofollow" href="http://eccles.link/help">IT Support</a></li>
 <li><a rel="nofollow" href="http://intranet.eccles.utah.edu">Intranet</a></li>
