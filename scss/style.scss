@@ -88,7 +88,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
           a:hover{
             border-color: transparent;
             span{
-              color: $primary-color !important;
+              color: $primary-color;
               border-color: transparent;
             }
           }
@@ -280,7 +280,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     }
   }
   .recent-post-carousel{   
-    border-bottom: 10px solid $primary-color !important;
+    border-bottom: 10px solid $primary-color;
     background-color: rgb(237, 237, 237) !important;
     margin-bottom: 30px;
     h4{
@@ -492,7 +492,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   a:hover, a:hover:after,a:hover:before,.fusion-format-box i, .fusion-button-wrapper .fusion-button:hover span , .red-text, .heading-link h2:hover,.fusion-content-boxes .heading .heading-link:hover h2 ,
   .entry-title:hover a,#wrapper .fusion-single-line-meta a:hover, .fusion-single-line-meta span,.fn:hover a,.fusion-popover,.content-box-counter i, .content-box-counter span {
-      color: $primary-color !important;
+      color: $primary-color;
   }
   .fusion-single-line-meta span{
       font-style: italic;
@@ -632,7 +632,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
         color: $primary-color  !important;
       }
       .current-menu-item a {
-        color: $primary-color !important;
+        color: $primary-color;
         
       }
    }
@@ -763,11 +763,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 #toTop:hover {
 
-  background-color: $primary-color !important;
+  background-color: $primary-color;
 }
 #toTopHover:hover {
 
-  background-color: $primary-color !important;
+  background-color: $primary-color;
 }
 
 /* --- bottom navigation ---*/
@@ -1049,7 +1049,7 @@ footer .top-container{
       }
     }
     .fusion-flip-box .flip-box-back, .fusion-rollover .fusion-link-wrapper {
-      background-color: $primary-color !important;
+      background-color: $primary-color;
     }
     .fusion-flip-box .flip-box-back .flip-box-back-inner p,.fusion-flip-box .flip-box-back .flip-box-back-inner {
       text-shadow: 2px 2px 3px #333;
