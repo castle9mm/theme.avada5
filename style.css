@@ -174,7 +174,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   #wrapper .fusion-page-title-bar, #wrapper .fusion-logo-2x.fusion-post-content-wrapper .fusion-post-content-container, #wrapper .fusion-meta-info .fusion-alignright {
     display: none; }
   #wrapper .fusion-logo-1x {
-    height: 35px; }
+    height: 40px; }
   #wrapper .fusion-header .fusion-logo {
     margin: auto;
     padding: 10px; }
@@ -202,15 +202,15 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       text-align: center;
       margin-bottom: 20px; }
   #wrapper .fusion-header {
-    height: 55px; }
+    height: 60px; }
   #wrapper #menu-eccles .fusion-header {
     background-color: #000; }
     #wrapper #menu-eccles .fusion-header a, #wrapper #menu-eccles .fusion-header span {
       font-size: 14px;
       color: white; }
   #wrapper #menu-eccles .fusion-main-menu > ul > li > a {
-    height: 55px;
-    line-height: 55px; }
+    height: 60px;
+    line-height: 60px; }
   #wrapper #menu-eccles .fusion-logo img {
     max-height: 40px; }
   #wrapper #menu-eccles nav {
