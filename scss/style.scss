@@ -8,13 +8,14 @@
  Text Domain:  Avada
  */
 
-$primary-color: #CC0000;
+$primary-color: #CC0000 !important;
 $text-color: #333;
-$font: 'Myriad-Pro', arial, sans-serif;
+$font: 'Myriad-Pro', arial, sans-serif !important;
 $font-icon: icomoon !important;
-$font-quote: 'Times New Roman', Times, serif;
+$font-quote: 'Times New Roman', Times, serif !important;
 
 @font-face {
+  
     font-family: Myriad-Pro;  
     src: url('fonts/MyriadPro-Regular.eot'); /* IE9 Compat Modes */
     src: url('fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */

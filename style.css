@@ -16,7 +16,7 @@
   font-weight: normal; }
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   border: 0;
-  font-family: "Myriad-Pro", arial, sans-serif;
+  font-family: "Myriad-Pro", arial, sans-serif !important;
   font-size: 18px;
   font-style: inherit;
   font-weight: inherit;
@@ -27,7 +27,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #wrapper {
   /*Header of Eccles Custom and Sub header*/ }
   #wrapper h1, #wrapper h2, #wrapper h3, #wrapper h4, #wrapper h5, #wrapper h6 {
-    font-family: "Myriad-Pro", arial, sans-serif; }
+    font-family: "Myriad-Pro", arial, sans-serif !important; }
   #wrapper a {
     text-decoration: none; }
   #wrapper h2 {
@@ -42,7 +42,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   #wrapper .fusion-main-menu .fusion-main-menu-search a, #wrapper .fusion-main-menu .fusion-main-menu-icon:after, #wrapper .fusion-main-menu .fusion-widget-cart-counter > a:before {
     font-family: icomoon !important;
     cursor: pointer;
-    color: #CC0000; }
+    color: #CC0000 !important; }
   #wrapper .fusion-main-menu .menu-item {
     padding-right: 25px;
     border: none;
@@ -57,7 +57,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     #wrapper .fusion-main-menu .menu-item a:hover {
       border-color: transparent; }
       #wrapper .fusion-main-menu .menu-item a:hover span {
-        color: #CC0000 !important;
+        color: #CC0000 !important !important;
         border-color: transparent; }
     #wrapper .fusion-main-menu .menu-item .ribbon a {
       background: black;
@@ -74,7 +74,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
      */ }
   #wrapper .fusion-main-menu #menu-header .current-menu-item > a, #wrapper .fusion-main-menu #menu-header .current-menu-ancestor > a {
     border-top-color: white;
-    color: #CC0000; }
+    color: #CC0000 !important; }
   #wrapper .fusion-main-menu .sub-menu {
     border-top: none;
     background: white;
@@ -113,19 +113,19 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   #wrapper .flex-direction-nav a, #wrapper .search-button input {
     font-family: icomoon !important;
     cursor: pointer;
-    color: #CC0000; }
+    color: #CC0000 !important; }
   #wrapper header {
     /*border-bottom: .2em solid $primary-color;*/ }
     #wrapper header .fusion-header {
       background-color: #fff;
-      border-bottom: 0.2em solid #CC0000; }
+      border-bottom: 0.2em solid #CC0000 !important; }
     #wrapper header .fusion-row {
       height: 85px;
       max-width: none; }
     #wrapper header .fusion-custom-menu-item-contents {
       padding: 3px 0;
       height: 53px;
-      border-bottom: 3px solid #CC0000;
+      border-bottom: 3px solid #CC0000 !important;
       background-color: #fff;
       border-top: none;
       border-left: none;
@@ -190,7 +190,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     #wrapper .fusion-recent-posts .fusion-column {
       padding: 0px; }
   #wrapper .recent-post-carousel {
-    border-bottom: 10px solid #CC0000 !important;
+    border-bottom: 10px solid #CC0000 !important !important;
     background-color: #ededed !important;
     margin-bottom: 30px; }
     #wrapper .recent-post-carousel h4 {
@@ -264,9 +264,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
  */
 /* Buttons - Links and Titles*/
 #wrapper .button, #wrapper .searchform .search-table .search-button input[type=submit], #wrapper .the-button-style, #wrapper .fusion-button-wrapper .fusion-button, #wrapper .btn.btn-red, #wrapper .ms-protection-msg input[type="submit"], #wrapper .gform_button[type="submit"], #wrapper .rev-btn {
-  background-color: #CC0000;
+  background-color: #CC0000 !important;
   color: #fff !important;
-  border: 2px solid #CC0000 !important;
+  border: 2px solid #CC0000 !important !important;
   border-radius: 0;
   width: auto;
   text-shadow: none !important;
@@ -275,8 +275,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   white-space: nowrap; }
 #wrapper .button-hover, #wrapper .searchform .search-table .search-button input[type=submit]:hover, #wrapper .fusion-button-wrapper .fusion-button:hover, #wrapper .fusion-button-wrapper .fusion-button:hover, #wrapper .rev-btn:hover {
   background-color: #fff !important;
-  border: 2px solid #CC0000 !important;
-  color: #CC0000 !important; }
+  border: 2px solid #CC0000 !important !important;
+  color: #CC0000 !important !important; }
 #wrapper .searchform .search-table .search-button {
   padding-right: 20px; }
   #wrapper .searchform .search-table .search-button input[type=submit] {
@@ -290,7 +290,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #wrapper .fusion-mobile-menu-icons a:before {
   color: #dadada; }
 #wrapper .the-button-style, #wrapper .fusion-button-wrapper .fusion-button, #wrapper .btn.btn-red, #wrapper .ms-protection-msg input[type="submit"], #wrapper .gform_button[type="submit"] {
-  font-family: "Myriad-Pro", arial, sans-serif !important;
+  font-family: "Myriad-Pro", arial, sans-serif !important !important;
   padding: .5em 1.5em;
   font-size: 16px;
   margin: 1em 0;
@@ -303,7 +303,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   line-height: inherit;
   font-size: 16px; }
 #wrapper .btn-red, #wrapper .fusion-date-box, #wrapper .nav-tabs .active a {
-  background: #CC0000; }
+  background: #CC0000 !important; }
 #wrapper .btn {
   text-align: center; }
 #wrapper .nav-tabs a h4 {
@@ -313,17 +313,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   text-shadow: 2px 2px 4px #000; }
 #wrapper a:hover, #wrapper a:hover:after, #wrapper a:hover:before, #wrapper .fusion-format-box i, #wrapper .fusion-button-wrapper .fusion-button:hover span, #wrapper .red-text, #wrapper .heading-link h2:hover, #wrapper .fusion-content-boxes .heading .heading-link:hover h2,
 #wrapper .entry-title:hover a, #wrapper #wrapper .fusion-single-line-meta a:hover, #wrapper .fusion-single-line-meta span, #wrapper .fn:hover a, #wrapper .fusion-popover, #wrapper .content-box-counter i, #wrapper .content-box-counter span {
-  color: #CC0000 !important; }
+  color: #CC0000 !important !important; }
 #wrapper .fusion-single-line-meta span {
   font-style: italic; }
 #wrapper .fusion-post-content .sep-double, #wrapper .fusion-post-content-wrapper .fusion-meta-info {
   margin-top: 10px; }
 #wrapper .quote-text h6 {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times, serif !important;
   font-style: italic;
   font-size: 38px;
   line-height: 46px;
-  color: #CC0000; }
+  color: #CC0000 !important; }
 #wrapper .quote-text h3 em {
   font-size: 30px;
   line-height: 36px; }
@@ -348,7 +348,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding: 20px;
   /*background-color: #e5e5e5;*/ }
   #wrapper .fusion-testimonials p {
-    color: #CC0000;
+    color: #CC0000 !important;
     font-size: 22px;
     font-family: serif;
     font-style: italic; }
@@ -406,9 +406,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     text-decoration: none;
     font-size: 14px; }
   #wrapper .fusion-footer-widget-area li:hover a {
-    color: #CC0000 !important; }
+    color: #CC0000 !important !important; }
   #wrapper .fusion-footer-widget-area .current-menu-item a {
-    color: #CC0000 !important; }
+    color: #CC0000 !important !important; }
 
 #footer {
   background-color: #d8d9da;
@@ -485,15 +485,15 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
           #footer .eccles-socials-wrapper ul li a .fa-circle {
             color: #8f8f8f; }
         #footer .eccles-socials-wrapper ul li a:hover .fa-circle {
-          color: #CC0000; }
+          color: #CC0000 !important; }
       #footer .eccles-socials-wrapper ul li:first-child {
         padding-left: 0px; }
 
 #toTop:hover {
-  background-color: #CC0000 !important; }
+  background-color: #CC0000 !important !important; }
 
 #toTopHover:hover {
-  background-color: #CC0000 !important; }
+  background-color: #CC0000 !important !important; }
 
 /* --- bottom navigation ---*/
 #bottom-nav {
@@ -660,7 +660,7 @@ footer .top-container {
   opacity: 1;
   border-radius: 100%;
   background: transparent;
-  border: 1px solid #CC0000;
+  border: 1px solid #CC0000 !important;
   height: 52px;
   width: 52px;
   line-height: 52px; }
@@ -697,7 +697,7 @@ footer .top-container {
   #wrapper .tfs-slider .slide-content-container .buttons a {
     line-height: inherit; }
 #wrapper .fusion-flip-box .flip-box-back, #wrapper .fusion-rollover .fusion-link-wrapper {
-  background-color: #CC0000 !important; }
+  background-color: #CC0000 !important !important; }
 #wrapper .fusion-flip-box .flip-box-back .flip-box-back-inner p, #wrapper .fusion-flip-box .flip-box-back .flip-box-back-inner {
   text-shadow: 2px 2px 3px #333;
   color: #fff; }
