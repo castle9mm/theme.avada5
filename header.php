@@ -115,7 +115,11 @@ if(get_option( 'siteurl' )!="//eccles.utah.edu" and get_option( 'siteurl' )!="//
 											
 										</li>
 										<li role="menuitem" id="menu-item-559-1" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-559 fusion-dropdown-menu">
-											<a href="http://eccles.utah.edu/faculty-staff/" aria-haspopup="true"><span class="menu-text">Faculty &amp; Staff</span></a>
+											<a href="http://eccles.utah.edu/faculty/" aria-haspopup="true"><span class="menu-text">Faculty</span></a>
+											
+										</li>
+										<li role="menuitem" id="menu-item-559-1" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-559 fusion-dropdown-menu">
+											<a href="http://eccles.utah.edu/directory/" aria-haspopup="true"><span class="menu-text">Directory</span></a>
 											
 										</li>
 										<li role="menuitem" id="menu-item-747-1" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-747 fusion-dropdown-menu">
