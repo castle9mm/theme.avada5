@@ -284,21 +284,21 @@ if (defined('ICL_SITEPRESS_VERSION') && 'footer_parallax_effect' ===  Avada() ->
 	<nav id="bottom-nav" role="navigation">
 	<ul class="menu">
 	<li>
-	<h3><a href="https://www.utah.edu/nondiscrimination/">Nondiscrimination &amp; Accessibility</a></h3>
+	<h3><a href="https://www.utah.edu/nondiscrimination/" target="_blank" >Nondiscrimination &amp; Accessibility</a></h3>
 	
 	</li>
 	<li>
-	<h3><a href="https://www.utah.edu/disclaimer/">Disclaimer</a></h3>
+	<h3><a href="https://www.utah.edu/disclaimer/" target="_blank" >Disclaimer</a></h3>
 	
 	</li>
-	<li><h3><a rel="nofollow" href="http://cis.utah.edu">CIS</a></h3></li>
-<li><h3><a rel="nofollow" href="http://www.umail.utah.edu/a-z/">UMail</a></h3></h3></li>
+	<li><h3><a rel="nofollow" href="http://cis.utah.edu" target="_blank" >CIS</a></h3></li>
+<li><h3><a rel="nofollow" href="http://www.umail.utah.edu/a-z/" target="_blank" >UMail</a></h3></h3></li>
 	<li>
-	<h3><a href="https://www.utah.edu/a-z/">A-Z Index</a></h3>
+	<h3><a href="https://www.utah.edu/a-z/" target="_blank" >A-Z Index</a></h3>
 	
 	</li>
 	<li>
-	<h3><a href="https://www.utah.edu/contact/">Contact - Feedback</a></h3>
+	<h3><a href="https://www.utah.edu/contact/" target="_blank" >Contact - Feedback</a></h3>
 	
 	</li>
 	</ul>
@@ -306,7 +306,7 @@ if (defined('ICL_SITEPRESS_VERSION') && 'footer_parallax_effect' ===  Avada() ->
 	<section class="brand-area ">
 	
 	<div class="bottom-brand">
-	<div class="spacer"><a href="http://www.utah.edu/"><img src="https://www.utah.edu/_images/imagine_u.png" alt="Imagine U: The University of Utah"></a>
+	<div class="spacer"><a href="http://www.utah.edu/" target="_blank" ><img src="https://www.utah.edu/_images/imagine_u.png" alt="Imagine U: The University of Utah"></a>
 	</div>
 	</div>
 	
