@@ -305,6 +305,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   transition: none;
   line-height: inherit;
   font-size: 16px; }
+#wrapper .fusion-button-wrapper .fusion-button:hover span {
+  color: #fff;
+  transition: none;
+  line-height: inherit;
+  font-size: 16px; }
 #wrapper .btn-red, #wrapper .fusion-date-box, #wrapper .nav-tabs .active a {
   background: #CC0000 !important; }
 #wrapper .btn {
