@@ -4,7 +4,7 @@
  Author: ThemeFusion
  Author URI: https://theme-fusion.com
  Template: Avada
- Version: 1.0.5
+ Version: 1.0.6
  Text Domain:  Avada
  */
 @font-face {
@@ -277,6 +277,8 @@ strong, b {
  *   
  */
 /* Buttons - Links and Titles*/
+#wrapper .post-content {
+  padding-top: 20px; }
 #wrapper .button, #wrapper .searchform .search-table .search-button input[type=submit], #wrapper .the-button-style, #wrapper .fusion-button-wrapper .fusion-button, #wrapper .btn.btn-red, #wrapper .ms-protection-msg input[type="submit"], #wrapper .gform_button[type="submit"], #wrapper .rev-btn {
   background-color: #CC0000 !important;
   color: #fff;

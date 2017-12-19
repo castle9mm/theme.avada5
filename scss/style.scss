@@ -4,7 +4,7 @@
  Author: ThemeFusion
  Author URI: https://theme-fusion.com
  Template: Avada
- Version: 1.0.5
+ Version: 1.0.6
  Text Domain:  Avada
  */
 
@@ -419,6 +419,9 @@ strong,b {
  */
 /* Buttons - Links and Titles*/
 #wrapper{
+  .post-content{
+   padding-top: 20px; 
+  }
   .button,.rev-btn{
       background-color: $primary-color;
       color: #fff;
