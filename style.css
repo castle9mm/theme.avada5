@@ -4,7 +4,7 @@
  Author: ThemeFusion
  Author URI: https://theme-fusion.com
  Template: Avada
- Version: 1.0.4
+ Version: 1.0.5
  Text Domain:  Avada
  */
 @font-face {
@@ -12,6 +12,13 @@
   src: url("fonts/MyriadPro-Regular.eot");
   /* IE9 Compat Modes */
   src: url("fonts/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/MyriadPro-Regular.woff") format("woff"), url("fonts/MyriadPro-Regular.ttf") format("truetype"), url("fonts/MyriadPro-Regular.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  font-weight: normal; }
+@font-face {
+  font-family: Myriad-Pro-Bold;
+  src: url("fonts/MyriadPro-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/MyriadPro-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/MyriadPro-Bold.woff") format("woff"), url("fonts/MyriadPro-Bold.ttf") format("truetype"), url("fonts/MyriadPro-Bold.svg#svgFontName") format("svg");
   /* Legacy iOS */
   font-weight: normal; }
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
@@ -23,6 +30,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   outline: 0;
   vertical-align: baseline;
   color: #333; }
+
+strong, b {
+  font-family: "Myriad-Pro-Bold", arial, sans-serif !important; }
 
 #wrapper {
   /*Header of Eccles Custom and Sub header*/ }

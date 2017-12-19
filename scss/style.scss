@@ -4,13 +4,14 @@
  Author: ThemeFusion
  Author URI: https://theme-fusion.com
  Template: Avada
- Version: 1.0.4
+ Version: 1.0.5
  Text Domain:  Avada
  */
 
 $primary-color: #CC0000 !important;
 $text-color: #333;
 $font: 'Myriad-Pro', arial, sans-serif !important;
+$font-bold: 'Myriad-Pro-Bold', arial, sans-serif !important;
 $font-icon: icomoon !important;
 $font-quote: 'Times New Roman', Times, serif !important;
 
@@ -22,6 +23,16 @@ $font-quote: 'Times New Roman', Times, serif !important;
     url('fonts/MyriadPro-Regular.woff') format('woff'), /* Modern Browsers */
     url('fonts/MyriadPro-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
     url('fonts/MyriadPro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+}
+@font-face {
+  
+    font-family: Myriad-Pro-Bold;  
+    src: url('fonts/MyriadPro-Bold.eot'); /* IE9 Compat Modes */
+    src: url('fonts/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/MyriadPro-Bold.woff') format('woff'), /* Modern Browsers */
+    url('fonts/MyriadPro-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('fonts/MyriadPro-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
     font-weight: normal;
 }
 
@@ -36,6 +47,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     outline: 0;
     vertical-align: baseline;
     color: $text-color;
+}
+strong,b {
+   font-family: $font-bold;
 }
 #wrapper{  
   h1, h2, h3, h4, h5, h6{
