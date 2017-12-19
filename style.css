@@ -89,7 +89,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     opacity: 1;
     margin-top: -5px;
     padding: 5px 0px;
-    box-shadow: none;
+    box-shadow: 0.5em 0.5em 0.5em -0.5em #333 !important;
     margin-top: 0px; }
     #wrapper .fusion-main-menu .sub-menu li {
       margin-left: 10px;
