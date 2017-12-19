@@ -387,6 +387,8 @@ strong, b {
   max-height: 230px; }
 #wrapper .job-grid .recent-posts-content a {
   font-size: 20px; }
+#wrapper .fusion-accordian .fusion-alignleft {
+  float: none; }
 
 /*End Button Links and Title*/
 /**
