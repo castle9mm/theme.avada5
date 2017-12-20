@@ -4,7 +4,7 @@
  Author: ThemeFusion
  Author URI: https://theme-fusion.com
  Template: Avada
- Version: 1.0.8
+ Version: 1.0.9
  Text Domain:  Avada
  */
 @font-face {
@@ -206,7 +206,8 @@ strong, b {
   #wrapper .recent-post-carousel {
     border-bottom: 10px solid #CC0000 !important;
     background-color: #ededed !important;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    margin-top: -20px; }
     #wrapper .recent-post-carousel h4 {
       font-size: 18px;
       text-align: center;
