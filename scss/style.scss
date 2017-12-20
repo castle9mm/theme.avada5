@@ -454,6 +454,7 @@ strong,b {
           padding-right: 15px;
           padding-left: 15px;
           line-height: inherit;
+          color: #fff !important;
       }
       input[type=submit]:hover{
         @extend .button-hover

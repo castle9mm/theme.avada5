@@ -306,7 +306,8 @@ strong, b {
     margin-right: 0px;
     padding-right: 15px;
     padding-left: 15px;
-    line-height: inherit; }
+    line-height: inherit;
+    color: #fff !important; }
 #wrapper .fusion-mobile-menu-icons a:before {
   color: #dadada; }
 #wrapper .the-button-style, #wrapper .fusion-button-wrapper .fusion-button, #wrapper .btn.btn-red, #wrapper .ms-protection-msg input[type="submit"], #wrapper .gform_button[type="submit"] {
