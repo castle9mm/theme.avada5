@@ -356,6 +356,15 @@ $page_bg_layout = ($c_page_id) ? get_post_meta($c_page_id, 'pyre_page_bg_layout'
 echo Avada() -> settings -> get('space_body');
 // WPCS: XSS ok.
 ?>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1312186-9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-1312186-9');
+</script>
 
 </body>
 </html>
