@@ -95,5 +95,113 @@ function avada_header_template_child( $slider_position = 'Below' ) {
 	}
 
 
+include ('includes/acf-pro-fields.php'); // This is to include custom fields for the Directory Profiles via the Advanced Custom Fields plugin
 	
+// Register Custom Post Type
+function custom_post_type_directory() {
+
+    $labels = array(
+        'name'                  => 'Profiles',
+        'singular_name'         => 'Profile',
+        'menu_name'             => 'Directory',
+        'name_admin_bar'        => 'Directory',
+        'archives'              => 'Directory Archives',
+        'parent_item_colon'     => 'Parent Profile:',
+        'all_items'             => 'All Profiles',
+        'add_new_item'          => 'Add New Profile',
+        'add_new'               => 'Add Profile',
+        'new_item'              => 'New Profile',
+        'edit_item'             => 'Edit Profile',
+        'update_item'           => 'Update Profile',
+        'view_item'             => 'View Profile',
+        'search_items'          => 'Search Profile',
+        'not_found'             => 'Not found',
+        'not_found_in_trash'    => 'Not found in Trash',
+        'featured_image'        => 'Featured Image',
+        'set_featured_image'    => 'Set featured image',
+        'remove_featured_image' => 'Remove featured image',
+        'use_featured_image'    => 'Use as featured image',
+        'insert_into_item'      => 'Insert into profile',
+        'uploaded_to_this_item' => 'Uploaded to this profile',
+        'items_list'            => 'Profile list',
+        'items_list_navigation' => 'Profile list navigation',
+        'filter_items_list'     => 'Filter profile list',
+    );
+    $rewrite = array(
+        'slug'                  => 'team',
+        'with_front'            => false,
+        'pages'                 => true,
+        'feeds'                 => true,
+    );
+    $args = array(
+        'label'                 => 'Profile',
+        'description'           => 'Directory',
+        'labels'                => $labels,
+        'supports'              => array( 'title', 'author', ),
+        'taxonomies'            => array( 'departments', ' area-of-expertise' ),
+        'hierarchical'          => false,
+        'public'                => true,
+        'show_ui'               => true,
+        'show_in_menu'          => true,
+        'menu_position'         => 5,
+        'show_in_admin_bar'     => true,
+        'show_in_nav_menus'     => true,
+        'can_export'            => true,
+        'has_archive'           => true,
+        'exclude_from_search'   => false,
+        'publicly_queryable'    => true,
+        'rewrite'               => $rewrite,
+        'supports'              => array( 'title', 'thumbnail', ),
+        'capability_type'       => 'page',
+    );
+    register_post_type( 'directory', $args );
+
+}
+add_action( 'init', 'custom_post_type_directory', 0 );
+
+
+add_action( 'init', 'build_taxonomies_areas_of_expertise', 0 );
+function build_taxonomies_areas_of_expertise() {
+    register_taxonomy(
+        'areas_of_expertise',
+        array( 'directory' ),  // this is the custom post type(s) I want to use this taxonomy for
+        array(
+                'hierarchical' => true,
+                'label' => 'Areas of Expertise',
+                'query_var' => true,
+                'rewrite' => array('with_front' => false, 'slug' => 'expertise')
+            )
+
+    );
+};/**/
+add_action( 'init', 'build_taxonomies_departments', 0 );
+function build_taxonomies_departments() {
+    register_taxonomy(
+        'departments',
+        array( 'directory' ),  // this is the custom post type(s) I want to use this taxonomy for
+        array(
+                'hierarchical' => true,
+                'label' => 'Department',
+                'query_var' => true,
+                'rewrite' => array('with_front' => false, 'slug' => 'department')
+            )
+
+    );
+};/**/
+
+
+add_action( 'init', 'build_taxonomies_ecclesRoles', 0 );
+function build_taxonomies_ecclesRoles() {
+    register_taxonomy(
+        'ecclesRoles',
+        array( 'directory' ),  // this is the custom post type(s) I want to use this taxonomy for
+        array(
+                'hierarchical' => true,
+                'label' => 'Role',
+                'query_var' => true,
+                'rewrite' => array('with_front' => false, 'slug' => 'role')
+            )
+
+    );
+};
 ?>
