@@ -364,6 +364,17 @@ strong,b {
     }
    
   }
+  @media (max-width: 1130px){
+      header {
+      
+        .fusion-logo{
+         width: 85%; 
+         padding-top:0px !important;
+         display:block;
+        }
+      }
+    
+  }
   @media (max-width: 800px){
     #menu-eccles{
       display:none;
