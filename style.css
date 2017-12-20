@@ -277,6 +277,9 @@ strong, b {
  *   
  */
 /* Buttons - Links and Titles*/
+#wrapper .fusion-content-boxes.content-boxes-icon-boxed .heading .fontawesome-icon {
+  top: 0px;
+  left: 0px; }
 #wrapper .post-content {
   padding-top: 20px; }
 #wrapper .button, #wrapper .searchform .search-table .search-button input[type=submit], #wrapper .the-button-style, #wrapper .fusion-button-wrapper .fusion-button, #wrapper .btn.btn-red, #wrapper .ms-protection-msg input[type="submit"], #wrapper .gform_button[type="submit"], #wrapper .rev-btn {
