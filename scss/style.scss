@@ -4,7 +4,7 @@
  Author: ThemeFusion
  Author URI: https://theme-fusion.com
  Template: Avada
- Version: 1.0.9
+ Version: 1.1.1
  Text Domain:  Avada
  */
 
@@ -350,7 +350,9 @@ strong,b {
     }
     /* IE6+ */
     .fusion-row{
-      display:table;
+     display:table;
+     width: 100%;
+     
     }
     .fusion-main-menu > ul > li > a{
       line-height: 66px;
@@ -375,7 +377,7 @@ strong,b {
       }
     
   }
-  @media (max-width: 800px){
+  @media (max-width: 1129px){
     #menu-eccles{
       display:none;
       
