@@ -204,4 +204,12 @@ function build_taxonomies_ecclesRoles() {
 
     );
 };
+/* Fix for media attachement pages conflicting with page/post urls.  This adds a random string to the media "posts" */
+function append_attachment_slug( $slug, $post_ID, $post_status, $post_type, $post_parent, $original_slug ) {
+    if ( 'attachment' == $post_type )
+          $slug = $original_slug . uniqid( '-' );
+      return $slug;
+}
+add_filter( 'wp_unique_post_slug', 'append_attachment_slug', 10, 6 );
+
 ?>
