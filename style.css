@@ -38,6 +38,8 @@ strong, b {
   /*Header of Eccles Custom and Sub header*/ }
   #wrapper h1, #wrapper h2, #wrapper h3, #wrapper h4, #wrapper h5, #wrapper h6 {
     font-family: "Myriad-Pro", arial, sans-serif !important; }
+  #wrapper article h2.fusion-post-title {
+    font-size: 36px; }
   #wrapper .fusion-body .fusion-main-menu .current-menu-ancestor > a, #wrapper .fusion-body .fusion-main-menu .current-menu-item > a, #wrapper .fusion-body .fusion-main-menu .current-menu-item:not(.fusion-main-menu-cart) > a:before, #wrapper .fusion-body .fusion-main-menu .current-menu-parent > a, #wrapper .fusion-body .fusion-main-menu .current_page_item > a {
     color: #CC0000 !important;
     border-color: #CC0000 !important; }
