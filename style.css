@@ -318,11 +318,12 @@ strong, b {
     padding: 0px; }
   #wrapper .gsc-modal-background-image {
     height: 100vh; }
-  #wrapper table.gssb_c {
-    top: 207px !important;
-    z-index: 9999999 !important; }
   #wrapper .gsst_b .gsst_a:after {
     display: none !important; }
+
+table.gssb_c {
+  top: 207px !important;
+  z-index: 9999999 !important; }
 
 /*End Header Styling*/
 /**

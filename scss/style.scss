@@ -485,15 +485,16 @@ strong,b {
   .gsc-modal-background-image{
     height: 100vh;
   }
+
+  .gsst_b .gsst_a:after{
+    display:none !important;
+  }
+}
   table.gssb_c{
    top: 207px !important;
        z-index: 9999999 !important;
     
   }
-  .gsst_b .gsst_a:after{
-    display:none !important;
-  }
-}
 
 /*End Header Styling*/
 /**
