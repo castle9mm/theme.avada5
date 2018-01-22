@@ -485,8 +485,9 @@ strong,b {
   .gsc-modal-background-image{
     height: 100vh;
   }
-  table.gssb_c,.gsc-completion-container{
-    margin-top: 38px !important;
+  table.gssb_c{
+   top: 207px !important;
+       z-index: 9999999 !important;
     
   }
   .gsst_b .gsst_a:after{
