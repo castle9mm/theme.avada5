@@ -318,7 +318,7 @@ strong, b {
     padding: 0px; }
   #wrapper .gsc-modal-background-image {
     height: 100vh; }
-  #wrapper .gstl_50, #wrapper .gsc-completion-container {
+  #wrapper table.gssb_c, #wrapper .gsc-completion-container {
     margin-top: 38px !important; }
   #wrapper .gsst_b .gsst_a:after {
     display: none !important; }
