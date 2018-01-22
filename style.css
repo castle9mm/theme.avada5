@@ -319,7 +319,9 @@ strong, b {
   #wrapper .gsc-modal-background-image {
     height: 100vh; }
   #wrapper .gsc-completion-container {
-    margin-top: 38px; }
+    margin-top: 38px !important; }
+  #wrapper .gsst_b .gsst_a:after {
+    display: none !important; }
 
 /*End Header Styling*/
 /**
