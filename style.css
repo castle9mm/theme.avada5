@@ -318,6 +318,8 @@ strong, b {
     padding: 0px; }
   #wrapper .gsc-modal-background-image {
     height: 100vh; }
+  #wrapper .gsc-completion-container {
+    margin-top: 38px; }
 
 /*End Header Styling*/
 /**
