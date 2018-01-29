@@ -192,7 +192,7 @@ $display_copyright = get_post_meta($c_page_id, 'pyre_display_copyright', true);
 /*Custom Footer*/
 ?>
 <div class="footer-bar">
-<div class="EcclesLogo"><a href="http://eccles.utah.edu"><img width="300px" src="<?php echo get_stylesheet_directory_uri(); ?>/logos/logo-black.png"></a></div>
+<div class="EcclesLogo"><a href="http://eccles.utah.edu"><img width="300px" src="<?php echo get_stylesheet_directory_uri(); ?>/logos/eccles_logo_footer.png"></a></div>
 <div class="shell clear">
 
 <div class="row-one"><ul class="uni-links">
