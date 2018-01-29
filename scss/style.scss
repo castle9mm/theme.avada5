@@ -489,6 +489,32 @@ strong,b {
   .gsst_b .gsst_a:after{
     display:none !important;
   }
+   @media (max-width: 1129px){
+     .goff-logo{
+       display:none;
+     }
+   }
+    @media (min-width: 1130px){
+      .goff-logo{
+        background-image: url("logos/goff_logo_1.png");
+            width: 225px;
+    height: 56px;
+    margin-top: 5px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+        a span{
+          display:none;
+        }
+        
+        
+      }
+      .goff-logo:hover{
+        a{
+          background-color: transparent !important;
+        }
+      }
+    }
 }
 
 //In top menu but out side of wrapper
@@ -497,7 +523,6 @@ strong,b {
        z-index: 9999999 !important;
     
   }
-
 /*End Header Styling*/
 /**
  *   

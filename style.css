@@ -320,6 +320,22 @@ strong, b {
     height: 100vh; }
   #wrapper .gsst_b .gsst_a:after {
     display: none !important; }
+  @media (max-width: 1129px) {
+    #wrapper .goff-logo {
+      display: none; } }
+  @media (min-width: 1130px) {
+    #wrapper .goff-logo {
+      background-image: url("logos/goff_logo_1.png");
+      width: 225px;
+      height: 56px;
+      margin-top: 5px;
+      background-repeat: no-repeat;
+      background-position: top;
+      background-size: contain; }
+      #wrapper .goff-logo a span {
+        display: none; }
+    #wrapper .goff-logo:hover a {
+      background-color: transparent !important; } }
 
 table.gssb_c {
   top: 207px !important;
