@@ -21,7 +21,7 @@
   src: url("fonts/MyriadPro-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/MyriadPro-Bold.woff") format("woff"), url("fonts/MyriadPro-Bold.ttf") format("truetype"), url("fonts/MyriadPro-Bold.svg#svgFontName") format("svg");
   /* Legacy iOS */
   font-weight: normal; }
-#wrapper html, #wrapper body, #wrapper div, #wrapper span, #wrapper applet, #wrapper object, #wrapper iframe, #wrapper h1, #wrapper h2, #wrapper h3, #wrapper h4, #wrapper h5, #wrapper h6, #wrapper p, #wrapper blockquote, #wrapper pre, #wrapper a, #wrapper abbr, #wrapper acronym, #wrapper address, #wrapper big, #wrapper cite, #wrapper code, #wrapper del, #wrapper dfn, #wrapper em, #wrapper font, #wrapper ins, #wrapper kbd, #wrapper q, #wrapper s, #wrapper samp, #wrapper small, #wrapper strike, #wrapper strong, #wrapper sub, #wrapper sup, #wrapper tt, #wrapper var, #wrapper dl, #wrapper dt, #wrapper dd, #wrapper ol, #wrapper ul, #wrapper li, #wrapper fieldset, #wrapper form, #wrapper label, #wrapper legend, #wrapper table, #wrapper caption, #wrapper tbody, #wrapper tfoot, #wrapper thead, #wrapper tr, #wrapper th, #wrapper td {
+#wrapper html, #wrapper body, #wrapper div, #wrapper span, #wrapper applet, #wrapper object, #wrapper iframe, #wrapper p, #wrapper blockquote, #wrapper pre, #wrapper a, #wrapper abbr, #wrapper acronym, #wrapper address, #wrapper big, #wrapper cite, #wrapper code, #wrapper del, #wrapper dfn, #wrapper em, #wrapper font, #wrapper ins, #wrapper kbd, #wrapper q, #wrapper s, #wrapper samp, #wrapper small, #wrapper strike, #wrapper strong, #wrapper sub, #wrapper sup, #wrapper tt, #wrapper var, #wrapper dl, #wrapper dt, #wrapper dd, #wrapper ol, #wrapper ul, #wrapper li, #wrapper fieldset, #wrapper form, #wrapper label, #wrapper legend, #wrapper table, #wrapper caption, #wrapper tbody, #wrapper tfoot, #wrapper thead, #wrapper tr, #wrapper th, #wrapper td {
   border: 0;
   font-family: "Myriad-Pro", arial, sans-serif !important;
   font-size: 18px;
@@ -37,7 +37,13 @@ strong, b {
 #wrapper {
   /*Header of Eccles Custom and Sub header*/ }
   #wrapper h1, #wrapper h2, #wrapper h3, #wrapper h4, #wrapper h5, #wrapper h6 {
-    font-family: "Myriad-Pro", arial, sans-serif !important; }
+    border: 0;
+    font-family: "Myriad-Pro", arial, sans-serif !important;
+    /*font-style: inherit;*/
+    /*font-weight: inherit;*/
+    outline: 0;
+    vertical-align: baseline;
+    color: #333; }
   #wrapper article h2.fusion-post-title {
     font-size: 36px; }
   #wrapper .fusion-body .fusion-main-menu .current-menu-ancestor > a, #wrapper .fusion-body .fusion-main-menu .current-menu-item > a, #wrapper .fusion-body .fusion-main-menu .current-menu-item:not(.fusion-main-menu-cart) > a:before, #wrapper .fusion-body .fusion-main-menu .current-menu-parent > a, #wrapper .fusion-body .fusion-main-menu .current_page_item > a {
