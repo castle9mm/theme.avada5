@@ -293,7 +293,7 @@ strong, b {
   #wrapper #wrapper .gs-webResult.gs-result a.gs-title:link b, #wrapper .gs-webResult .gs-snippet b {
     background-color: #FFFF00; }
   #wrapper .gs-snippet {
-    width: 70%;
+    width: 90%;
     margin-top: 10px; }
   #wrapper .gsc-thumbnail-inside {
     float: left; }
@@ -302,7 +302,8 @@ strong, b {
       font-size: 22px; }
       #wrapper .gsc-thumbnail-inside .gs-title a {
         font-size: 22px;
-        font-family: "Myriad-Pro", arial, sans-serif !important; }
+        font-family: "Myriad-Pro", arial, sans-serif !important;
+        line-height: 25px; }
         #wrapper .gsc-thumbnail-inside .gs-title a b {
           font-size: 22px; }
       #wrapper .gsc-thumbnail-inside .gs-title a::after {
