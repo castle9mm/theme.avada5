@@ -519,9 +519,15 @@ strong,b {
 
 //In top menu but out side of wrapper
   table.gssb_c{
-   top: 207px !important;
+  // top: 207px !important;
        z-index: 9999999 !important;
     
+  }
+  .gs-webResult{
+   display: grid !important; 
+  }
+  .gsc-url-top{
+    float: left !important;
   }
 /*End Header Styling*/
 /**
