@@ -22,9 +22,11 @@
   /* Legacy iOS */
   font-weight: normal; }
 #wrapper html, #wrapper body, #wrapper div, #wrapper span, #wrapper applet, #wrapper object, #wrapper iframe, #wrapper p, #wrapper blockquote, #wrapper pre, #wrapper a, #wrapper abbr, #wrapper acronym, #wrapper address, #wrapper big, #wrapper cite, #wrapper code, #wrapper del, #wrapper dfn, #wrapper em, #wrapper font, #wrapper ins, #wrapper kbd, #wrapper q, #wrapper s, #wrapper samp, #wrapper small, #wrapper strike, #wrapper strong, #wrapper sub, #wrapper sup, #wrapper tt, #wrapper var, #wrapper dl, #wrapper dt, #wrapper dd, #wrapper ol, #wrapper ul, #wrapper li, #wrapper fieldset, #wrapper form, #wrapper label, #wrapper legend, #wrapper table, #wrapper caption, #wrapper tbody, #wrapper tfoot, #wrapper thead, #wrapper tr, #wrapper th, #wrapper td {
+  font-size: 18px; }
+
+html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   border: 0;
   font-family: "Myriad-Pro", arial, sans-serif !important;
-  font-size: 18px;
   /*font-style: inherit;*/
   /*font-weight: inherit;*/
   outline: 0;
