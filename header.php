@@ -94,7 +94,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 				<?php
 //Custom Top Menu
-if(get_option( 'siteurl' )!="http://eccles.utah.edu" and get_option( 'siteurl' )!="//dmz-test.eccles.utah.edu/ecclesv5"){
+if(get_option( 'siteurl' )!="http://eccles.utah.edu" and get_option( 'siteurl' )!="//dmz-test.eccles.utah.edu/ecclesv5" and get_option( 'siteurl' )!="//localhost/Workspace/Wordpress_New/eccles"){
 
 				?>
 				<div id="menu-eccles" class="fusion-header-wrapper-eccles">

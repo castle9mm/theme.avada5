@@ -442,7 +442,14 @@ strong,b {
 
     
   }
-  
+  header .fusion-main-menu .give-menu-item a{
+    border: 2px white solid;
+    //border-radius: 5px;
+    line-height: 48px;
+    height: 50px;
+    margin-top: 8px;
+
+  }
 
 }
 /*End Header Styling*/

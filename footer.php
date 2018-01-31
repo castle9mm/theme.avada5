@@ -201,6 +201,8 @@ $display_copyright = get_post_meta($c_page_id, 'pyre_display_copyright', true);
 <li><a rel="nofollow" href="http://eccles.utah.edu/directory">Eccles Directory</a></li>
 <li><a rel="nofollow" href="http://eccles.link/help">IT Support</a></li>
 <li><a rel="nofollow" href="http://intranet.eccles.utah.edu">Intranet</a></li>
+<li><a rel="nofollow" href="http://eccles.utah.edu/alumni/invest/ways-to-give/">Give</a></li>
+
 </ul></div>
 <div class="row-two"><ul class="eccles-links">
 <li class="first">Spencer Fox Eccles Business Building,  1655 East Campus Center Drive,  Salt Lake City, Utah  84112-8939</li>
