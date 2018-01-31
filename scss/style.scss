@@ -458,6 +458,11 @@ strong,b {
  */
 /* Buttons - Links and Titles*/
 #wrapper{
+  .sf-input-text{
+    padding: .2em;
+    box-sizing: content-box;
+    
+  }
   .fusion-content-boxes.content-boxes-icon-boxed .heading .fontawesome-icon{
     top:0px;
     left: 0px;
