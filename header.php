@@ -205,7 +205,7 @@ function show_sub_menu(){
 						display: block !important;
 					}
 					#wrapper .fusion-logo-1x {
-						height: 45px !important;
+						height: 55px !important;
 						max-height: 45px !important;
 					}
 					/* IE6+ */
