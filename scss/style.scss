@@ -212,11 +212,12 @@ strong,b {
    .fusion-header{
      background-color: #fff;
     border-bottom: .2em solid $primary-color;
-  }
-      .fusion-row {
+    .fusion-row {
         height: 85px;
         max-width: none;
       }
+  }
+      
       .fusion-custom-menu-item-contents {
             padding: 3px 0;
             height: 53px;
@@ -358,9 +359,10 @@ strong,b {
       } 
       
   }
-  header{ 
+  header .fusion-header{ 
     max-height: 70px;
-    .fusion-header,.fusion-row{
+     height: 70px;
+    .fusion-row{
       height: 70px;
     }
     .fusion-row{
@@ -445,10 +447,38 @@ strong,b {
   header .fusion-main-menu .give-menu-item a{
     border: 2px white solid;
     //border-radius: 5px;
-    line-height: 48px;
-    height: 50px;
-    margin-top: 8px;
+    line-height: 48px !important;
+    height: 50px !important;
+    margin-top: 8px !important;
 
+  }
+    .fusion-secondary-header{
+    border:none;
+    background-color: #3b3b3b !important;
+    .fusion-row{
+      width: 100%;
+      max-width: none;
+      div,a, p, li, span{
+        color: #fff;
+        font-size: 16px;
+      }
+      li{
+        border:none;
+      }
+      .fusion-alignleft{
+        float: right;
+    right: 0;
+    position: absolute;
+    margin-right: 20px;
+      }
+      .fusion-alignright{
+        float: left;
+    left: 0;
+    nav{
+      float:left;
+    }
+      }
+    }
   }
 
 }

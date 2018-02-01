@@ -115,32 +115,35 @@ if(get_option( 'siteurl' )!="http://eccles.utah.edu" and get_option( 'siteurl' )
 								</div>
 								<nav class="fusion-main-menu" aria-label="Main Menu">
 									<ul role="menubar" id="menu-main-menu-1" class="fusion-menu">
-										<li role="menuitem" id="menu-item-157-1" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-157 fusion-dropdown-menu">
+										<li role="menuitem" id="menu-item-1-custom" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-157 fusion-dropdown-menu">
 											<a href="http://eccles.utah.edu/about/" aria-haspopup="true"><span class="menu-text">About</span></a>
 											
 										</li>
-										<li role="menuitem" id="menu-item-401-1" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-401 fusion-dropdown-menu">
+										<li role="menuitem" id="menu-item-2-custom" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-401 fusion-dropdown-menu">
 											<a href="http://eccles.utah.edu/programs/" aria-haspopup="true"><span class="menu-text">Programs</span></a>
 											
 										</li>
-										<li role="menuitem" id="menu-item-490-1" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-490 fusion-dropdown-menu">
+										<li role="menuitem" id="menu-item-3-custom" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-490 fusion-dropdown-menu">
 											<a href="http://eccles.utah.edu/students/" aria-haspopup="true"><span class="menu-text">Students</span></a>
 											
 										</li>
-										<li role="menuitem" id="menu-item-559-1" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-559 fusion-dropdown-menu">
+										<li role="menuitem" id="menu-item-4-custom" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-559 fusion-dropdown-menu">
 											<a href="http://eccles.utah.edu/faculty/" aria-haspopup="true"><span class="menu-text">Faculty</span></a>
 											
 										</li>
-										<li role="menuitem" id="menu-item-559-1" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-559 fusion-dropdown-menu">
+										<li role="menuitem" id="menu-item-5-custom" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-559 fusion-dropdown-menu">
 											<a href="http://eccles.utah.edu/directory/" aria-haspopup="true"><span class="menu-text">Directory</span></a>
 											
 										</li>
-										<li role="menuitem" id="menu-item-747-1" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-747 fusion-dropdown-menu">
+										<li role="menuitem" id="menu-item-6-custom" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-747 fusion-dropdown-menu">
 											<a href="http://eccles.utah.edu/alumni/" aria-haspopup="true"><span class="menu-text">Alumni</span></a>
 											
 										</li>
-										<li role="menuitem" id="menu-item-815-1" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-815 fusion-last-menu-item">
+										<li role="menuitem" id="menu-item-7-custom" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-815 fusion-last-menu-item">
 											<a href="http://eccles.utah.edu/employers/"><span class="menu-text">Employers</span></a>
+										</li>
+										<li role="menuitem" id="menu-item-8-custom" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8 fusion-last-menu-item">
+											<a href="http://eccles.utah.edu/alumni/invest/ways-to-give/"><span class="menu-text">Give</span></a>
 										</li>
 									</ul>
 								</nav>
