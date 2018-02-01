@@ -398,6 +398,13 @@ strong,b {
     
   }
   @media (max-width: 1129px){
+     header .fusion-header {
+    max-height: 85px;
+    height: 85px;
+    .fusion-icon-bars{
+      font-size: 30px;
+    }
+}
     #menu-eccles{
       display:none;
       

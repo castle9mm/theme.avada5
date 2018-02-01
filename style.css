@@ -263,6 +263,11 @@ strong, b {
       padding-top: 0px !important;
       display: block; } }
   @media (max-width: 1129px) {
+    #wrapper header .fusion-header {
+      max-height: 85px;
+      height: 85px; }
+      #wrapper header .fusion-header .fusion-icon-bars {
+        font-size: 30px; }
     #wrapper #menu-eccles {
       display: none; }
       #wrapper #menu-eccles .fusion-logo {
