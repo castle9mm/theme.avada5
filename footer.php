@@ -192,7 +192,7 @@ $display_copyright = get_post_meta($c_page_id, 'pyre_display_copyright', true);
 /*Custom Footer*/
 ?>
 <div class="footer-bar">
-<div class="EcclesLogo"><a href="http://eccles.utah.edu"><img width="300px" src="<?php echo get_stylesheet_directory_uri(); ?>/logos/logo-black.png"></a></div>
+<div class="EcclesLogo"><a href="http://eccles.utah.edu"><img width="300px" src="<?php echo get_stylesheet_directory_uri(); ?>/logos/eccles_logo_footer.png"></a></div>
 <div class="shell clear">
 
 <div class="row-one"><ul class="uni-links">
@@ -201,6 +201,8 @@ $display_copyright = get_post_meta($c_page_id, 'pyre_display_copyright', true);
 <li><a rel="nofollow" href="http://eccles.utah.edu/directory">Eccles Directory</a></li>
 <li><a rel="nofollow" href="http://eccles.link/help">IT Support</a></li>
 <li><a rel="nofollow" href="http://intranet.eccles.utah.edu">Intranet</a></li>
+<li><a rel="nofollow" href="http://eccles.utah.edu/alumni/invest/ways-to-give/">Give</a></li>
+
 </ul></div>
 <div class="row-two"><ul class="eccles-links">
 <li class="first">Spencer Fox Eccles Business Building,  1655 East Campus Center Drive,  Salt Lake City, Utah  84112-8939</li>

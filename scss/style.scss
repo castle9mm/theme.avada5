@@ -35,30 +35,44 @@ $font-quote: 'Times New Roman', Times, serif !important;
     url('fonts/MyriadPro-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
     font-weight: normal;
 }
+#wrapper{
+html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  
+       
+    font-size: 18px;
+}
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+}
+
+html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   
     border: 0;
     font-family: $font;
-       
-    font-size: 18px;
     /*font-style: inherit;*/
     /*font-weight: inherit;*/
     outline: 0;
     vertical-align: baseline;
     color: $text-color;
 }
+
+
 strong,b {
    font-family: $font-bold;
 }
 #wrapper{  
   h1, h2, h3, h4, h5, h6{
-     font-family: $font;
+    //border: 0;
+    font-family: $font;
+    /*font-style: inherit;*/
+    /*font-weight: inherit;*/
+    outline: 0;
+    vertical-align: baseline;
+    color: $text-color;
        
     
   }
   article h2.fusion-post-title{
-    font-size:36px;
+    font-size:36px !important;
   }
   .fusion-body .fusion-main-menu .current-menu-ancestor > a, .fusion-body .fusion-main-menu .current-menu-item > a, .fusion-body .fusion-main-menu .current-menu-item:not(.fusion-main-menu-cart) > a:before, .fusion-body .fusion-main-menu .current-menu-parent > a, .fusion-body .fusion-main-menu .current_page_item > a{
     
@@ -197,11 +211,12 @@ strong,b {
    .fusion-header{
      background-color: #fff;
     border-bottom: .2em solid $primary-color;
-  }
-      .fusion-row {
+    .fusion-row {
         height: 85px;
         max-width: none;
       }
+  }
+      
       .fusion-custom-menu-item-contents {
             padding: 3px 0;
             height: 53px;
@@ -268,12 +283,12 @@ strong,b {
       display: none;
   }
   .fusion-logo-1x{
-   height: 40px; 
+   height: 50px; 
   }
   .fusion-header .fusion-logo{
     
     margin: auto;
-        padding: 10px;
+        padding: 5px;
   }
   .fusion-meta-info .fusion-alignleft{
      width: 100%;
@@ -330,7 +345,7 @@ strong,b {
     .fusion-logo {
        img{
          
-         max-height:40px;
+         max-height:50px;
        }
     }
       nav{
@@ -343,9 +358,10 @@ strong,b {
       } 
       
   }
-  header{ 
+  header .fusion-header{ 
     max-height: 70px;
-    .fusion-header,.fusion-row{
+     height: 70px;
+    .fusion-row{
       height: 70px;
     }
     .fusion-row{
@@ -364,7 +380,7 @@ strong,b {
      .fusion-logo {
        display: none;
        img{
-      max-height: 45px !important;      
+      max-height: 55px !important;      
       }
     }
    
@@ -381,6 +397,13 @@ strong,b {
     
   }
   @media (max-width: 1129px){
+     header .fusion-header {
+    max-height: 85px;
+    height: 85px;
+    .fusion-icon-bars{
+      font-size: 30px;
+    }
+}
     #menu-eccles{
       display:none;
       
@@ -427,6 +450,7 @@ strong,b {
 
     
   }
+<<<<<<< HEAD
   
   .gsc-results-wrapper-overlay{
     height: 80vh;
@@ -485,6 +509,43 @@ strong,b {
   }
   .gsc-modal-background-image{
     height: 100vh;
+=======
+  header .fusion-main-menu .give-menu-item a{
+    border: 2px white solid;
+    //border-radius: 5px;
+    line-height: 48px !important;
+    height: 50px !important;
+    margin-top: 8px !important;
+
+  }
+    .fusion-secondary-header{
+    border:none;
+    background-color: #3b3b3b !important;
+    .fusion-row{
+      width: 100%;
+      max-width: none;
+      div,a, p, li, span{
+        color: #fff;
+        font-size: 16px;
+      }
+      li{
+        border:none;
+      }
+      .fusion-alignleft{
+        float: right;
+    right: 0;
+    position: absolute;
+    margin-right: 20px;
+      }
+      .fusion-alignright{
+        float: left;
+    left: 0;
+    nav{
+      float:left;
+    }
+      }
+    }
+>>>>>>> master
   }
 
   .gsst_b .gsst_a:after{
@@ -539,6 +600,11 @@ strong,b {
  */
 /* Buttons - Links and Titles*/
 #wrapper{
+  .sf-input-text{
+    padding: .2em;
+    box-sizing: content-box;
+    
+  }
   .fusion-content-boxes.content-boxes-icon-boxed .heading .fontawesome-icon{
     top:0px;
     left: 0px;

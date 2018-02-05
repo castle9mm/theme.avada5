@@ -94,7 +94,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 				<?php
 //Custom Top Menu
-if(get_option( 'siteurl' )!="http://eccles.utah.edu" and get_option( 'siteurl' )!="//dmz-test.eccles.utah.edu/ecclesv5"){
+if(get_option( 'siteurl' )!="http://eccles.utah.edu" and get_option( 'siteurl' )!="//dmz-test.eccles.utah.edu/ecclesv5" and get_option( 'siteurl' )!="//localhost/Workspace/Wordpress_New/eccles"){
 
 				?>
 				<div id="menu-eccles" class="fusion-header-wrapper-eccles">
@@ -108,39 +108,42 @@ if(get_option( 'siteurl' )!="http://eccles.utah.edu" and get_option( 'siteurl' )
 									<!--	<img src="wp-content/themes/Avada-Child-Theme/logos/logo-white.png" width="" height="" alt="The David Eccles School of Business Logo" class="fusion-logo-1x fusion-standard-logo"> 
 										<img src="wp-content/themes/Avada-Child-Theme/logos/logo-white.png"width="" height="" alt="The David Eccles School of Business Retina Logo" class="fusion-standard-logo fusion-logo-2x"> <!-- mobile logo --> <!-- sticky header logo --> 
 										
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/logos/logo-white-old.png" width="" height="" alt="The David Eccles School of Business Logo" class="fusion-logo-1x fusion-standard-logo"> 
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/logos/logo-white-old.png"width="" height="" alt="The David Eccles School of Business Retina Logo" class="fusion-standard-logo fusion-logo-2x"> <!-- mobile logo --> <!-- sticky header logo --> 
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/logos/eccles-logo-final-white.png" width="" height="" alt="The David Eccles School of Business Logo" class="fusion-logo-1x fusion-standard-logo"> 
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/logos/eccles-logo-final-white.png"width="" height="" alt="The David Eccles School of Business Retina Logo" class="fusion-standard-logo fusion-logo-2x"> <!-- mobile logo --> <!-- sticky header logo --> 
 										
 									</a>
 								</div>
 								<nav class="fusion-main-menu" aria-label="Main Menu">
 									<ul role="menubar" id="menu-main-menu-1" class="fusion-menu">
-										<li role="menuitem" id="menu-item-157-1" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-157 fusion-dropdown-menu">
+										<li role="menuitem" id="menu-item-1-custom" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-157 fusion-dropdown-menu">
 											<a href="http://eccles.utah.edu/about/" aria-haspopup="true"><span class="menu-text">About</span></a>
 											
 										</li>
-										<li role="menuitem" id="menu-item-401-1" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-401 fusion-dropdown-menu">
+										<li role="menuitem" id="menu-item-2-custom" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-401 fusion-dropdown-menu">
 											<a href="http://eccles.utah.edu/programs/" aria-haspopup="true"><span class="menu-text">Programs</span></a>
 											
 										</li>
-										<li role="menuitem" id="menu-item-490-1" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-490 fusion-dropdown-menu">
+										<li role="menuitem" id="menu-item-3-custom" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-490 fusion-dropdown-menu">
 											<a href="http://eccles.utah.edu/students/" aria-haspopup="true"><span class="menu-text">Students</span></a>
 											
 										</li>
-										<li role="menuitem" id="menu-item-559-1" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-559 fusion-dropdown-menu">
+										<li role="menuitem" id="menu-item-4-custom" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-559 fusion-dropdown-menu">
 											<a href="http://eccles.utah.edu/faculty/" aria-haspopup="true"><span class="menu-text">Faculty</span></a>
 											
 										</li>
-										<li role="menuitem" id="menu-item-559-1" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-559 fusion-dropdown-menu">
+										<li role="menuitem" id="menu-item-5-custom" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-559 fusion-dropdown-menu">
 											<a href="http://eccles.utah.edu/directory/" aria-haspopup="true"><span class="menu-text">Directory</span></a>
 											
 										</li>
-										<li role="menuitem" id="menu-item-747-1" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-747 fusion-dropdown-menu">
+										<li role="menuitem" id="menu-item-6-custom" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-747 fusion-dropdown-menu">
 											<a href="http://eccles.utah.edu/alumni/" aria-haspopup="true"><span class="menu-text">Alumni</span></a>
 											
 										</li>
-										<li role="menuitem" id="menu-item-815-1" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-815 fusion-last-menu-item">
+										<li role="menuitem" id="menu-item-7-custom" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-815 fusion-last-menu-item">
 											<a href="http://eccles.utah.edu/employers/"><span class="menu-text">Employers</span></a>
+										</li>
+										<li role="menuitem" id="menu-item-8-custom" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8 fusion-last-menu-item">
+											<a href="http://eccles.utah.edu/alumni/invest/ways-to-give/"><span class="menu-text">Give</span></a>
 										</li>
 									</ul>
 								</nav>
@@ -202,7 +205,7 @@ function show_sub_menu(){
 						display: block !important;
 					}
 					#wrapper .fusion-logo-1x {
-						height: 45px !important;
+						height: 55px !important;
 						max-height: 45px !important;
 					}
 					/* IE6+ */
