@@ -348,16 +348,6 @@ strong, b {
         font-size: 16px; }
       #wrapper .fusion-secondary-header .fusion-row li {
         border: none; }
-      #wrapper .fusion-secondary-header .fusion-row .fusion-alignleft {
-        float: right;
-        right: 0;
-        position: absolute;
-        margin-right: 20px; }
-      #wrapper .fusion-secondary-header .fusion-row .fusion-alignright {
-        float: left;
-        left: 0; }
-        #wrapper .fusion-secondary-header .fusion-row .fusion-alignright nav {
-          float: left; }
   #wrapper .gsst_b .gsst_a:after {
     display: none !important; }
 

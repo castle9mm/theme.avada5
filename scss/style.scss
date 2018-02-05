@@ -15,6 +15,7 @@ $font-bold: 'Myriad-Pro-Bold', arial, sans-serif !important;
 $font-icon: icomoon !important;
 $font-quote: 'Times New Roman', Times, serif !important;
 
+
 @font-face {
   
     font-family: Myriad-Pro;  
@@ -531,16 +532,16 @@ strong,b {
             border:none;
           }
           .fusion-alignleft{
-            float: right;
-        right: 0;
-        position: absolute;
-        margin-right: 20px;
+            //float: right;
+       // right: 0;
+        //position: absolute;
+        //margin-right: 20px;
           }
           .fusion-alignright{
-            float: left;
-        left: 0;
+          //  float: left;
+        //left: 0;
         nav{
-          float:left;
+          //float:left;
         }
       }
     }
