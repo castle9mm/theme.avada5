@@ -450,7 +450,6 @@ strong,b {
 
     
   }
-<<<<<<< HEAD
   
   .gsc-results-wrapper-overlay{
     height: 80vh;
@@ -509,7 +508,7 @@ strong,b {
   }
   .gsc-modal-background-image{
     height: 100vh;
-=======
+  }
   header .fusion-main-menu .give-menu-item a{
     border: 2px white solid;
     //border-radius: 5px;
@@ -519,64 +518,40 @@ strong,b {
 
   }
     .fusion-secondary-header{
-    border:none;
-    background-color: #3b3b3b !important;
-    .fusion-row{
-      width: 100%;
-      max-width: none;
-      div,a, p, li, span{
-        color: #fff;
-        font-size: 16px;
+      border:none;
+      background-color: #3b3b3b !important;
+        .fusion-row{
+          width: 100%;
+          max-width: none;
+          div,a, p, li, span{
+            color: #fff;
+            font-size: 16px;
+          }
+          li{
+            border:none;
+          }
+          .fusion-alignleft{
+            float: right;
+        right: 0;
+        position: absolute;
+        margin-right: 20px;
+          }
+          .fusion-alignright{
+            float: left;
+        left: 0;
+        nav{
+          float:left;
+        }
       }
-      li{
-        border:none;
-      }
-      .fusion-alignleft{
-        float: right;
-    right: 0;
-    position: absolute;
-    margin-right: 20px;
-      }
-      .fusion-alignright{
-        float: left;
-    left: 0;
-    nav{
-      float:left;
     }
-      }
-    }
->>>>>>> master
+
   }
 
   .gsst_b .gsst_a:after{
     display:none !important;
   }
-   @media (max-width: 1129px){
-     .goff-logo{
-       display:none;
-     }
-   }
-    @media (min-width: 1130px){
-      .goff-logo{
-        background-image: url("logos/goff_logo_1.png");
-            width: 225px;
-    height: 56px;
-    margin-top: 5px;
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: contain;
-        a span{
-          display:none;
-        }
-        
-        
-      }
-      .goff-logo:hover{
-        a{
-          background-color: transparent !important;
-        }
-      }
-    }
+  
+   
 }
 
 //In top menu but out side of wrapper

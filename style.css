@@ -1,54 +1,871 @@
 /*
-Error: Invalid CSS after ">>>>>>> master": expected "{", was "}"
-        on line 549 of C:\xampp\htdocs\Workspace\Wordpress_New\eccles\wp-content\themes\Avada-Child-Theme\scss\style.scss
+ Theme Name: Avada Child
+ Description: Child theme for Avada theme
+ Author: ThemeFusion
+ Author URI: https://theme-fusion.com
+ Template: Avada
+ Version: 1.1.1
+ Text Domain:  Avada
+ */
+@font-face {
+  font-family: Myriad-Pro;
+  src: url("fonts/MyriadPro-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/MyriadPro-Regular.woff") format("woff"), url("fonts/MyriadPro-Regular.ttf") format("truetype"), url("fonts/MyriadPro-Regular.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  font-weight: normal; }
+@font-face {
+  font-family: Myriad-Pro-Bold;
+  src: url("fonts/MyriadPro-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/MyriadPro-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/MyriadPro-Bold.woff") format("woff"), url("fonts/MyriadPro-Bold.ttf") format("truetype"), url("fonts/MyriadPro-Bold.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  font-weight: normal; }
+#wrapper html, #wrapper body, #wrapper div, #wrapper span, #wrapper applet, #wrapper object, #wrapper iframe, #wrapper p, #wrapper blockquote, #wrapper pre, #wrapper a, #wrapper abbr, #wrapper acronym, #wrapper address, #wrapper big, #wrapper cite, #wrapper code, #wrapper del, #wrapper dfn, #wrapper em, #wrapper font, #wrapper ins, #wrapper kbd, #wrapper q, #wrapper s, #wrapper samp, #wrapper small, #wrapper strike, #wrapper strong, #wrapper sub, #wrapper sup, #wrapper tt, #wrapper var, #wrapper dl, #wrapper dt, #wrapper dd, #wrapper ol, #wrapper ul, #wrapper li, #wrapper fieldset, #wrapper form, #wrapper label, #wrapper legend, #wrapper table, #wrapper caption, #wrapper tbody, #wrapper tfoot, #wrapper thead, #wrapper tr, #wrapper th, #wrapper td {
+  font-size: 18px; }
 
-544:       float:left;
-545:     }
-546:       }
-547:     }
-548: >>>>>>> master
-549:   }
-550: 
-551:   .gsst_b .gsst_a:after{
-552:     display:none !important;
-553:   }
-554:    @media (max-width: 1129px){
+html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  border: 0;
+  font-family: "Myriad-Pro", arial, sans-serif !important;
+  /*font-style: inherit;*/
+  /*font-weight: inherit;*/
+  outline: 0;
+  vertical-align: baseline;
+  color: #333; }
 
-Backtrace:
-C:\xampp\htdocs\Workspace\Wordpress_New\eccles\wp-content\themes\Avada-Child-Theme\scss\style.scss:549
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:1207:in `expected'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:1137:in `expected'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:1132:in `tok!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:665:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:685:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:666:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:685:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:666:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:685:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:666:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:658:in `ruleset'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:684:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:125:in `stylesheet'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:41:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:406:in `_to_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:391:in `run'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/bin/sass:13:in `<top (required)>'
-C:/Program Files (x86)/Koala/bin/sass:18:in `load'
-C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \">>>>>>> master\": expected \"{\", was \"}\"\A         on line 549 of C:\xampp\htdocs\Workspace\Wordpress_New\eccles\wp-content\themes\Avada-Child-Theme\scss\style.scss\A \A 544:       float:left;\A 545:     }\A 546:       }\A 547:     }\A 548: >>>>>>> master\A 549:   }\A 550: \A 551:   .gsst_b .gsst_a:after{\A 552:     display:none !important;\A 553:   }\A 554:    @media (max-width: 1129px){"; }
+strong, b {
+  font-family: "Myriad-Pro-Bold", arial, sans-serif !important; }
+
+#wrapper {
+  /*Header of Eccles Custom and Sub header*/ }
+  #wrapper h1, #wrapper h2, #wrapper h3, #wrapper h4, #wrapper h5, #wrapper h6 {
+    font-family: "Myriad-Pro", arial, sans-serif !important;
+    /*font-style: inherit;*/
+    /*font-weight: inherit;*/
+    outline: 0;
+    vertical-align: baseline;
+    color: #333; }
+  #wrapper article h2.fusion-post-title {
+    font-size: 36px !important; }
+  #wrapper .fusion-body .fusion-main-menu .current-menu-ancestor > a, #wrapper .fusion-body .fusion-main-menu .current-menu-item > a, #wrapper .fusion-body .fusion-main-menu .current-menu-item:not(.fusion-main-menu-cart) > a:before, #wrapper .fusion-body .fusion-main-menu .current-menu-parent > a, #wrapper .fusion-body .fusion-main-menu .current_page_item > a {
+    color: #CC0000 !important;
+    border-color: #CC0000 !important; }
+  #wrapper a {
+    text-decoration: none; }
+  #wrapper h2 {
+    transition: none; }
+  #wrapper header .fusion-main-menu {
+    float: none;
+    width: max-content;
+    margin: auto;
+    overflow: initial !important; }
+    #wrapper header .fusion-main-menu .menu-item:hover a {
+      background-color: white; }
+  #wrapper .fusion-main-menu .fusion-main-menu-search a, #wrapper .fusion-main-menu .fusion-main-menu-icon:after, #wrapper .fusion-main-menu .fusion-widget-cart-counter > a:before {
+    font-family: icomoon !important;
+    cursor: pointer;
+    color: #CC0000 !important; }
+  #wrapper .fusion-main-menu .menu-item {
+    padding-right: 25px;
+    border: none;
+    margin-bottom: 0px;
+    transition: none; }
+    #wrapper .fusion-main-menu .menu-item a {
+      padding: 0px 10px;
+      color: #545454;
+      transition: none; }
+      #wrapper .fusion-main-menu .menu-item a .fusion-megamenu-icon {
+        color: #333; }
+    #wrapper .fusion-main-menu .menu-item a:hover {
+      border-color: transparent;
+      color: #CC0000 !important; }
+      #wrapper .fusion-main-menu .menu-item a:hover span {
+        color: #CC0000 !important;
+        border-color: transparent; }
+    #wrapper .fusion-main-menu .menu-item .ribbon a {
+      background: black;
+      box-shadow: 3px 0px 6px #333;
+      border: none !important; }
+    #wrapper .fusion-main-menu .menu-item .ribbon span {
+      font-size: 22px;
+      color: white;
+      padding: 0em 0.5em;
+      font-weight: bold; }
+  #wrapper .fusion-main-menu #menu-main-menu > li:first-child > a > span {
+    /*   font-size: 22px;
+       font-weight: bold;
+     */ }
+  #wrapper .fusion-main-menu #menu-header .current-menu-item > a, #wrapper .fusion-main-menu #menu-header .current-menu-ancestor > a {
+    border-top-color: white;
+    color: #CC0000 !important; }
+  #wrapper .fusion-main-menu .sub-menu {
+    border-top: none;
+    background: white;
+    width: -moz-max-content;
+    width: -webkit-max-content;
+    width: max-content;
+    min-width: 260px;
+    opacity: 1;
+    margin-top: -5px;
+    padding: 5px 0px;
+    box-shadow: 0.5em 0.5em 0.5em -0.5em #333 !important;
+    margin-top: 0px; }
+    #wrapper .fusion-main-menu .sub-menu li {
+      margin-left: 10px;
+      margin-right: 10px; }
+      #wrapper .fusion-main-menu .sub-menu li a {
+        border-bottom: none;
+        padding-top: 0px;
+        padding-bottom: 0px; }
+      #wrapper .fusion-main-menu .sub-menu li a:hover {
+        background-color: transparent; }
+      #wrapper .fusion-main-menu .sub-menu li ul {
+        position: inherit;
+        width: 180px;
+        visibility: visible;
+        display: inline;
+        left: 5px; }
+        #wrapper .fusion-main-menu .sub-menu li ul li {
+          padding-right: 0px;
+          width: fit-content; }
+          #wrapper .fusion-main-menu .sub-menu li ul li a span {
+            font-size: 16px; }
+    #wrapper .fusion-main-menu .sub-menu .dotted {
+      border-top: 1px #ccc dotted !important;
+      padding-top: 3px; }
+  #wrapper .flex-direction-nav a, #wrapper .search-button input {
+    font-family: icomoon !important;
+    cursor: pointer;
+    color: #CC0000 !important; }
+  #wrapper header {
+    /*border-bottom: .2em solid $primary-color;*/ }
+    #wrapper header .fusion-header {
+      background-color: #fff;
+      border-bottom: 0.2em solid #CC0000 !important; }
+      #wrapper header .fusion-header .fusion-row {
+        height: 85px;
+        max-width: none; }
+    #wrapper header .fusion-custom-menu-item-contents {
+      padding: 3px 0;
+      height: 53px;
+      border-bottom: 3px solid #CC0000 !important;
+      background-color: #fff;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      width: 50vw;
+      top: 70px;
+      transition: all .3s;
+      overflow: hidden;
+      right: 0;
+      z-index: 999999; }
+      #wrapper header .fusion-custom-menu-item-contents input {
+        padding-bottom: 10px;
+        border: none;
+        font-size: 30px;
+        color: #858585;
+        font-weight: 300;
+        position: relative;
+        height: 100%;
+        border: 0;
+        text-align: left;
+        background: transparent;
+        padding: 0 18% 0 3%;
+        margin-top: 10px;
+        float: left;
+        width: 80%; }
+      #wrapper header .fusion-custom-menu-item-contents input:focus {
+        outline: none; }
+    #wrapper header .fusion-main-menu > ul > li > a {
+      line-height: 65px; }
+    #wrapper header .fusion-custom-menu-item-contents .search-field {
+      border: none; }
+    #wrapper header .fusion-mobile-nav-holder ul .eccles-mobile-menu-item {
+      padding-left: 0px; }
+    #wrapper header .fusion-mobile-nav-holder ul #mobile-menu-item-156-1 > a {
+      background-color: #000; }
+      #wrapper header .fusion-mobile-nav-holder ul #mobile-menu-item-156-1 > a span {
+        color: #fff; }
+    #wrapper header .fusion-mobile-nav-holder ul #mobile-menu-item-156-1 > span {
+      color: #fff; }
+    #wrapper header .fusion-mobile-nav-holder ul #mobile-menu-item-156-1 > ul li a {
+      background-color: #afafaf; }
+  #wrapper .fusion-page-title-bar, #wrapper .fusion-logo-2x.fusion-post-content-wrapper .fusion-post-content-container, #wrapper .fusion-meta-info .fusion-alignright {
+    display: none; }
+  #wrapper .fusion-logo-1x {
+    height: 50px; }
+  #wrapper .fusion-header .fusion-logo {
+    margin: auto;
+    padding: 5px; }
+  #wrapper .fusion-meta-info .fusion-alignleft {
+    width: 100%; }
+  #wrapper #custom-header-logo {
+    width: 300px;
+    position: absolute;
+    z-index: 100000;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 7px; }
+  #wrapper #main {
+    padding-top: 0px; }
+  #wrapper .fusion-recent-posts {
+    margin-bottom: 30px; }
+    #wrapper .fusion-recent-posts .fusion-column {
+      padding: 0px; }
+  #wrapper .recent-post-carousel {
+    border-bottom: 10px solid #CC0000 !important;
+    background-color: #ededed !important;
+    margin-bottom: 30px;
+    margin-top: -20px; }
+    #wrapper .recent-post-carousel h4 {
+      font-size: 18px;
+      text-align: center;
+      margin-bottom: 20px; }
+  #wrapper .fusion-header {
+    height: 60px; }
+  #wrapper #menu-eccles .fusion-header {
+    background-color: #000; }
+    #wrapper #menu-eccles .fusion-header a, #wrapper #menu-eccles .fusion-header span {
+      font-size: 14px;
+      color: white; }
+  #wrapper #menu-eccles .fusion-main-menu > ul > li > a {
+    height: 60px;
+    line-height: 60px; }
+  #wrapper #menu-eccles .fusion-logo img {
+    max-height: 50px; }
+  #wrapper #menu-eccles nav {
+    height: 50px; }
+  #wrapper #menu-eccles .fusion-row {
+    width: 100%;
+    max-width: none; }
+  #wrapper header .fusion-header {
+    max-height: 70px;
+    height: 70px;
+    /* IE6+ */ }
+    #wrapper header .fusion-header .fusion-row {
+      height: 70px; }
+    #wrapper header .fusion-header .fusion-row {
+      width: -moz-fit-content; }
+    #wrapper header .fusion-header .fusion-row {
+      display: table;
+      width: 100%; }
+    #wrapper header .fusion-header .fusion-main-menu > ul > li > a {
+      line-height: 66px;
+      height: 66px; }
+    #wrapper header .fusion-header .fusion-logo {
+      display: none; }
+      #wrapper header .fusion-header .fusion-logo img {
+        max-height: 55px !important; }
+  @media (max-width: 1130px) {
+    #wrapper header .fusion-logo {
+      width: 85%;
+      padding-top: 0px !important;
+      display: block; } }
+  @media (max-width: 1129px) {
+    #wrapper header .fusion-header {
+      max-height: 85px;
+      height: 85px; }
+      #wrapper header .fusion-header .fusion-icon-bars {
+        font-size: 30px; }
+    #wrapper #menu-eccles {
+      display: none; }
+      #wrapper #menu-eccles .fusion-logo {
+        width: 85%; }
+      #wrapper #menu-eccles .fusion-logo a {
+        max-width: 60%; }
+      #wrapper #menu-eccles .fusion-row {
+        /*display: flex;*/ }
+    #wrapper header .fusion-mobile-nav-holder {
+      padding-top: 0px;
+      float: none !important; }
+    #wrapper header .fusion-logo {
+      width: 85%;
+      padding-top: 0px !important;
+      display: block; }
+    #wrapper header .fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header {
+      /*padding-top:0px;*/ }
+    #wrapper header .fusion-logo a {
+      max-width: 60%; }
+    #wrapper header .fusion-logo img {
+      width: auto; }
+    #wrapper header .fusion-header {
+      padding-top: 15px;
+      padding-left: 5px; }
+      #wrapper header .fusion-header span {
+        color: #333; } }
+  #wrapper .gsc-results-wrapper-overlay {
+    height: 80vh; }
+  #wrapper .gsc-adBlock {
+    display: none !important; }
+  #wrapper .gs-visibleUrl, #wrapper .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+    color: #cc0000 !important; }
+  #wrapper .gsc-results .gsc-cursor-box .gsc-cursor-page, #wrapper .gs-webResult.gs-result a.gs-title:link b, #wrapper .gs-webResult.gs-result a.gs-title:visited, #wrapper .gs-webResult.gs-result a.gs-title:visited b, #wrapper .gs-imageResult a.gs-title:visited, #wrapper .gs-imageResult a.gs-title:visited b {
+    color: #000; }
+  #wrapper .gs-webResult.gs-result a.gs-title:visited, #wrapper .gs-webResult.gs-result a.gs-title:visited b, #wrapper .gs-imageResult a.gs-title:visited, #wrapper .gs-imageResult a.gs-title:visited b {
+    color: #000 !important; }
+  #wrapper #wrapper .gs-webResult.gs-result a.gs-title:link b, #wrapper .gs-webResult .gs-snippet b {
+    background-color: #FFFF00; }
+  #wrapper .gs-snippet {
+    width: 90%;
+    margin-top: 10px; }
+  #wrapper .gsc-thumbnail-inside {
+    float: left; }
+    #wrapper .gsc-thumbnail-inside .gs-title {
+      text-align: left;
+      font-size: 22px; }
+      #wrapper .gsc-thumbnail-inside .gs-title a {
+        font-size: 22px;
+        font-family: "Myriad-Pro", arial, sans-serif !important;
+        line-height: 25px; }
+        #wrapper .gsc-thumbnail-inside .gs-title a b {
+          font-size: 22px; }
+      #wrapper .gsc-thumbnail-inside .gs-title a::after {
+        font-family: icomoon !important;
+        margin-left: 10px; }
+  #wrapper .gs-visibleUrl {
+    text-align: left; }
+  #wrapper .gsc-input-box {
+    height: 36px; }
+  #wrapper .gsc-control-cse {
+    padding-top: 5px; }
+  #wrapper .gsib_a {
+    padding: 0px; }
+  #wrapper .gsc-modal-background-image {
+    height: 100vh; }
+  #wrapper header .fusion-main-menu .give-menu-item a {
+    border: 2px white solid;
+    line-height: 48px !important;
+    height: 50px !important;
+    margin-top: 8px !important; }
+  #wrapper .fusion-secondary-header {
+    border: none;
+    background-color: #3b3b3b !important; }
+    #wrapper .fusion-secondary-header .fusion-row {
+      width: 100%;
+      max-width: none; }
+      #wrapper .fusion-secondary-header .fusion-row div, #wrapper .fusion-secondary-header .fusion-row a, #wrapper .fusion-secondary-header .fusion-row p, #wrapper .fusion-secondary-header .fusion-row li, #wrapper .fusion-secondary-header .fusion-row span {
+        color: #fff;
+        font-size: 16px; }
+      #wrapper .fusion-secondary-header .fusion-row li {
+        border: none; }
+      #wrapper .fusion-secondary-header .fusion-row .fusion-alignleft {
+        float: right;
+        right: 0;
+        position: absolute;
+        margin-right: 20px; }
+      #wrapper .fusion-secondary-header .fusion-row .fusion-alignright {
+        float: left;
+        left: 0; }
+        #wrapper .fusion-secondary-header .fusion-row .fusion-alignright nav {
+          float: left; }
+  #wrapper .gsst_b .gsst_a:after {
+    display: none !important; }
+
+table.gssb_c {
+  z-index: 9999999 !important; }
+
+.gs-webResult {
+  display: grid !important; }
+
+.gsc-url-top {
+  float: left !important; }
+
+.gsc-table-cell-thumbnail {
+  display: none !important; }
+
+/*End Header Styling*/
+/**
+ *   
+ */
+/* Buttons - Links and Titles*/
+#wrapper .sf-input-text {
+  padding: .2em;
+  box-sizing: content-box; }
+#wrapper .fusion-content-boxes.content-boxes-icon-boxed .heading .fontawesome-icon {
+  top: 0px;
+  left: 0px; }
+#wrapper .post-content {
+  padding-top: 20px; }
+#wrapper .button, #wrapper .searchform .search-table .search-button input[type=submit], #wrapper .the-button-style, #wrapper .fusion-button-wrapper .fusion-button, #wrapper .btn.btn-red, #wrapper .ms-protection-msg input[type="submit"], #wrapper .gform_button[type="submit"], #wrapper .rev-btn {
+  background-color: #CC0000 !important;
+  color: #fff;
+  border: 2px solid #CC0000 !important;
+  border-radius: 0;
+  width: auto;
+  text-shadow: none !important;
+  transition: none;
+  background-image: none;
+  white-space: nowrap; }
+#wrapper .button-hover, #wrapper .searchform .search-table .search-button input[type=submit]:hover, #wrapper .fusion-button-wrapper .fusion-button:hover, #wrapper .fusion-button-wrapper .fusion-button:hover, #wrapper .rev-btn:hover {
+  background-color: #fff !important;
+  border: 2px solid #CC0000 !important;
+  color: #CC0000 !important; }
+#wrapper .searchform .search-table .search-button {
+  padding-right: 20px; }
+  #wrapper .searchform .search-table .search-button input[type=submit] {
+    text-align: center !important;
+    font-family: icomoon !important;
+    font-size: 18px;
+    margin-right: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: inherit;
+    color: #fff !important; }
+#wrapper .fusion-mobile-menu-icons a:before {
+  color: #dadada; }
+#wrapper .the-button-style, #wrapper .fusion-button-wrapper .fusion-button, #wrapper .btn.btn-red, #wrapper .ms-protection-msg input[type="submit"], #wrapper .gform_button[type="submit"] {
+  font-family: "Myriad-Pro", arial, sans-serif !important !important;
+  padding: .5em 1.5em;
+  font-size: 16px;
+  margin: 1em 0;
+  display: inline-block;
+  text-transform: none;
+  line-height: initial; }
+#wrapper .fusion-button-wrapper .fusion-button span {
+  color: #fff;
+  transition: none;
+  line-height: inherit;
+  font-size: 16px; }
+#wrapper .fusion-button-wrapper .fusion-button:hover span {
+  color: #cc0000;
+  transition: none;
+  line-height: inherit;
+  font-size: 16px; }
+#wrapper .btn-red, #wrapper .fusion-date-box, #wrapper .nav-tabs .active a {
+  background: #CC0000 !important; }
+#wrapper .btn {
+  text-align: center; }
+#wrapper .nav-tabs a h4 {
+  font-size: 16px; }
+#wrapper .nav-tabs .active a h4 {
+  color: #fff;
+  text-shadow: 2px 2px 4px #000; }
+#wrapper a:hover, #wrapper a:hover:after, #wrapper a:hover:before, #wrapper .fusion-format-box i, #wrapper .fusion-button-wrapper .fusion-button:hover span, #wrapper .red-text, #wrapper .heading-link h2:hover, #wrapper .fusion-content-boxes .heading .heading-link:hover h2,
+#wrapper .entry-title:hover a, #wrapper #wrapper .fusion-single-line-meta a:hover, #wrapper .fusion-single-line-meta span, #wrapper .fn:hover a, #wrapper .fusion-popover, #wrapper .content-box-counter i, #wrapper .content-box-counter span {
+  color: #CC0000 !important; }
+#wrapper .fusion-single-line-meta span {
+  font-style: italic; }
+#wrapper .fusion-post-content .sep-double, #wrapper .fusion-post-content-wrapper .fusion-meta-info {
+  margin-top: 10px; }
+#wrapper .quote-text h6 {
+  font-family: "Times New Roman", Times, serif !important;
+  font-style: italic;
+  font-size: 38px;
+  line-height: 46px;
+  color: #CC0000 !important; }
+#wrapper .quote-text h3 em {
+  font-size: 30px;
+  line-height: 36px; }
+#wrapper .entry-title a {
+  font-size: 25px;
+  line-height: 26px;
+  color: #000;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: bold; }
+#wrapper .recent-posts-content .entry-title a {
+  color: #333;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 4px 0 0;
+  width: 89%;
+  display: inline-block; }
+@media only screen and (max-width: 800px) {
+  #wrapper .rev_slider_wrapper .rev_slider .tp-rightarrow.tparrows, #wrapper .rev_slider_wrapper .rev_slider .tp-leftarrow.tparrows {
+    top: 35% !important; }
+  #wrapper .fusion-columns .fusion-column:not(.fusion-column-last) {
+    margin: 0 0 20px; } }
+#wrapper .fusion-testimonials {
+  padding: 20px;
+  /*background-color: #e5e5e5;*/ }
+  #wrapper .fusion-testimonials p {
+    color: #CC0000 !important;
+    font-size: 22px;
+    font-family: serif;
+    font-style: italic; }
+  #wrapper .fusion-testimonials .author span, #wrapper .fusion-testimonials .author strong {
+    font-size: 25px; }
+  #wrapper .fusion-testimonials .testimonial-pagination {
+    display: none; }
+#wrapper .fusion-counter-box span {
+  font-size: 50px; }
+#wrapper .post .flex-active-slide {
+  max-height: 500px; }
+#wrapper .news-feed .flex-active-slide {
+  max-height: 230px; }
+#wrapper .job-grid .recent-posts-content a {
+  font-size: 20px; }
+#wrapper .fusion-accordian .fusion-alignleft {
+  float: none; }
+
+/*End Button Links and Title*/
+/**
+ *
+ *
+ *
+ * */
+/* Footer*/
+#wrapper .fusion-footer .footer-section h5 {
+  margin-bottom: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #333333; }
+#wrapper .fusion-footer .fusion-row {
+  max-width: 100%; }
+#wrapper .fusion-footer .fusion-columns {
+  width: fit-content;
+  margin: auto; }
+#wrapper .fusion-footer .footer-section {
+  display: inline-block;
+  padding: 0 3em;
+  vertical-align: top;
+  text-align: left; }
+#wrapper .fusion-footer-widget-area {
+  color: #8C8989;
+  padding-top: 43px;
+  padding-bottom: 40px;
+  border-top: 12px solid #e9eaee;
+  background: #d8d9da; }
+  #wrapper .fusion-footer-widget-area li {
+    border: none;
+    padding-bottom: 0px;
+    padding-top: 0px; }
+    #wrapper .fusion-footer-widget-area li a:before {
+      display: none; }
+  #wrapper .fusion-footer-widget-area a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 14px; }
+  #wrapper .fusion-footer-widget-area li:hover a {
+    color: #CC0000 !important !important; }
+  #wrapper .fusion-footer-widget-area .current-menu-item a {
+    color: #CC0000 !important; }
+
+#footer {
+  background-color: #d8d9da;
+  border-top: 10px solid #e9eaee;
+  /* IE6+*/
+  /* IE6+*/
+  /* IE6+ */ }
+  #footer .fusion-row {
+    max-width: 100%; }
+  #footer .fusion-body .fusion-footer-copyright-center .fusion-copyright-content {
+    display: block;
+    text-align: center; }
+  #footer .footer-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    #footer .footer-bar a:hover {
+      text-decoration: underline; }
+  #footer .shell {
+    padding-top: 20px;
+    width: 50%; }
+  #footer .shell {
+    display: table; }
+  #footer .shell .row-two, #footer .shell .row-one {
+    display: table;
+    margin: auto; }
+  #footer .EcclesLogo, #footer .eccles-socials-wrapper {
+    width: 25%; }
+  #footer .EcclesLogo img {
+    padding-top: 10px; }
+  #footer .eccles-socials-wrapper ul {
+    float: right; }
+  #footer ul.eccles-links {
+    display: flex;
+    width: fit-content;
+    width: -moz-fit-content;
+    margin: auto; }
+    #footer ul.eccles-links .first {
+      display: -webkit-box !important;
+      content: ""; }
+    #footer ul.eccles-links a {
+      color: #333;
+      font-size: 14px; }
+    #footer ul.eccles-links li {
+      color: #333;
+      font-size: 14px;
+      margin-right: 1.64em; }
+  #footer ul.uni-links {
+    display: flex;
+    width: fit-content;
+    width: -moz-fit-content;
+    margin: auto;
+    margin-bottom: 15px;
+    /* IE6+ */ }
+    #footer ul.uni-links .first {
+      display: -webkit-box !important;
+      content: ""; }
+    #footer ul.uni-links a {
+      color: #333;
+      font-size: 12px; }
+    #footer ul.uni-links li {
+      color: #333;
+      font-size: 18px;
+      margin-right: 1.64em; }
+  #footer .eccles-socials-wrapper {
+    padding-top: 15px; }
+    #footer .eccles-socials-wrapper ul {
+      display: flex; }
+      #footer .eccles-socials-wrapper ul li {
+        display: block;
+        padding-left: 15px; }
+        #footer .eccles-socials-wrapper ul li a {
+          font-size: 14px; }
+          #footer .eccles-socials-wrapper ul li a .fa-circle {
+            color: #8f8f8f; }
+        #footer .eccles-socials-wrapper ul li a:hover .fa-circle {
+          color: #CC0000 !important; }
+      #footer .eccles-socials-wrapper ul li:first-child {
+        padding-left: 0px; }
+
+#toTop:hover {
+  background-color: #CC0000 !important; }
+
+#toTopHover:hover {
+  background-color: #CC0000 !important; }
+
+/* --- bottom navigation ---*/
+#bottom-nav {
+  width: 52%;
+  float: left;
+  margin: auto; }
+  #bottom-nav .menu, #bottom-nav .submenu {
+    max-height: none;
+    position: static;
+    background: transparent; }
+  #bottom-nav .menu {
+    padding-left: 0px;
+    text-align: center;
+    margin-bottom: 5px; }
+    #bottom-nav .menu li {
+      display: inline-block;
+      line-height: 14px;
+      padding-right: 10px; }
+    #bottom-nav .menu h3 {
+      color: #cc0000;
+      cursor: auto;
+      background: transparent;
+      border: none;
+      font-size: 14px;
+      letter-spacing: 0.07em;
+      margin: 0 .5em .5em .5em;
+      padding: 0;
+      text-shadow: 0 0 5px #000; }
+      #bottom-nav .menu h3 a {
+        color: #fff;
+        font-size: 14px; }
+
+/* ------- FOOTER HOME -------*/
+.home #footer-container {
+  /*position: absolute;*/
+  width: 100%;
+  bottom: 0px; }
+
+#footer-container {
+  color: white;
+  background-color: #333333;
+  text-transform: uppercase; }
+  #footer-container a {
+    text-decoration: none; }
+  #footer-container a[href^="tel:"] {
+    color: white; }
+  #footer-container .wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px; }
+  #footer-container a:focus, #footer-container a:hover, #footer-container a:active {
+    text-decoration: underline; }
+  #footer-container h3 a {
+    color: #fff; }
+  #footer-container .brand-area {
+    width: 24%;
+    text-align: center;
+    margin: 0 auto; }
+    #footer-container .brand-area h3 {
+      font-size: 0.8em;
+      letter-spacing: 0.07em;
+      line-height: 1.2em; }
+    #footer-container .brand-area p {
+      line-height: 1.2em;
+      margin-top: 5px; }
+  #footer-container .bottom-brand {
+    margin-top: 0px; }
+    #footer-container .bottom-brand .spacer {
+      margin-left: 2em;
+      float: right; }
+    #footer-container .bottom-brand img {
+      max-width: 100%; }
+  #footer-container .address {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    float: left;
+    font-size: .6em; }
+    #footer-container .address p, #footer-container .address h2, #footer-container .address small, #footer-container .address a {
+      color: white;
+      margin-bottom: 0px;
+      font-size: 10px; }
+    #footer-container .address a {
+      color: #fff;
+      text-decoration: underline; }
+    #footer-container .address .spacer {
+      margin-left: 5px;
+      display: -webkit-inline-box;
+      margin: auto;
+      text-align: center;
+      /* IE6+ */ }
+      #footer-container .address .spacer a {
+        text-decoration: none; }
+      #footer-container .address .spacer p {
+        margin-right: 5px; }
+      #footer-container .address .spacer p {
+        display: ruby; }
+  #footer-container .socons {
+    float: left;
+    padding: 0;
+    width: 50%; }
+    #footer-container .socons .spacer {
+      margin: 15px 2% 0 0; }
+    #footer-container .socons h3 {
+      margin: 5px 0 0 0; }
+    #footer-container .socons ul {
+      margin: 0;
+      padding: 0;
+      position: relative;
+      list-style: none;
+      overflow: hidden; }
+    #footer-container .socons li {
+      float: left;
+      margin: 0 20px 15px 0; }
+
+footer .top-container {
+  display: flex; }
+
+@media (max-width: 800px) {
+  #footer-container .wrapper {
+    padding-left: 20px;
+    padding-right: 20px; }
+  #footer-container .address, #footer-container #bottom-nav, #footer-container #bottom-nav li, #footer-container .brand-area {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px; }
+  #footer-container .address .spacer {
+    display: block; }
+    #footer-container .address .spacer p {
+      margin-right: 0px; }
+  #footer-container #bottom-nav ul {
+    padding-left: 0px; }
+  #footer-container #bottom-nav li {
+    padding-right: 0px;
+    float: none; }
+  #footer-container .bottom-brand .spacer {
+    float: none;
+    margin-left: 0px; }
+
+  footer .shell {
+    padding-top: 20px; }
+  footer .top-container {
+    display: block; }
+
+  #footer .shell {
+    width: 100%; }
+  #footer .EcclesLogo, #footer .eccles-socials-wrapper {
+    width: 100%; }
+  #footer .shell {
+    padding-top: 20px; } }
+/*End Footer*/
+/*
+ * 
+ * 
+ * */
+/* Fusion Slider*/
+#wrapper .avada-skin-rev {
+  border-top: none; }
+#wrapper .flex-direction-nav a {
+  display: block;
+  opacity: 1;
+  border-radius: 100%;
+  background: transparent;
+  border: 1px solid #CC0000 !important;
+  height: 52px;
+  width: 52px;
+  line-height: 52px; }
+#wrapper .flex-direction-nav a:hover {
+  background-color: rgba(111, 109, 109, 0.26); }
+#wrapper .flex-direction-nav .flex-prev {
+  margin-left: 5%; }
+#wrapper .flex-direction-nav .flex-next {
+  margin-right: 5%; }
+#wrapper .slide-content .title-heading-center {
+  background: none;
+  font-weight: bold;
+  text-align: center;
+  padding: .24em 0 0 0;
+  font-size: 55px;
+  line-height: 1.1em;
+  display: block;
+  width: 94%;
+  margin: auto;
+  text-shadow: 2px 2px 3px #333; }
+#wrapper .slide-content .heading {
+  margin-bottom: 0px; }
+#wrapper .slide-content .heading .fusion-title-sc-wrapper, #wrapper .slide-content .heading .fusion-title-sc-wrapper .fusion-title, #wrapper .slide-content .fusion-title-sc-wrapper, #wrapper .slide-content .fusion-title-sc-wrapper .fusion-title {
+  width: 100%; }
+#wrapper .caption .fusion-title-sc-wrapper .title-heading-center {
+  padding-top: 0px;
+  font-size: 24px;
+  font-weight: 400;
+  text-shadow: 2px 2px 3px #333; }
+#wrapper .tfs-slider .slide-content-container {
+  top: 80%; }
+  #wrapper .tfs-slider .slide-content-container .tfs-button-1, #wrapper .tfs-slider .slide-content-container .tfs-button-2 {
+    margin-top: 0.25%; }
+  #wrapper .tfs-slider .slide-content-container .buttons a {
+    line-height: inherit; }
+#wrapper .fusion-flip-box .flip-box-back, #wrapper .fusion-rollover .fusion-link-wrapper {
+  background-color: #CC0000 !important; }
+#wrapper .fusion-flip-box .flip-box-back .flip-box-back-inner p, #wrapper .fusion-flip-box .flip-box-back .flip-box-back-inner {
+  text-shadow: 2px 2px 3px #333;
+  color: #fff; }
+#wrapper .fusion-rollover .fusion-link-wrapper {
+  opacity: 0.9; }
+
+@media (max-width: 600px) {
+  #wrapper .fusion-copyright-content {
+    display: inline-block; }
+  #wrapper .sub-menu .dotted {
+    border-top: none !important;
+    padding-top: 0px; }
+  #wrapper #custom-header-logo {
+    width: 245px; }
+  #wrapper .tfs-slider .slide-content-container {
+    top: 65%; }
+  #wrapper ul.eccles-links, #wrapper ul.uni-links {
+    display: initial !important; }
+  #wrapper ul.eccles-links li, #wrapper ul.uni-links li {
+    display: block; }
+
+  #footer .EcclesLogo, #footer .shell {
+    text-align: -webkit-center; }
+  #footer .eccles-socials-wrapper {
+    width: fit-content;
+    margin: auto; }
+  #footer .eccles-socials-wrapper ul {
+    padding-left: 0px !important; }
+  #footer .shell {
+    margin-top: 10px; }
+  #footer .footer-bar {
+    display: block;
+    justify-content: none; }
+    #footer .footer-bar .eccles-links a, #footer .footer-bar .eccles-links li, #footer .footer-bar .uni-links a, #footer .footer-bar .uni-links li {
+      font-size: 16px;
+      margin-right: 0px; } }
+
+/*# sourceMappingURL=style.css.map */
