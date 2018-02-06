@@ -46,7 +46,8 @@ strong, b {
     vertical-align: baseline;
     color: #333; }
   #wrapper article h2.fusion-post-title {
-    font-size: 36px !important; }
+    font-size: 36px !important;
+    line-height: 35px !important; }
   #wrapper .fusion-body .fusion-main-menu .current-menu-ancestor > a, #wrapper .fusion-body .fusion-main-menu .current-menu-item > a, #wrapper .fusion-body .fusion-main-menu .current-menu-item:not(.fusion-main-menu-cart) > a:before, #wrapper .fusion-body .fusion-main-menu .current-menu-parent > a, #wrapper .fusion-body .fusion-main-menu .current_page_item > a {
     color: #CC0000 !important;
     border-color: #CC0000 !important; }

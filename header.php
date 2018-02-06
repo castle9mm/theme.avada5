@@ -158,6 +158,7 @@ if(get_option( 'siteurl' )!="http://eccles.utah.edu" and get_option( 'siteurl' )
 					<div class="fusion-clearfix"></div>
 				</div>
 <script>
+//Custom code on load add items to mobile menu
 	document.addEventListener('DOMContentLoaded', function() {
    // your code here
    	var para = document.createElement("ul");
