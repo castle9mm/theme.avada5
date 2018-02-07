@@ -101,8 +101,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		$list_of_urls[3] = 'http://dmz-test.eccles.utah.edu/undergraduate';
 		
 		$custom_header=TRUE;
+		$site_url = get_option( 'siteurl' );
 		foreach ($list_of_urls as $key => $value) {
-			if(get_option( 'siteurl' )==$value){
+			if($site_url==$value){
 				$custom_header=FALSE;
 			}
 			
