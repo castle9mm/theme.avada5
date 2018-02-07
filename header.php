@@ -93,9 +93,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div id="wrapper" class="<?php echo esc_attr($wrapper_class); ?>">
 
 				<?php
-//Custom Top Menu
-
-if(get_option( 'siteurl' )!="http://eccles.utah.edu" and get_option( 'siteurl' )!="//dmz-test.eccles.utah.edu/ecclesv5" and get_option( 'siteurl' )!="//localhost/Workspace/Wordpress_New/eccles" and get_option( 'siteurl' )!="http://dmz-test.eccles.utah.edu/undergraduate"){
+		
+		//List of Sites without custom header
+		$list_of_urls[0] = 'http://eccles.utah.edu';
+		$list_of_urls[1] = "//dmz-test.eccles.utah.edu/ecclesv5";
+		$list_of_urls[2] = '//localhost/Workspace/Wordpress_New/eccles';
+		$list_of_urls[3] = 'http://dmz-test.eccles.utah.edu/undergraduate';
+		
+		$custom_header=TRUE;
+		foreach ($list_of_urls as $key => $value) {
+			if(get_option( 'siteurl' )==$value){
+				$custom_header=FALSE;
+			}
+			
+		}
+		//if true displays custom top menu for subpages
+		if($custom_header){
 
 				?>
 				<div id="menu-eccles" class="fusion-header-wrapper-eccles">
@@ -170,6 +183,7 @@ if(get_option( 'siteurl' )!="http://eccles.utah.edu" and get_option( 'siteurl' )
 	//var child = document.getElementsByClassName("fusion-menu");
 	//element[0].innerHTML=para.innerHTML+element[0].innerHTML;
 	element[0].insertBefore(para,element[0].children[0]);
+
 	}, false);
 
 function show_sub_menu(){
@@ -185,7 +199,16 @@ function show_sub_menu(){
 </script>
 				<?php
 				}else{
-?>
+					//This code makes header black for eccles and sites without custom heder nav
+					?>
+					<script>
+					//Changes link of header logo to point to eccles
+						document.addEventListener('DOMContentLoaded', function() {
+						var logo_link = document.getElementsByClassName("fusion-logo-link");
+						
+						logo_link[0].href='http://eccles.utah.edu';
+							}, false);
+					</script>
 					<style>
 					#wrapper header nav{
 						
@@ -208,7 +231,7 @@ function show_sub_menu(){
 					}
 					#wrapper .fusion-logo-1x {
 						height: 55px !important;
-						max-height: 45px !important;
+						max-height: 45px;
 					}
 					/* IE6+ */
 					#wrapper header .fusion-row{

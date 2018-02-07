@@ -256,7 +256,7 @@ strong, b {
     #wrapper header .fusion-header .fusion-logo {
       display: none; }
       #wrapper header .fusion-header .fusion-logo img {
-        max-height: 55px !important; }
+        max-height: 55px; }
   @media (max-width: 1130px) {
     #wrapper header .fusion-logo {
       width: 85%;
@@ -288,7 +288,8 @@ strong, b {
     #wrapper header .fusion-logo a {
       max-width: 60%; }
     #wrapper header .fusion-logo img {
-      width: auto; }
+      width: auto;
+      max-height: 50px !important; }
     #wrapper header .fusion-header {
       padding-top: 15px;
       padding-left: 5px; }
