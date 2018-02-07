@@ -325,15 +325,13 @@ strong,b {
           margin-bottom: 20px;
         }
   }
-  .fusion-header,{
-    height: 60px;
-  }
+  
   
 /*Header of Eccles Custom and Sub header*/
   
   #menu-eccles{ 
       .fusion-header{
-        
+        height: 40px;
         background-color: #000;
         a,span{
           font-size:14px;
@@ -341,17 +339,17 @@ strong,b {
         }
       }
       .fusion-main-menu > ul > li > a{
-      height: 60px;
-      line-height: 60px;
+      height: 40px;
+      line-height: 40px;
     }
     .fusion-logo {
        img{
          
-         max-height:50px;
+         max-height:30px;
        }
     }
       nav{
-        height: 50px;
+        height: 40px;
       }
       .fusion-row{
         
@@ -360,11 +358,13 @@ strong,b {
       } 
       
   }
+  
+  //Main header
   header .fusion-header{ 
-    max-height: 70px;
-     height: 70px;
+    max-height: 60px;
+     height: 60px;
     .fusion-row{
-      height: 70px;
+      height: 60px;
     }
     .fusion-row{
       width: -moz-fit-content;
@@ -376,8 +376,8 @@ strong,b {
      
     }
     .fusion-main-menu > ul > li > a{
-      line-height: 66px;
-      height:66px;
+      line-height: 55px;
+      height:55px;
     }
      .fusion-logo {
        display: none;
@@ -522,14 +522,18 @@ strong,b {
 
   }
     .fusion-secondary-header{
-      border:none;
-      background-color: #3b3b3b !important;
+      border-bottom: 1px #333 solid;
+      border-top: 3px #cc0000 solid;
+      background-color: #fff !important;
+      height: 40px;
         .fusion-row{
           width: 100%;
           max-width: none;
           div,a, p, li, span{
-            color: #fff;
+            color: #000;
             font-size: 16px;
+            line-height: 40px;
+            height: 40px;
           }
           li{
             border:none;
