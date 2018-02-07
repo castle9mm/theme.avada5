@@ -97,7 +97,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		//List of Sites without custom header
 		$list_of_urls[0] = 'http://eccles.utah.edu';
 		$list_of_urls[1] = "//dmz-test.eccles.utah.edu/ecclesv5";
-		$list_of_urls[2] = '//localhost/Workspace/Wordpress_New/eccles';
+		$list_of_urls[2] = '//localhost/Workspace/Wordpress_New/eccles/';
 		$list_of_urls[3] = 'http://dmz-test.eccles.utah.edu/undergraduate';
 		
 		$custom_header=TRUE;
@@ -106,7 +106,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			if($site_url==$value){
 				$custom_header=FALSE;
 			}
-			
+
 		}
 		//if true displays custom top menu for subpages
 		if($custom_header){
@@ -124,7 +124,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										<img src="wp-content/themes/Avada-Child-Theme/logos/logo-white.png"width="" height="" alt="The David Eccles School of Business Retina Logo" class="fusion-standard-logo fusion-logo-2x"> <!-- mobile logo --> <!-- sticky header logo --> 
 										
 										<img src="<?php echo get_stylesheet_directory_uri(); ?>/logos/eccles-logo-final-white.png" width="" height="" alt="The David Eccles School of Business Logo" class="fusion-logo-1x fusion-standard-logo"> 
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/logos/eccles-logo-final-white.png"width="" height="" alt="The David Eccles School of Business Retina Logo" class="fusion-standard-logo fusion-logo-2x"> <!-- mobile logo --> <!-- sticky header logo --> 
 										
 									</a>
 								</div>
@@ -162,10 +161,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										</li>
 									</ul>
 								</nav>
-								
-
-								
-
 							</div>
 						</div>
 					</div>
