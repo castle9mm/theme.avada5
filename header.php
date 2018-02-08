@@ -209,12 +209,15 @@ function show_sub_menu(){
 					#wrapper header nav{
 						
 						float:right !important;
+						
 					}
+					@media(min-width:800px){
 					#wrapper header .fusion-header nav span {
 						color: #fff !important;
 					}
 					#wrapper header .fusion-header nav .sub-menu span {
 						color: #333 !important;
+					}
 					}
 					#wrapper header .fusion-header .fusion-logo{
 							margin:0px !important;
@@ -256,6 +259,9 @@ function show_sub_menu(){
 						    max-height: none;
 						    height: auto !important;
 						    width:100%;
+						}
+						#wrapper header .fusion-header .fusion-main-menu{
+							float: none !important;
 						}
 						
 					}
