@@ -97,7 +97,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		//List of Sites without custom header
 		$list_of_urls[0] = 'http://eccles.utah.edu';
 		$list_of_urls[1] = "//dmz-test.eccles.utah.edu/ecclesv5";
-		$list_of_urls[2] = '//localhost/Workspace/Wordpress_New/eccles/';
+		$list_of_urls[2] = '//localhost/Workspace/Wordpress_New/eccles';
 		$list_of_urls[3] = 'http://dmz-test.eccles.utah.edu/undergraduate/';
 		
 		$custom_header=TRUE;
@@ -210,6 +210,9 @@ function show_sub_menu(){
 						
 						float:right !important;
 					}
+					#wrapper header .fusion-header nav span {
+						color: #fff !important;
+					}
 					#wrapper .fusion-header,#wrapper .fusion-header-wrapper.fusion-is-sticky .fusion-header{
 						background-color: #000 !important;
 					}
@@ -241,6 +244,16 @@ function show_sub_menu(){
 					/* IE6+ */
 					#wrapper header .fusion-row{
 					/*	display: block !important;*/
+					}
+					@media (max-width:1029px){
+						#wrapper header .fusion-header, #wrapper header .fusion-header .fusion-row {
+						    max-height: none;
+						    height: auto;
+						    width:100%;
+						}
+						#wrapper header .fusion-header .fusion-logo{
+							margin:0px !important;
+						}
 					}
 					</style>
 					<?php					
