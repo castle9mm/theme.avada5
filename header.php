@@ -228,11 +228,12 @@ function show_sub_menu(){
 					#wrapper header .fusion-header, #wrapper header .fusion-header .fusion-row {
 						    max-height: 70px;
 						    height: 70px;
+						    width:100%;
 						}
-						#wrapper header .fusion-header .fusion-main-menu > ul > li > a {
-    line-height: 66px;
-    height: 66px;
-}
+					#wrapper header .fusion-header .fusion-main-menu > ul > li > a {
+					    line-height: 66px;
+					    height: 66px;
+					}				
 					#wrapper .fusion-logo-1x {
 						height: 55px !important;
 						max-height: 45px;
