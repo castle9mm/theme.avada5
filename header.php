@@ -254,7 +254,7 @@ function show_sub_menu(){
 					#wrapper header .fusion-row{
 					/*	display: block !important;*/
 					}
-					@media (max-width:1200px){
+					@media (max-width:1300px){
 						#wrapper header .fusion-header, #wrapper header .fusion-header .fusion-row {
 						    max-height: none;
 						    height: auto !important;
