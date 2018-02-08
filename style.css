@@ -223,16 +223,16 @@ strong, b {
       text-align: center;
       margin-bottom: 20px; }
   #wrapper #menu-eccles .fusion-header {
-    height: 40px;
+    height: 45px;
     background-color: #000; }
     #wrapper #menu-eccles .fusion-header a, #wrapper #menu-eccles .fusion-header span {
       font-size: 14px;
       color: white; }
   #wrapper #menu-eccles .fusion-main-menu > ul > li > a {
-    height: 40px;
-    line-height: 40px; }
+    height: 45px;
+    line-height: 45px; }
   #wrapper #menu-eccles .fusion-logo img {
-    max-height: 30px; }
+    max-height: 35px; }
   #wrapper #menu-eccles nav {
     height: 40px; }
   #wrapper #menu-eccles .fusion-row {
