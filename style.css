@@ -284,14 +284,13 @@ strong, b {
       display: block !important; }
     #wrapper header .fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header {
       /*padding-top:0px;*/ }
-    #wrapper header .fusion-logo a {
-      max-width: 60%; }
     #wrapper header .fusion-logo img {
       width: auto;
       max-height: 50px !important; }
     #wrapper header .fusion-header {
       padding-top: 15px;
-      padding-left: 5px; }
+      padding-left: 5px;
+      padding-right: 10px; }
       #wrapper header .fusion-header span {
         color: #333; } }
   #wrapper .gsc-results-wrapper-overlay {
