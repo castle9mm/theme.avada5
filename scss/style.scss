@@ -366,15 +366,16 @@ strong,b {
     .fusion-row{
       height: 60px;
     }
-    .fusion-row{
-      width: -moz-fit-content;
-    }
     /* IE6+ */
     .fusion-row{
      display:table;
      width: 100%;
      
     }
+    .fusion-row{
+      width: -moz-fit-content;
+    }
+    
     .fusion-main-menu > ul > li > a{
       line-height: 55px;
       height:55px;

@@ -245,10 +245,10 @@ strong, b {
     #wrapper header .fusion-header .fusion-row {
       height: 60px; }
     #wrapper header .fusion-header .fusion-row {
-      width: -moz-fit-content; }
-    #wrapper header .fusion-header .fusion-row {
       display: table;
       width: 100%; }
+    #wrapper header .fusion-header .fusion-row {
+      width: -moz-fit-content; }
     #wrapper header .fusion-header .fusion-main-menu > ul > li > a {
       line-height: 55px;
       height: 55px; }
