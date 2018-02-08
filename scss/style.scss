@@ -393,7 +393,7 @@ strong,b {
       header {
       
         .fusion-logo{
-         width: 85%; 
+        // width: 85%; 
          padding-top:0px !important;
          display:block;
         }
@@ -402,8 +402,10 @@ strong,b {
   }
   @media (max-width: 1129px){
      header .fusion-header {
-    max-height: 85px;
-    height: 85px;
+   // max-height: 85px;
+    //height: 85px;
+    height:auto;
+    max-height:none;
     .fusion-icon-bars{
       font-size: 30px;
     }
@@ -412,12 +414,12 @@ strong,b {
       display:none;
       
       .fusion-logo{
-       width: 85%; 
+      // width: 85%; 
       
        
       }
       .fusion-logo a {
-        max-width: 60%;
+        //max-width: 60%;
       }
       .fusion-row{
         /*display: flex;*/
@@ -429,7 +431,7 @@ strong,b {
         float:none !important;       
       }
       .fusion-logo{
-       width: 85%; 
+       //width: 85%; 
        padding-top:0px !important;
        display:block !important;
       }

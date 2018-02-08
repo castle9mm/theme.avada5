@@ -97,7 +97,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		//List of Sites without custom header
 		$list_of_urls[0] = 'http://eccles.utah.edu';
 		$list_of_urls[1] = "//dmz-test.eccles.utah.edu/ecclesv5";
-		$list_of_urls[2] = '//localhost/Workspace/Wordpress_New/eccles';
+		$list_of_urls[2] = '//localhost/Workspace/Wordpress_New/eccles/';
 		$list_of_urls[3] = 'http://dmz-test.eccles.utah.edu/undergraduate/';
 		
 		$custom_header=TRUE;

@@ -258,28 +258,22 @@ strong, b {
         max-height: 55px; }
   @media (max-width: 1130px) {
     #wrapper header .fusion-logo {
-      width: 85%;
       padding-top: 0px !important;
       display: block; } }
   @media (max-width: 1129px) {
     #wrapper header .fusion-header {
-      max-height: 85px;
-      height: 85px; }
+      height: auto;
+      max-height: none; }
       #wrapper header .fusion-header .fusion-icon-bars {
         font-size: 30px; }
     #wrapper #menu-eccles {
       display: none; }
-      #wrapper #menu-eccles .fusion-logo {
-        width: 85%; }
-      #wrapper #menu-eccles .fusion-logo a {
-        max-width: 60%; }
       #wrapper #menu-eccles .fusion-row {
         /*display: flex;*/ }
     #wrapper header .fusion-mobile-nav-holder {
       padding-top: 0px;
       float: none !important; }
     #wrapper header .fusion-logo {
-      width: 85%;
       padding-top: 0px !important;
       display: block !important; }
     #wrapper header .fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header {
