@@ -525,15 +525,20 @@ strong,b {
       border-bottom: 1px #333 solid;
       border-top: 3px #cc0000 solid;
       background-color: #fff !important;
-      height: 40px;
+      @media (min-width:1130px){
+         height: 40px;
+      }
+     
         .fusion-row{
           width: 100%;
           max-width: none;
           div,a, p, li, span{
             color: #000;
             font-size: 16px;
+            @media (min-width:1130px){
             line-height: 40px;
             height: 40px;
+            }
           }
           li{
             border:none;
