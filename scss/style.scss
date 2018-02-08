@@ -213,7 +213,7 @@ strong,b {
     /*border-bottom: .2em solid $primary-color;*/
    .fusion-header{
      background-color: #fff;
-    border-bottom: .2em solid $primary-color;
+    border-bottom: 3px solid $primary-color;
     .fusion-row {
         height: 85px;
         max-width: none;
@@ -467,7 +467,7 @@ strong,b {
     display: none !important;
   }
   .gs-visibleUrl,.gsc-results .gsc-cursor-box .gsc-cursor-current-page{
-    color: #cc0000 !important;
+    color: $primary-color !important;
   }
    .gsc-results .gsc-cursor-box .gsc-cursor-page,.gs-webResult.gs-result a.gs-title:link b,.gs-webResult.gs-result a.gs-title:visited, .gs-webResult.gs-result a.gs-title:visited b, .gs-imageResult a.gs-title:visited, .gs-imageResult a.gs-title:visited b{
     color: #000;
@@ -528,7 +528,7 @@ strong,b {
   }
     .fusion-secondary-header{
       border-bottom: 1px #333 solid;
-      border-top: 3px #cc0000 solid;
+      border-top: 3px $primary-color solid;
       background-color: #fff !important;
       @media (min-width:1130px){
          height: 40px;
@@ -666,7 +666,7 @@ strong,b {
     .fusion-button:hover{
        @extend .button-hover;
        span {
-        color: #cc0000;
+        color: $primary-color;
         transition: none;
         line-height: inherit;
         font-size: 16px;

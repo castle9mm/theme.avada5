@@ -142,7 +142,7 @@ strong, b {
     /*border-bottom: .2em solid $primary-color;*/ }
     #wrapper header .fusion-header {
       background-color: #fff;
-      border-bottom: 0.2em solid #CC0000 !important; }
+      border-bottom: 3px solid #CC0000 !important; }
       #wrapper header .fusion-header .fusion-row {
         height: 85px;
         max-width: none; }
@@ -292,7 +292,7 @@ strong, b {
   #wrapper .gsc-adBlock {
     display: none !important; }
   #wrapper .gs-visibleUrl, #wrapper .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
-    color: #cc0000 !important; }
+    color: #CC0000 !important !important; }
   #wrapper .gsc-results .gsc-cursor-box .gsc-cursor-page, #wrapper .gs-webResult.gs-result a.gs-title:link b, #wrapper .gs-webResult.gs-result a.gs-title:visited, #wrapper .gs-webResult.gs-result a.gs-title:visited b, #wrapper .gs-imageResult a.gs-title:visited, #wrapper .gs-imageResult a.gs-title:visited b {
     color: #000; }
   #wrapper .gs-webResult.gs-result a.gs-title:visited, #wrapper .gs-webResult.gs-result a.gs-title:visited b, #wrapper .gs-imageResult a.gs-title:visited, #wrapper .gs-imageResult a.gs-title:visited b {
@@ -333,7 +333,7 @@ strong, b {
     margin-top: 8px !important; }
   #wrapper .fusion-secondary-header {
     border-bottom: 1px #333 solid;
-    border-top: 3px #cc0000 solid;
+    border-top: 3px #CC0000 !important solid;
     background-color: #fff !important; }
     @media (min-width: 1130px) {
       #wrapper .fusion-secondary-header {
@@ -419,7 +419,7 @@ table.gssb_c {
   line-height: inherit;
   font-size: 16px; }
 #wrapper .fusion-button-wrapper .fusion-button:hover span {
-  color: #cc0000;
+  color: #CC0000 !important;
   transition: none;
   line-height: inherit;
   font-size: 16px; }
