@@ -199,11 +199,11 @@ function show_sub_menu(){
 					?>
 					<script>
 					//Changes link of header logo to point to eccles
-						document.addEventListener('DOMContentLoaded', function() {
+						/*document.addEventListener('DOMContentLoaded', function() {
 						var logo_link = document.getElementsByClassName("fusion-logo-link");
 						
 						logo_link[0].href='http://eccles.utah.edu';
-							}, false);
+							}, false);*/
 					</script>
 					<style>
 					#wrapper header nav{
