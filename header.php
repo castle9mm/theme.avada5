@@ -160,11 +160,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 											<a href="http://eccles.utah.edu/alumni/invest/ways-to-give/"><span class="menu-text">Give</span></a>
 										</li>
 									</ul>
-								</nav>
-								
-
-								
-
+								</nav>	
 							</div>
 						</div>
 					</div>
