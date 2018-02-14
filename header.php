@@ -94,22 +94,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 				<?php
 		
-		//List of Sites without custom header
-		$list_of_urls[0] = 'http://eccles.utah.edu';
-		$list_of_urls[1] = "//dmz-test.eccles.utah.edu/ecclesv5";
-		$list_of_urls[2] = '//localhost/Workspace/Wordpress_New/eccles';
-		$list_of_urls[3] = 'http://dmz-test.eccles.utah.edu/undergraduate/';
 		
-		$custom_header=TRUE;
-		$site_url = get_option( 'siteurl' );
-		foreach ($list_of_urls as $key => $value) {
-			if($site_url==$value){
-				$custom_header=FALSE;
-			}
-
-		}
 		//if true displays custom top menu for subpages
-		if($custom_header){
+		if(custom_header()){
 
 				?>
 				<div id="menu-eccles" class="fusion-header-wrapper-eccles">
