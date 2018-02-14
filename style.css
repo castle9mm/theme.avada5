@@ -348,6 +348,8 @@ strong, b {
           #wrapper .fusion-secondary-header .fusion-row div, #wrapper .fusion-secondary-header .fusion-row a, #wrapper .fusion-secondary-header .fusion-row p, #wrapper .fusion-secondary-header .fusion-row li, #wrapper .fusion-secondary-header .fusion-row span {
             line-height: 40px;
             height: 40px; } }
+      #wrapper .fusion-secondary-header .fusion-row a:hover span {
+        color: #cc0000; }
       #wrapper .fusion-secondary-header .fusion-row li {
         border: none; }
   #wrapper .gsst_b .gsst_a:after {
