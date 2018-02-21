@@ -3,6 +3,7 @@
  * * Template Name: Directory Search Results
  * */
 ?>
+<title>Directory Search Results</title>
 <?php get_header(); ?>
 <?php include_once ('style-directory.css'); ?>
 <div class="section team">
