@@ -185,14 +185,7 @@ function show_sub_menu(){
 				}else{
 					//This code makes header black for eccles and sites without custom heder nav
 					?>
-					<script>
-					//Changes link of header logo to point to eccles
-						/*document.addEventListener('DOMContentLoaded', function() {
-						var logo_link = document.getElementsByClassName("fusion-logo-link");
-						
-						logo_link[0].href='http://eccles.utah.edu';
-							}, false);*/
-					</script>
+					
 					<style>
 					#wrapper header nav{
 						
