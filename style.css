@@ -389,7 +389,7 @@ table.gssb_c {
   transition: none;
   background-image: none;
   white-space: nowrap; }
-#wrapper .button-hover, #wrapper .searchform .search-table .search-button input[type=submit]:hover, #wrapper .fusion-button-wrapper .fusion-button:hover, #wrapper .fusion-button-wrapper .fusion-button:hover, #wrapper .rev-btn:hover {
+#wrapper .button-hover, #wrapper .searchform .search-table .search-button input[type=submit]:hover, #wrapper .fusion-button-wrapper .fusion-button:hover, #wrapper .fusion-button-wrapper .fusion-button:hover, #wrapper .rev-btn:hover, #wrapper .btn-red:hover {
   background-color: #fff !important;
   border: 2px solid #CC0000 !important;
   color: #CC0000 !important; }
