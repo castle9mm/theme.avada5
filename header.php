@@ -175,10 +175,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 	var element = document.getElementsByClassName("fusion-mobile-nav-holder");
-	
-	//var child = document.getElementsByClassName("fusion-menu");
+	if(element){
+		//var child = document.getElementsByClassName("fusion-menu");
 	//element[0].innerHTML=para.innerHTML+element[0].innerHTML;
 	element[0].insertBefore(para,element[0].children[0]);
+	}
+	
 
 	}, false);
 
