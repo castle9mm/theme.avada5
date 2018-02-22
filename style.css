@@ -337,7 +337,7 @@ strong, b {
     padding: 0px; }
   #wrapper .gsc-modal-background-image {
     height: 100vh; }
-  #wrapper header .fusion-main-menu .give-menu-item a {
+  #wrapper header .fusion-main-menu .give-menu-item a.fusion-bar-highlight {
     border: 2px white solid;
     line-height: 48px !important;
     height: 50px !important;
