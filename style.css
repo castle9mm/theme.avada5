@@ -496,6 +496,8 @@ table.gssb_c {
   font-size: 20px; }
 #wrapper .fusion-accordian .fusion-alignleft {
   float: none; }
+#wrapper .recent-posts-content {
+  display: inline-block; }
 
 /*End Button Links and Title*/
 /**
