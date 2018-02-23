@@ -156,7 +156,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 <script>
 //Custom code on load add items to mobile menu
-	document.addEventListener('DOMContentLoaded', function() {
+	/*document.addEventListener('DOMContentLoaded', function() {
    // your code here
    	var para = document.createElement("ul");
 	para.innerHTML= '<li role="menuitem" id="mobile-menu-item-156-1" class="fusion-mobile-nav-item" style=""><span href="#" aria-haspopup="true" class="fusion-open-submenu eccles-open" onclick="show_sub_menu();"></span><a href="http://eccles.utah.edu"><span>David Eccles School</span></a><ul id="eccles-sub" role="menu" class="sub-menu" style="display: none;"><li role="menuitem" id="mobile-menu-item-157-1" class="fusion-mobile-nav-item" style=""><a href="http://eccles.utah.edu/about/"><span class="menu-text eccles-mobile-menu-item">About</span></a></li><li role="menuitem" id="mobile-menu-item-401-1" class="fusion-mobile-nav-item" style=""><a href="http://eccles.utah.edu/programs/"><span class="menu-text eccles-mobile-menu-item">Programs</span></a></li>	<li role="menuitem" id="mobile-menu-item-490-1" class="fusion-mobile-nav-item" style=""><a href="http://eccles.utah.edu/students/"><span class="menu-text eccles-mobile-menu-item">Students</span></a></li><li role="menuitem" id="mobile-menu-item-559-1" class="fusion-mobile-nav-item" style=""><a href="http://eccles.utah.edu/faculty-staff/"><span class="menu-text eccles-mobile-menu-item">Faculty &amp; Staff</span></a></li><li role="menuitem" id="mobile-menu-item-747-1" class="fusion-mobile-nav-item" style=""><a href="http://eccles.utah.edu/alumni/"><span class="menu-text eccles-mobile-menu-item">Alumni</span></a></li><li role="menuitem" id="mobile-menu-item-815-1" class="fusion-mobile-nav-item" style=""><a href="http://eccles.utah.edu/employers/"><span class="menu-text eccles-mobile-menu-item">Employers</span></a></li></ul></li>';
@@ -180,7 +180,7 @@ function show_sub_menu(){
 		
 	}
 	
-}
+}*/
 
 </script>
 				<?php
