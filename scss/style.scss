@@ -288,10 +288,14 @@ strong,b {
   .fusion-logo-1x{
    height: 50px; 
   }
-  .fusion-header .fusion-logo{
+  .fusion-header .fusion-logo-custom{
     
     margin: auto;
         padding: 5px;
+            display: block;
+    float: left;
+    max-width: 100%;
+    zoom: 1;
   }
   .fusion-meta-info .fusion-alignleft{
      width: 100%;
@@ -332,7 +336,7 @@ strong,b {
   
   #menu-eccles{ 
       .fusion-header{
-        height: 45px;
+        height: 45px !important;
         background-color: #000;
         a,span{
           font-size:14px;
@@ -343,7 +347,7 @@ strong,b {
       height: 45px;
       line-height: 45px;
     }
-    .fusion-logo {
+    .fusion-logo-custom {
        img{
          
          max-height:35px;
@@ -413,17 +417,6 @@ strong,b {
     #menu-eccles{
       display:none;
       
-      .fusion-logo{
-      // width: 85%; 
-      
-       
-      }
-      .fusion-logo a {
-        //max-width: 60%;
-      }
-      .fusion-row{
-        /*display: flex;*/
-      }
     }
     header {
       .fusion-mobile-nav-holder{

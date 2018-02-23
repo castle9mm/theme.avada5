@@ -103,7 +103,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<div class="" style="display: none;"></div>
 						<div class="fusion-header">
 							<div class="fusion-row">
-								<div class="fusion-logo" data-margin-top="auto" data-margin-bottom="auto" data-margin-left="0px" data-margin-right="0px">
+								<div class="fusion-logo-custom" data-margin-top="auto" data-margin-bottom="auto" data-margin-left="0px" data-margin-right="0px">
 									<a class="fusion-logo-link" href="http://eccles.utah.edu"> 
 										
 									<!--	<img src="wp-content/themes/Avada-Child-Theme/logos/logo-white.png" width="" height="" alt="The David Eccles School of Business Logo" class="fusion-logo-1x fusion-standard-logo"> 

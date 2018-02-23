@@ -195,9 +195,13 @@ strong, b {
     display: none; }
   #wrapper .fusion-logo-1x {
     height: 50px; }
-  #wrapper .fusion-header .fusion-logo {
+  #wrapper .fusion-header .fusion-logo-custom {
     margin: auto;
-    padding: 5px; }
+    padding: 5px;
+    display: block;
+    float: left;
+    max-width: 100%;
+    zoom: 1; }
   #wrapper .fusion-meta-info .fusion-alignleft {
     width: 100%; }
   #wrapper #custom-header-logo {
@@ -223,7 +227,7 @@ strong, b {
       text-align: center;
       margin-bottom: 20px; }
   #wrapper #menu-eccles .fusion-header {
-    height: 45px;
+    height: 45px !important;
     background-color: #000; }
     #wrapper #menu-eccles .fusion-header a, #wrapper #menu-eccles .fusion-header span {
       font-size: 14px;
@@ -231,7 +235,7 @@ strong, b {
   #wrapper #menu-eccles .fusion-main-menu > ul > li > a {
     height: 45px;
     line-height: 45px; }
-  #wrapper #menu-eccles .fusion-logo img {
+  #wrapper #menu-eccles .fusion-logo-custom img {
     max-height: 35px; }
   #wrapper #menu-eccles nav {
     height: 40px; }
@@ -268,8 +272,6 @@ strong, b {
         font-size: 30px; }
     #wrapper #menu-eccles {
       display: none; }
-      #wrapper #menu-eccles .fusion-row {
-        /*display: flex;*/ }
     #wrapper header .fusion-mobile-nav-holder {
       padding-top: 0px;
       float: none !important; }
