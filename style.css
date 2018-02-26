@@ -238,8 +238,8 @@ strong, b {
       font-size: 14px;
       color: white; }
   #wrapper #menu-eccles .fusion-main-menu > ul > li > a {
-    height: 45px;
-    line-height: 45px; }
+    height: 45px !important;
+    line-height: 45px !important; }
   #wrapper #menu-eccles .fusion-logo-custom img {
     max-height: 35px; }
   #wrapper #menu-eccles nav {
