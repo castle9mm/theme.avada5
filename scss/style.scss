@@ -67,7 +67,10 @@ html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acro
 strong,b {
    font-family: $font-bold;
 }
-#wrapper{  
+#wrapper{ 
+  .post-content a{
+    color: #cc0000;
+  } 
   h1, h2, h3, h4, h5, h6{
     //border: 0;
     font-family: $font;
@@ -295,8 +298,8 @@ strong,b {
   .fusion-logo-1x{
    height: 50px; 
   }
+
   .fusion-header .fusion-logo-custom{
-    
     margin: auto;
         padding: 5px;
             display: block;
@@ -518,7 +521,7 @@ strong,b {
   .gsc-modal-background-image{
     height: 100vh;
   }
-  header .fusion-main-menu .give-menu-item a{
+  header .fusion-main-menu .give-menu-item a.fusion-bar-highlight{
     border: 2px white solid;
     //border-radius: 5px;
     line-height: 48px !important;
@@ -619,7 +622,7 @@ strong,b {
       background-image:none;
           white-space: nowrap;
   }
-  .button-hover,.fusion-button-wrapper .fusion-button:hover,.rev-btn:hover{
+  .button-hover,.fusion-button-wrapper .fusion-button:hover,.rev-btn:hover,.btn-red:hover{
       background-color: #fff !important;
       border: 2px solid $primary-color;
       color: $primary-color;

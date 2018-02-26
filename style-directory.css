@@ -47,8 +47,8 @@ li.sf-field-search, .sf-field-search label {
     color: #898989;
 }
 .team-member {
-    max-width: 26%;
-    min-width: 260px;
+    max-width: 15%;
+    min-width: 250px;
     margin-bottom: 2.4em;
     text-align: center;
 }
@@ -70,14 +70,17 @@ li.sf-field-search, .sf-field-search label {
     margin: 10px 0;
 }
 .team-member .team-department {
-    font-size: 17px;
+    font-size: 16px;
     color: #000;
+    line-height: 1.2em;
+    margin-bottom: .5em;
 }
 .team-member .team-department a {
     color: #cc0000;
+    font-size: 16px !important;
 }
 .team-member .team-position {
-    font-size: 17px;
+    font-size: 14px !important;
     color: #333;
     margin-bottom: 0px;
     font-style: italic;

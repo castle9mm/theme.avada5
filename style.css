@@ -41,6 +41,8 @@ strong, b {
 
 #wrapper {
   /*Header of Eccles Custom and Sub header*/ }
+  #wrapper .post-content a {
+    color: #cc0000; }
   #wrapper h1, #wrapper h2, #wrapper h3, #wrapper h4, #wrapper h5, #wrapper h6 {
     font-family: "Myriad-Pro", arial, sans-serif !important;
     /*font-style: inherit;*/
@@ -331,7 +333,7 @@ strong, b {
     padding: 0px; }
   #wrapper .gsc-modal-background-image {
     height: 100vh; }
-  #wrapper header .fusion-main-menu .give-menu-item a {
+  #wrapper header .fusion-main-menu .give-menu-item a.fusion-bar-highlight {
     border: 2px white solid;
     line-height: 48px !important;
     height: 50px !important;
@@ -395,7 +397,7 @@ table.gssb_c {
   transition: none;
   background-image: none;
   white-space: nowrap; }
-#wrapper .button-hover, #wrapper .searchform .search-table .search-button input[type=submit]:hover, #wrapper .fusion-button-wrapper .fusion-button:hover, #wrapper .fusion-button-wrapper .fusion-button:hover, #wrapper .rev-btn:hover {
+#wrapper .button-hover, #wrapper .searchform .search-table .search-button input[type=submit]:hover, #wrapper .fusion-button-wrapper .fusion-button:hover, #wrapper .fusion-button-wrapper .fusion-button:hover, #wrapper .rev-btn:hover, #wrapper .btn-red:hover {
   background-color: #fff !important;
   border: 2px solid #CC0000 !important;
   color: #CC0000 !important; }
