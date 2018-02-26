@@ -24,6 +24,9 @@
 #wrapper html, #wrapper body, #wrapper div, #wrapper span, #wrapper applet, #wrapper object, #wrapper iframe, #wrapper p, #wrapper blockquote, #wrapper pre, #wrapper a, #wrapper abbr, #wrapper acronym, #wrapper address, #wrapper big, #wrapper cite, #wrapper code, #wrapper del, #wrapper dfn, #wrapper em, #wrapper font, #wrapper ins, #wrapper kbd, #wrapper q, #wrapper s, #wrapper samp, #wrapper small, #wrapper strike, #wrapper strong, #wrapper sub, #wrapper sup, #wrapper tt, #wrapper var, #wrapper dl, #wrapper dt, #wrapper dd, #wrapper ol, #wrapper ul, #wrapper li, #wrapper fieldset, #wrapper form, #wrapper label, #wrapper legend, #wrapper table, #wrapper caption, #wrapper tbody, #wrapper tfoot, #wrapper thead, #wrapper tr, #wrapper th, #wrapper td {
   font-size: 18px; }
 
+.fusion-modal .modal-content html, .fusion-modal .modal-content body, .fusion-modal .modal-content div, .fusion-modal .modal-content span, .fusion-modal .modal-content applet, .fusion-modal .modal-content object, .fusion-modal .modal-content iframe, .fusion-modal .modal-content p, .fusion-modal .modal-content blockquote, .fusion-modal .modal-content pre, .fusion-modal .modal-content a, .fusion-modal .modal-content abbr, .fusion-modal .modal-content acronym, .fusion-modal .modal-content address, .fusion-modal .modal-content big, .fusion-modal .modal-content cite, .fusion-modal .modal-content code, .fusion-modal .modal-content del, .fusion-modal .modal-content dfn, .fusion-modal .modal-content em, .fusion-modal .modal-content font, .fusion-modal .modal-content ins, .fusion-modal .modal-content kbd, .fusion-modal .modal-content q, .fusion-modal .modal-content s, .fusion-modal .modal-content samp, .fusion-modal .modal-content small, .fusion-modal .modal-content strike, .fusion-modal .modal-content strong, .fusion-modal .modal-content sub, .fusion-modal .modal-content sup, .fusion-modal .modal-content tt, .fusion-modal .modal-content var, .fusion-modal .modal-content dl, .fusion-modal .modal-content dt, .fusion-modal .modal-content dd, .fusion-modal .modal-content ol, .fusion-modal .modal-content ul, .fusion-modal .modal-content li, .fusion-modal .modal-content fieldset, .fusion-modal .modal-content form, .fusion-modal .modal-content label, .fusion-modal .modal-content legend, .fusion-modal .modal-content table, .fusion-modal .modal-content caption, .fusion-modal .modal-content tbody, .fusion-modal .modal-content tfoot, .fusion-modal .modal-content thead, .fusion-modal .modal-content tr, .fusion-modal .modal-content th, .fusion-modal .modal-content td {
+  font-size: 18px; }
+
 html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   border: 0;
   font-family: "Myriad-Pro", arial, sans-serif !important;
@@ -144,7 +147,7 @@ strong, b {
     /*border-bottom: .2em solid $primary-color;*/ }
     #wrapper header .fusion-header {
       background-color: #fff;
-      border-bottom: 0.2em solid #CC0000 !important; }
+      border-bottom: 3px solid #CC0000 !important; }
       #wrapper header .fusion-header .fusion-row {
         height: 85px;
         max-width: none; }
@@ -197,11 +200,13 @@ strong, b {
     display: none; }
   #wrapper .fusion-logo-1x {
     height: 50px; }
-  #wrapper .fusion-header .fusion-logo {
-    margin-top: 0px !important;
-    margin-bottom: 0px !important;
+  #wrapper .fusion-header .fusion-logo-custom {
     margin: auto;
-    padding: 5px; }
+    padding: 5px;
+    display: block;
+    float: left;
+    max-width: 100%;
+    zoom: 1; }
   #wrapper .fusion-meta-info .fusion-alignleft {
     width: 100%; }
   #wrapper #custom-header-logo {
@@ -226,67 +231,58 @@ strong, b {
       font-size: 18px;
       text-align: center;
       margin-bottom: 20px; }
-  #wrapper .fusion-header {
-    height: 60px; }
   #wrapper #menu-eccles .fusion-header {
+    height: 45px !important;
     background-color: #000; }
     #wrapper #menu-eccles .fusion-header a, #wrapper #menu-eccles .fusion-header span {
       font-size: 14px;
       color: white; }
   #wrapper #menu-eccles .fusion-main-menu > ul > li > a {
-    height: 60px;
-    line-height: 60px; }
-  #wrapper #menu-eccles .fusion-logo img {
-    max-height: 50px; }
+    height: 45px;
+    line-height: 45px; }
+  #wrapper #menu-eccles .fusion-logo-custom img {
+    max-height: 35px; }
   #wrapper #menu-eccles nav {
-    height: 50px; }
+    height: 40px; }
   #wrapper #menu-eccles .fusion-row {
     width: 100%;
     max-width: none; }
   #wrapper header .fusion-header {
-    max-height: 70px;
-    height: 70px;
+    max-height: 60px;
+    height: 60px;
     /* IE6+ */ }
     #wrapper header .fusion-header .fusion-row {
-      height: 70px; }
-    #wrapper header .fusion-header .fusion-row {
-      width: -moz-fit-content; }
+      height: 60px; }
     #wrapper header .fusion-header .fusion-row {
       display: table;
-      width: 100%; }
+      /*width: 100%;*/ }
+    #wrapper header .fusion-header .fusion-row {
+      width: -moz-fit-content; }
     #wrapper header .fusion-header .fusion-main-menu > ul > li > a {
-      line-height: 66px !important;
-      height: 66px !important; }
+      line-height: 55px;
+      height: 55px; }
     #wrapper header .fusion-header .fusion-logo {
       display: none; }
       #wrapper header .fusion-header .fusion-logo img {
         max-height: 55px; }
   @media (max-width: 1130px) {
     #wrapper header .fusion-logo {
-      width: 85%;
       padding-top: 0px !important;
       display: block; } }
   @media (max-width: 1129px) {
     #wrapper header .fusion-header {
-      max-height: 85px;
-      height: 85px; }
+      height: auto;
+      max-height: none; }
       #wrapper header .fusion-header .fusion-icon-bars {
         font-size: 30px; }
     #wrapper #menu-eccles {
       display: none; }
-      #wrapper #menu-eccles .fusion-logo {
-        width: 85%; }
-      #wrapper #menu-eccles .fusion-logo a {
-        max-width: 60%; }
-      #wrapper #menu-eccles .fusion-row {
-        /*display: flex;*/ }
     #wrapper header .fusion-mobile-nav-holder {
       padding-top: 0px;
       float: none !important; }
     #wrapper header .fusion-logo {
-      width: 85%;
       padding-top: 0px !important;
-      display: block; }
+      display: block !important; }
     #wrapper header .fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header {
       /*padding-top:0px;*/ }
     #wrapper header .fusion-logo img {
@@ -303,7 +299,7 @@ strong, b {
   #wrapper .gsc-adBlock {
     display: none !important; }
   #wrapper .gs-visibleUrl, #wrapper .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
-    color: #cc0000 !important; }
+    color: #CC0000 !important !important; }
   #wrapper .gsc-results .gsc-cursor-box .gsc-cursor-page, #wrapper .gs-webResult.gs-result a.gs-title:link b, #wrapper .gs-webResult.gs-result a.gs-title:visited, #wrapper .gs-webResult.gs-result a.gs-title:visited b, #wrapper .gs-imageResult a.gs-title:visited, #wrapper .gs-imageResult a.gs-title:visited b {
     color: #000; }
   #wrapper .gs-webResult.gs-result a.gs-title:visited, #wrapper .gs-webResult.gs-result a.gs-title:visited b, #wrapper .gs-imageResult a.gs-title:visited, #wrapper .gs-imageResult a.gs-title:visited b {
@@ -343,14 +339,24 @@ strong, b {
     height: 50px !important;
     margin-top: 8px !important; }
   #wrapper .fusion-secondary-header {
-    border: none;
-    background-color: #3b3b3b !important; }
+    border-bottom: 1px #333 solid;
+    border-top: 3px #CC0000 !important solid;
+    background-color: #fff !important; }
+    @media (min-width: 1130px) {
+      #wrapper .fusion-secondary-header {
+        height: 40px; } }
     #wrapper .fusion-secondary-header .fusion-row {
       width: 100%;
       max-width: none; }
       #wrapper .fusion-secondary-header .fusion-row div, #wrapper .fusion-secondary-header .fusion-row a, #wrapper .fusion-secondary-header .fusion-row p, #wrapper .fusion-secondary-header .fusion-row li, #wrapper .fusion-secondary-header .fusion-row span {
-        color: #fff;
+        color: #000;
         font-size: 16px; }
+        @media (min-width: 1130px) {
+          #wrapper .fusion-secondary-header .fusion-row div, #wrapper .fusion-secondary-header .fusion-row a, #wrapper .fusion-secondary-header .fusion-row p, #wrapper .fusion-secondary-header .fusion-row li, #wrapper .fusion-secondary-header .fusion-row span {
+            line-height: 40px;
+            height: 40px; } }
+      #wrapper .fusion-secondary-header .fusion-row a:hover span {
+        color: #cc0000; }
       #wrapper .fusion-secondary-header .fusion-row li {
         border: none; }
   #wrapper .gsst_b .gsst_a:after {
@@ -422,7 +428,7 @@ table.gssb_c {
   line-height: inherit;
   font-size: 16px; }
 #wrapper .fusion-button-wrapper .fusion-button:hover span {
-  color: #cc0000;
+  color: #CC0000 !important;
   transition: none;
   line-height: inherit;
   font-size: 16px; }
@@ -492,6 +498,8 @@ table.gssb_c {
   font-size: 20px; }
 #wrapper .fusion-accordian .fusion-alignleft {
   float: none; }
+#wrapper .recent-posts-content {
+  display: inline-block; }
 
 /*End Button Links and Title*/
 /**

@@ -94,22 +94,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 				<?php
 		
-		//List of Sites without custom header
-		$list_of_urls[0] = 'http://eccles.utah.edu';
-		$list_of_urls[1] = "//dmz-test.eccles.utah.edu/ecclesv5";
-		$list_of_urls[2] = '//localhost/Workspace/Wordpress_New/eccles/';
-		$list_of_urls[3] = 'http://dmz-test.eccles.utah.edu/undergraduate';
-		
-		$custom_header=TRUE;
-		$site_url = get_option( 'siteurl' );
-		foreach ($list_of_urls as $key => $value) {
-			if($site_url==$value){
-				$custom_header=FALSE;
-			}
-			
-		}
-		//if true displays custom top menu for subpages
-		if($custom_header){
+	//if true displays custom top menu for subpages
+		if(custom_header()){
 
 				?>
 				<div id="menu-eccles" class="fusion-header-wrapper-eccles">
@@ -117,7 +103,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<div class="" style="display: none;"></div>
 						<div class="fusion-header">
 							<div class="fusion-row">
-								<div class="fusion-logo" data-margin-top="auto" data-margin-bottom="auto" data-margin-left="0px" data-margin-right="0px">
+								<div class="fusion-logo-custom" data-margin-top="auto" data-margin-bottom="auto" data-margin-left="0px" data-margin-right="0px">
 									<a class="fusion-logo-link" href="http://eccles.utah.edu"> 
 										
 									<!--	<img src="wp-content/themes/Avada-Child-Theme/logos/logo-white.png" width="" height="" alt="The David Eccles School of Business Logo" class="fusion-logo-1x fusion-standard-logo"> 
@@ -160,6 +146,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 											<a href="http://eccles.utah.edu/alumni/invest/ways-to-give/"><span class="menu-text">Give</span></a>
 										</li>
 									</ul>
+								</nav>
 								</nav>	
 							</div>
 						</div>
@@ -175,12 +162,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 	var element = document.getElementsByClassName("fusion-mobile-nav-holder");
-	if(element){
-		//var child = document.getElementsByClassName("fusion-menu");
-	//element[0].innerHTML=para.innerHTML+element[0].innerHTML;
-	element[0].insertBefore(para,element[0].children[0]);
-	}
+
 	
+	if(element){
+			element[0].insertBefore(para,element[0].children[0]);		
+	}
+
 
 	}, false);
 
@@ -199,19 +186,24 @@ function show_sub_menu(){
 				}else{
 					//This code makes header black for eccles and sites without custom heder nav
 					?>
-					<script>
-					//Changes link of header logo to point to eccles
-						document.addEventListener('DOMContentLoaded', function() {
-						var logo_link = document.getElementsByClassName("fusion-logo-link");
-						
-						logo_link[0].href='http://eccles.utah.edu';
-							}, false);
-					</script>
+					
 					<style>
 					#wrapper header nav{
 						
 						float:right !important;
+						
 					}
+					@media(min-width:800px){
+					#wrapper header .fusion-header nav span {
+						color: #fff !important;
+					}
+					#wrapper header .fusion-header nav .sub-menu span {
+						color: #333 !important;
+					}
+					}
+					#wrapper header .fusion-header .fusion-logo{
+							margin:0px !important;
+						}
 					#wrapper .fusion-header,#wrapper .fusion-header-wrapper.fusion-is-sticky .fusion-header{
 						background-color: #000 !important;
 					}
@@ -219,7 +211,7 @@ function show_sub_menu(){
 						color :#DDDDDD;
 					}
 					#wrapper .fusion-header li:hover >a  span, #wrapper .fusion-header li:hover >a span .fa-external-link:before{
-						color :#CC0000;
+						color :#CC0000 !important;
 					}
 					#wrapper .fusion-header .sub-menu span{
 						color : #333;
@@ -227,19 +219,38 @@ function show_sub_menu(){
 					#wrapper header .fusion-logo{
 						display: block !important;
 					}
+					#wrapper header .fusion-header, #wrapper header .fusion-header .fusion-row {
+						    max-height: 70px;
+						    height: 70px;
+						    width:100%;
+						}
+					#wrapper header .fusion-header .fusion-main-menu > ul > li > a {
+					    line-height: 66px;
+					    height: 66px;
+					}				
 					#wrapper .fusion-logo-1x {
 						height: 55px !important;
 						max-height: 45px;
 					}
 					/* IE6+ */
 					#wrapper header .fusion-row{
-						display: block !important;
+					/*	display: block !important;*/
+					}
+					@media (max-width:1300px){
+						#wrapper header .fusion-header, #wrapper header .fusion-header .fusion-row {
+						    max-height: none;
+						    height: auto !important;
+						    width:100%;
+						}
+						#wrapper header .fusion-header .fusion-main-menu{
+							float: none !important;
+						}
+						
 					}
 					</style>
 					<?php					
 				}
 				?>
-
 				<div id="home" style="position:relative;top:-1px;"></div>
 				<?php if ( Avada()->settings->get( 'slidingbar_widgets' ) && ! is_page_template( 'blank.php' ) && ! $boxed_side_header_right ) :
 				?>

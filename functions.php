@@ -211,5 +211,21 @@ function append_attachment_slug( $slug, $post_ID, $post_status, $post_type, $pos
       return $slug;
 }
 add_filter( 'wp_unique_post_slug', 'append_attachment_slug', 10, 6 );
+function custom_header(){
+	//List of Sites without custom header
+		$list_of_urls[0] = 'http://eccles.utah.edu';
+		$list_of_urls[1] = "//dmz-test.eccles.utah.edu/ecclesv5";
+		$list_of_urls[2] = '//localhost/Workspace/Wordpress_New/eccles/';
+		
+		
+		$custom_header=TRUE;
+		$site_url = get_option( 'siteurl' );
+		foreach ($list_of_urls as $key => $value) {
+			if($site_url==$value){
+				$custom_header=FALSE;
+			}
 
+		}
+		return $custom_header;
+}
 ?>

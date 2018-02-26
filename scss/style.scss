@@ -37,6 +37,7 @@ $font-quote: 'Times New Roman', Times, serif !important;
     font-weight: normal;
 }
 #wrapper{
+  
 html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   
        
@@ -44,7 +45,13 @@ html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acro
 }
 
 }
-
+.fusion-modal .modal-content{
+  html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  
+       
+    font-size: 18px;
+}
+}
 html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   
     border: 0;
@@ -87,6 +94,7 @@ strong,b {
   }
   a{
     text-decoration: none;
+    
   }
   h2 {
     transition: none;
@@ -215,7 +223,7 @@ strong,b {
     /*border-bottom: .2em solid $primary-color;*/
    .fusion-header{
      background-color: #fff;
-    border-bottom: .2em solid $primary-color;
+    border-bottom: 3px solid $primary-color;
     .fusion-row {
         height: 85px;
         max-width: none;
@@ -290,11 +298,14 @@ strong,b {
   .fusion-logo-1x{
    height: 50px; 
   }
-  .fusion-header .fusion-logo{
-    margin-top:0px !important;
-    margin-bottom:0px !important;
+
+  .fusion-header .fusion-logo-custom{
     margin: auto;
         padding: 5px;
+            display: block;
+    float: left;
+    max-width: 100%;
+    zoom: 1;
   }
   .fusion-meta-info .fusion-alignleft{
      width: 100%;
@@ -329,15 +340,13 @@ strong,b {
           margin-bottom: 20px;
         }
   }
-  .fusion-header,{
-    height: 60px;
-  }
+  
   
 /*Header of Eccles Custom and Sub header*/
   
   #menu-eccles{ 
       .fusion-header{
-        
+        height: 45px !important;
         background-color: #000;
         a,span{
           font-size:14px;
@@ -345,17 +354,17 @@ strong,b {
         }
       }
       .fusion-main-menu > ul > li > a{
-      height: 60px;
-      line-height: 60px;
+      height: 45px;
+      line-height: 45px;
     }
-    .fusion-logo {
+    .fusion-logo-custom {
        img{
          
-         max-height:50px;
+         max-height:35px;
        }
     }
       nav{
-        height: 50px;
+        height: 40px;
       }
       .fusion-row{
         
@@ -364,24 +373,27 @@ strong,b {
       } 
       
   }
+  
+  //Main header
   header .fusion-header{ 
-    max-height: 70px;
-     height: 70px;
+    max-height: 60px;
+     height: 60px;
     .fusion-row{
-      height: 70px;
-    }
-    .fusion-row{
-      width: -moz-fit-content;
+      height: 60px;
     }
     /* IE6+ */
     .fusion-row{
      display:table;
-     width: 100%;
+     /*width: 100%;*/
      
     }
+    .fusion-row{
+      width: -moz-fit-content;
+    }
+    
     .fusion-main-menu > ul > li > a{
-      line-height: 66px !important;
-      height:66px !important;
+      line-height: 55px;
+      height:55px;
     }
      .fusion-logo {
        display: none;
@@ -395,7 +407,7 @@ strong,b {
       header {
       
         .fusion-logo{
-         width: 85%; 
+        // width: 85%; 
          padding-top:0px !important;
          display:block;
         }
@@ -404,8 +416,10 @@ strong,b {
   }
   @media (max-width: 1129px){
      header .fusion-header {
-    max-height: 85px;
-    height: 85px;
+   // max-height: 85px;
+    //height: 85px;
+    height:auto;
+    max-height:none;
     .fusion-icon-bars{
       font-size: 30px;
     }
@@ -413,17 +427,6 @@ strong,b {
     #menu-eccles{
       display:none;
       
-      .fusion-logo{
-       width: 85%; 
-      
-       
-      }
-      .fusion-logo a {
-        max-width: 60%;
-      }
-      .fusion-row{
-        /*display: flex;*/
-      }
     }
     header {
       .fusion-mobile-nav-holder{
@@ -431,9 +434,9 @@ strong,b {
         float:none !important;       
       }
       .fusion-logo{
-       width: 85%; 
+       //width: 85%; 
        padding-top:0px !important;
-       display:block;
+       display:block !important;
       }
     .fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header{
       /*padding-top:0px;*/
@@ -467,7 +470,7 @@ strong,b {
     display: none !important;
   }
   .gs-visibleUrl,.gsc-results .gsc-cursor-box .gsc-cursor-current-page{
-    color: #cc0000 !important;
+    color: $primary-color !important;
   }
    .gsc-results .gsc-cursor-box .gsc-cursor-page,.gs-webResult.gs-result a.gs-title:link b,.gs-webResult.gs-result a.gs-title:visited, .gs-webResult.gs-result a.gs-title:visited b, .gs-imageResult a.gs-title:visited, .gs-imageResult a.gs-title:visited b{
     color: #000;
@@ -527,14 +530,26 @@ strong,b {
 
   }
     .fusion-secondary-header{
-      border:none;
-      background-color: #3b3b3b !important;
+      border-bottom: 1px #333 solid;
+      border-top: 3px $primary-color solid;
+      background-color: #fff !important;
+      @media (min-width:1130px){
+         height: 40px;
+      }
+     
         .fusion-row{
           width: 100%;
           max-width: none;
           div,a, p, li, span{
-            color: #fff;
+            color: #000;
             font-size: 16px;
+            @media (min-width:1130px){
+            line-height: 40px;
+            height: 40px;
+            }
+          }
+          a:hover span {
+            color: #cc0000;
           }
           li{
             border:none;
@@ -657,7 +672,7 @@ strong,b {
     .fusion-button:hover{
        @extend .button-hover;
        span {
-        color: #cc0000;
+        color: $primary-color;
         transition: none;
         line-height: inherit;
         font-size: 16px;
@@ -773,6 +788,7 @@ strong,b {
   .fusion-accordian .fusion-alignleft{
     float:none;
   }
+  .recent-posts-content {display:inline-block;}
 }
 /*End Button Links and Title*/
 /**
