@@ -50,6 +50,8 @@ strong, b {
     outline: 0;
     vertical-align: baseline;
     color: #333; }
+  #wrapper h1 {
+    font-weight: bold; }
   #wrapper article h2.fusion-post-title {
     font-size: 36px !important;
     line-height: 35px !important; }
