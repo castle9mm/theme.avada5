@@ -243,7 +243,7 @@ function show_sub_menu(){
 						    width:100%;
 						}
 						#wrapper header .fusion-header .fusion-main-menu{
-							float: none !important;
+							//float: none !important;
 						}
 						
 					}
