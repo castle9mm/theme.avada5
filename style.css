@@ -51,7 +51,7 @@ strong, b {
     vertical-align: baseline;
     color: #333; }
   #wrapper h1 {
-    font-weight: bold; }
+    font-family: "Myriad-Pro-Bold", arial, sans-serif !important; }
   #wrapper article h2.fusion-post-title {
     font-size: 36px !important;
     line-height: 35px !important; }
