@@ -508,6 +508,8 @@ table.gssb_c {
   float: none; }
 #wrapper .recent-posts-content {
   display: inline-block; }
+#wrapper #sidebar li a::before {
+  display: none; }
 
 /*End Button Links and Title*/
 /**

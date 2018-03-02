@@ -800,6 +800,10 @@ strong,b {
     float:none;
   }
   .recent-posts-content {display:inline-block;}
+  
+  #sidebar li a::before{
+    display:none;
+  }
 }
 /*End Button Links and Title*/
 /**
