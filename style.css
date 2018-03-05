@@ -335,6 +335,9 @@ strong, b {
     text-align: left; }
   #wrapper .gsc-input-box {
     height: 36px; }
+    #wrapper .gsc-input-box input {
+      background: none !important;
+      text-indent: 5px !important; }
   #wrapper .gsc-control-cse {
     padding-top: 5px;
     padding-bottom: 0px; }

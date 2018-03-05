@@ -526,6 +526,10 @@ strong,b {
   }
   .gsc-input-box {
    height: 36px; 
+   input{
+     background: none !important;
+     text-indent: 5px !important;
+   }
   }
   .gsc-control-cse{
     padding-top:5px;
