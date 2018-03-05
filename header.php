@@ -237,8 +237,8 @@ function show_sub_menu(){
 						    width:100%;
 						}
 					#wrapper header .fusion-header .fusion-main-menu > ul > li > a {
-					    line-height: 66px;
-					    height: 66px;
+					    line-height: 66px !important;
+					    height: 66px !important;
 					}				
 					#wrapper .fusion-logo-1x {
 						height: 55px !important;
