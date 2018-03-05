@@ -188,11 +188,14 @@ function show_sub_menu(){
 					?>
 					
 					<style>
-					#wrapper header nav{
+					@media(min-width:1183px){
+						#wrapper header nav{
 						
 						float:right !important;
 						
 					}
+					}
+					
 					@media(min-width:800px){
 					#wrapper header .fusion-header nav span {
 						color: #fff !important;
