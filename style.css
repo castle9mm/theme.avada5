@@ -165,7 +165,7 @@ strong, b {
       width: 50vw;
       top: 70px;
       transition: all .3s;
-      overflow: hidden;
+      /* overflow: hidden;*/
       right: 0;
       z-index: 999999; }
       #wrapper header .fusion-custom-menu-item-contents input {
@@ -336,7 +336,8 @@ strong, b {
   #wrapper .gsc-input-box {
     height: 36px; }
   #wrapper .gsc-control-cse {
-    padding-top: 5px; }
+    padding-top: 5px;
+    padding-bottom: 0px; }
   #wrapper .gsib_a {
     padding: 0px; }
   #wrapper .gsc-modal-background-image {

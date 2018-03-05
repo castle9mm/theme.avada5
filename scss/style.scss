@@ -246,7 +246,7 @@ strong,b {
             width: 50vw;
             top: 70px;
             transition: all .3s;
-            overflow: hidden;
+           /* overflow: hidden;*/
             right: 0;
             z-index: 999999;
            
@@ -469,8 +469,6 @@ strong,b {
      
     }
     }
-
-    
   }
     
   header .fusion-header .fusion-mobile-nav-holder {
@@ -531,6 +529,7 @@ strong,b {
   }
   .gsc-control-cse{
     padding-top:5px;
+    padding-bottom: 0px;
   }
   .gsib_a{
     padding:0px;
