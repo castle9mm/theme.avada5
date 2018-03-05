@@ -188,6 +188,15 @@ function show_sub_menu(){
 					?>
 					
 					<style>
+					#wrapper header .fusion-custom-menu-item-contents, .gsc-control-cse{
+						background-color: #000;
+					}
+					.gsc-control-cse{
+						border-color: #000;
+					}
+					.gsc-search-button{
+						display: none;
+					}
 					@media(min-width:1183px){
 						#wrapper header nav{
 						
