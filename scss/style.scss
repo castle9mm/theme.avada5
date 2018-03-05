@@ -466,17 +466,19 @@ strong,b {
        color: #333;
        
      }
-     .fusion-mobile-nav-holder {
-       li span{
-         color: #333 !important;
-         
-       }
-     }
+     
     }
     }
 
     
   }
+    
+  header .fusion-header .fusion-mobile-nav-holder {
+       li span{
+         color: #333 !important;
+         
+       }
+     }
   
   .gsc-results-wrapper-overlay{
     height: 80vh;

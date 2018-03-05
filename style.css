@@ -299,9 +299,9 @@ strong, b {
       padding-left: 5px;
       padding-right: 10px; }
       #wrapper header .fusion-header span {
-        color: #333; }
-      #wrapper header .fusion-header .fusion-mobile-nav-holder li span {
-        color: #333 !important; } }
+        color: #333; } }
+  #wrapper header .fusion-header .fusion-mobile-nav-holder li span {
+    color: #333 !important; }
   #wrapper .gsc-results-wrapper-overlay {
     height: 80vh; }
   #wrapper .gsc-adBlock {
