@@ -194,7 +194,7 @@ strong, b {
     #wrapper header .fusion-mobile-nav-holder ul #mobile-menu-item-156-1 > a {
       background-color: #000; }
       #wrapper header .fusion-mobile-nav-holder ul #mobile-menu-item-156-1 > a span {
-        color: #fff; }
+        color: #fff !important; }
     #wrapper header .fusion-mobile-nav-holder ul #mobile-menu-item-156-1 > span {
       color: #fff; }
     #wrapper header .fusion-mobile-nav-holder ul #mobile-menu-item-156-1 > ul li a {
