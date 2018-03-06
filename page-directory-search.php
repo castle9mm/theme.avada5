@@ -32,6 +32,26 @@ if ( have_posts() ) {
     <div class="team-position">
       <?php the_field('position'); ?>
     </div>
+    <div class="team-department">
+            <?php
+                       $terms = get_the_terms( $post->ID, 'departments' );
+                      if (!empty($terms)) {
+                      ?>
+                  <?php
+                  $sep = '';
+                              foreach($terms as $term) {
+                                  $link = get_term_link( $term );
+
+                                                      echo $sep . '<a href="' . $link . '">' . $term->name . '</a>';
+                                                      $sep = ', ';
+
+
+                                                                                    }
+                                        ?>
+                                   <?php
+                          }
+                      ?>
+      </div>
   </div>
   <?php
     } // end while
