@@ -516,10 +516,13 @@ table.gssb_c {
   display: inline-block; }
 #wrapper #sidebar li a:before {
   display: none; }
+#wrapper #sidebar li {
+  padding: 0px; }
 #wrapper #sidebar .sub-menu li {
   padding-right: 0px;
   padding-bottom: 0px;
-  padding-top: 0px; }
+  padding-top: 0px;
+  padding-left: 10px; }
 
 /*End Button Links and Title*/
 /**

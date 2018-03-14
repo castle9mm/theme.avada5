@@ -817,11 +817,14 @@ strong,b {
     display:none;
   }
   #sidebar{
+    li{
+      padding:0px;
+    }
    .sub-menu li{
       padding-right:0px;
       padding-bottom:0px;
       padding-top:0px;
-      
+      padding-left:10px;
     }
   }
 }
