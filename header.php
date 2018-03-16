@@ -194,6 +194,14 @@ function show_sub_menu(){
 					.gsc-control-cse{
 						border-color: #000 !important;
 					}
+					#sidebar .gsc-control-cse{
+						background-color: #FFFFFF !important;
+					}
+					#sidebar .gsc-control-cse{
+						border-color: #FFFFFF !important;
+					}
+					
+					
 					.gsc-search-button{
 						display: none !important;
 					}
