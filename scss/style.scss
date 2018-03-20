@@ -117,11 +117,10 @@ strong,b {
   }
   .fusion-main-menu {
     .current-menu-item .fusion-bar-highlight{
-          color: $primary-color;
           border-top:0px !important;
         
         }
-        .current-menu-item > a > span{
+        .current-menu-item > .fusion-bar-highlight > span{
              color: $primary-color;
           }
           
