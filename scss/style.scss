@@ -121,7 +121,7 @@ strong,b {
           border-top:0px !important;
         
         }
-        .current-menu-item .fusion-bar-highlight > span{
+        .current-menu-item .fusion-bar-highlight + span{
              color: $primary-color;
           }
           
