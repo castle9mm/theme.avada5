@@ -119,11 +119,12 @@ strong,b {
     .current-menu-item .fusion-bar-highlight{
           color: $primary-color;
           border-top:0px !important;
-          span{
+        
+        }
+        .current-menu-item .fusion-bar-highlight > span{
              color: $primary-color;
           }
           
-        }
       .fusion-main-menu-search a,.fusion-main-menu-icon:after,.fusion-widget-cart-counter > a:before{
          font-family:  $font-icon;
          cursor: pointer;
