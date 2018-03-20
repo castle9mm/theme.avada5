@@ -73,6 +73,8 @@ strong, b {
   #wrapper .fusion-main-menu .current-menu-item .fusion-bar-highlight {
     color: #CC0000 !important;
     border-top: 0px !important; }
+    #wrapper .fusion-main-menu .current-menu-item .fusion-bar-highlight span {
+      color: #CC0000 !important; }
   #wrapper .fusion-main-menu .fusion-main-menu-search a, #wrapper .fusion-main-menu .fusion-main-menu-icon:after, #wrapper .fusion-main-menu .fusion-widget-cart-counter > a:before {
     font-family: icomoon !important;
     cursor: pointer;
