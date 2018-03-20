@@ -85,9 +85,9 @@ strong, b {
       transition: none; }
       #wrapper .fusion-main-menu .menu-item a .fusion-megamenu-icon {
         color: #333; }
-      #wrapper .fusion-main-menu .menu-item a .current-menu-item .fusion-bar-highlight {
-        color: #CC0000 !important;
-        border-top: 0px !important; }
+    #wrapper .fusion-main-menu .menu-item .current-menu-item .fusion-bar-highlight {
+      color: #CC0000 !important;
+      border-top: 0px !important; }
     #wrapper .fusion-main-menu .menu-item a:hover {
       border-color: transparent;
       color: #CC0000 !important; }

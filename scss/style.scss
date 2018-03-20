@@ -133,12 +133,13 @@ strong,b {
             .fusion-megamenu-icon{
           color: #333;
         }
-        .current-menu-item .fusion-bar-highlight{
+        
+          }
+          .current-menu-item .fusion-bar-highlight{
           color: $primary-color;
           border-top:0px !important;
           
         }
-          }
           a:hover{
             border-color: transparent;
              color: $primary-color;
