@@ -70,6 +70,9 @@ strong, b {
     overflow: initial !important; }
     #wrapper header .fusion-main-menu .menu-item:hover a {
       background-color: white; }
+  #wrapper .fusion-main-menu .current-menu-item .fusion-bar-highlight {
+    color: #CC0000 !important;
+    border-top: 0px !important; }
   #wrapper .fusion-main-menu .fusion-main-menu-search a, #wrapper .fusion-main-menu .fusion-main-menu-icon:after, #wrapper .fusion-main-menu .fusion-widget-cart-counter > a:before {
     font-family: icomoon !important;
     cursor: pointer;
@@ -85,9 +88,6 @@ strong, b {
       transition: none; }
       #wrapper .fusion-main-menu .menu-item a .fusion-megamenu-icon {
         color: #333; }
-    #wrapper .fusion-main-menu .menu-item .current-menu-item .fusion-bar-highlight {
-      color: #CC0000 !important;
-      border-top: 0px !important; }
     #wrapper .fusion-main-menu .menu-item a:hover {
       border-color: transparent;
       color: #CC0000 !important; }

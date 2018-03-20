@@ -116,6 +116,11 @@ strong,b {
       
   }
   .fusion-main-menu {
+    .current-menu-item .fusion-bar-highlight{
+          color: $primary-color;
+          border-top:0px !important;
+          
+        }
       .fusion-main-menu-search a,.fusion-main-menu-icon:after,.fusion-widget-cart-counter > a:before{
          font-family:  $font-icon;
          cursor: pointer;
@@ -135,11 +140,7 @@ strong,b {
         }
         
           }
-          .current-menu-item .fusion-bar-highlight{
-          color: $primary-color;
-          border-top:0px !important;
           
-        }
           a:hover{
             border-color: transparent;
              color: $primary-color;
