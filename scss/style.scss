@@ -821,9 +821,6 @@ strong,b {
     display:none;
   }
   #sidebar{
-    ul{
-      //border-right: 1px solid #ededed;
-    }
     li{
       a{
         color:#333;
@@ -833,12 +830,12 @@ strong,b {
     .current-menu-item{
       a{
         color:$primary-color;
+            border-right-color: #cc0000;
   
-    border-right: 3px solid #cc0000;
+    border-right: 3px solid;
       }
     }
-   .sub-menu li{
-    }
+
   }
 }
 /*End Button Links and Title*/
