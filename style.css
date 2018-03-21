@@ -222,6 +222,8 @@ strong, b {
     #wrapper .fusion-recent-posts .fusion-column {
       padding: 0px;
       display: flex; }
+    #wrapper .fusion-recent-posts .flex-active-slide {
+      min-width: 144px; }
   #wrapper .recent-post-carousel {
     border-bottom: 10px solid #CC0000 !important;
     background-color: #ededed !important;

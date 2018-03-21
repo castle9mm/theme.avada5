@@ -333,6 +333,9 @@ strong,b {
       padding: 0px;
       display:flex;      
     }
+    .flex-active-slide{
+      min-width: 144px;
+    }
   }
   .recent-post-carousel{   
     border-bottom: 10px solid $primary-color;
