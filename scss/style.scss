@@ -828,12 +828,15 @@ strong,b {
       
     }
     .current-menu-item{
-        border-right-color: #cc0000;
+        border-right-color: #cc0000 !important;
         border-right: 3px solid;
       a{
         color:$primary-color;
           
       }
+    }
+    .sub-menu li{
+      border-right: 1px solid;
     }
 
   }
