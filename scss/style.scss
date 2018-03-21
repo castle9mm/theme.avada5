@@ -821,9 +821,8 @@ strong,b {
     display:none;
   }
   #sidebar{
-    li ul{
-      border: 1px solid #ededed;
-      border-left: 0px;
+    ul{
+      //border-right: 1px solid #ededed;
     }
     li{
       a{

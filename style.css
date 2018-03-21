@@ -515,9 +515,6 @@ table.gssb_c {
   display: inline-block; }
 #wrapper #sidebar li a:before {
   display: none; }
-#wrapper #sidebar li ul {
-  border: 1px solid #ededed;
-  border-left: 0px; }
 #wrapper #sidebar li a {
   color: #333; }
 #wrapper #sidebar .current-menu-item a {
