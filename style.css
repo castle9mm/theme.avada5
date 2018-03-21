@@ -229,8 +229,8 @@ strong, b {
     background-color: #ededed !important;
     margin-bottom: 30px;
     margin-top: -20px; }
-    #wrapper .recent-post-carousel .recent-posts-content {
-      display: block; }
+    #wrapper .recent-post-carousel .recent-posts-content, #wrapper .recent-post-carousel .fusion-column {
+      display: block !important; }
     #wrapper .recent-post-carousel h4 {
       font-size: 18px;
       text-align: center;
