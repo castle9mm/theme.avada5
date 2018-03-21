@@ -517,13 +517,13 @@ table.gssb_c {
   display: none; }
 #wrapper #sidebar li a {
   color: #333; }
-#wrapper #sidebar .current-menu-item {
+#wrapper #sidebar li.current-menu-item {
   border-right-color: #cc0000 !important;
-  border-right: 3px solid !important; }
-  #wrapper #sidebar .current-menu-item a {
+  border-right: 3px solid  #cc0000 !important; }
+  #wrapper #sidebar li.current-menu-item a {
     color: #CC0000 !important; }
 #wrapper #sidebar .sub-menu li {
-  border-right: 1px solid; }
+  border-right: 1px solid #e0dede; }
 
 /*End Button Links and Title*/
 /**

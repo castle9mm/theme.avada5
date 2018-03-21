@@ -826,16 +826,16 @@ strong,b {
         color:#333;
       }
     }
-    .current-menu-item{
+    li.current-menu-item{
         border-right-color: #cc0000 !important;
-        border-right: 3px solid !important;
+        border-right: 3px solid  #cc0000 !important;
       a{
         color:$primary-color;
           
       }
     }
     .sub-menu li{
-      border-right: 1px solid;
+      border-right: 1px solid #e0dede;
     }
 
   }
