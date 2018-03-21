@@ -139,8 +139,8 @@ strong,b {
             color: #545454;
             transition: none;
             .fusion-megamenu-icon{
-          color: #333;
-        }
+              color: #333;
+            }
         
           }
           
@@ -166,14 +166,6 @@ strong,b {
             }
           }
           
-      }
-      #menu-main-menu >{
-        li:first-child > a > span{
-            
-           /*   font-size: 22px;
-              font-weight: bold;
-            */
-          }
       }
     
       #menu-header {
@@ -235,7 +227,6 @@ strong,b {
   }
   
   header {
-    /*border-bottom: .2em solid $primary-color;*/
    .fusion-header{
      background-color: #fff;
     border-bottom: 3px solid $primary-color;
@@ -254,9 +245,7 @@ strong,b {
             border-left: none;
             border-right: none;
             width: 50vw;
-            /*top: 70px;*/
             transition: all .3s;
-           /* overflow: hidden;*/
             right: 0;
             z-index: 999999;
            
@@ -341,7 +330,8 @@ strong,b {
   .fusion-recent-posts {
         margin-bottom: 30px;
     .fusion-column{
-      padding: 0px
+      padding: 0px;
+      display:flex;      
     }
   }
   .recent-post-carousel{   

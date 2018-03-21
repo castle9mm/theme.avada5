@@ -104,10 +104,6 @@ strong, b {
       color: white;
       padding: 0em 0.5em;
       font-weight: bold; }
-  #wrapper .fusion-main-menu #menu-main-menu > li:first-child > a > span {
-    /*   font-size: 22px;
-       font-weight: bold;
-     */ }
   #wrapper .fusion-main-menu #menu-header .current-menu-item > a, #wrapper .fusion-main-menu #menu-header .current-menu-ancestor > a {
     border-top-color: white;
     color: #CC0000 !important; }
@@ -150,59 +146,55 @@ strong, b {
     font-family: icomoon !important;
     cursor: pointer;
     color: #CC0000 !important; }
-  #wrapper header {
-    /*border-bottom: .2em solid $primary-color;*/ }
-    #wrapper header .fusion-header {
-      background-color: #fff;
-      border-bottom: 3px solid #CC0000 !important; }
-      #wrapper header .fusion-header .fusion-row {
-        height: 85px;
-        max-width: none; }
-    #wrapper header .fusion-custom-menu-item-contents {
-      padding: 3px 0;
-      height: 53px;
-      border-bottom: 3px solid #CC0000 !important;
-      background-color: #fff;
-      border-top: none;
-      border-left: none;
-      border-right: none;
-      width: 50vw;
-      /*top: 70px;*/
-      transition: all .3s;
-      /* overflow: hidden;*/
-      right: 0;
-      z-index: 999999; }
-      #wrapper header .fusion-custom-menu-item-contents input {
-        padding-bottom: 10px;
-        border: none;
-        font-size: 30px;
-        color: #858585;
-        font-weight: 300;
-        position: relative;
-        height: 100%;
-        border: 0;
-        text-align: left;
-        background: transparent;
-        padding: 0 18% 0 3%;
-        margin-top: 10px;
-        float: left;
-        width: 80%; }
-      #wrapper header .fusion-custom-menu-item-contents input:focus {
-        outline: none; }
-    #wrapper header .fusion-main-menu > ul > li > a {
-      line-height: 65px; }
-    #wrapper header .fusion-custom-menu-item-contents .search-field {
-      border: none; }
-    #wrapper header .fusion-mobile-nav-holder ul .eccles-mobile-menu-item {
-      padding-left: 0px; }
-    #wrapper header .fusion-mobile-nav-holder ul #mobile-menu-item-156-1 > a {
-      background-color: #000; }
-      #wrapper header .fusion-mobile-nav-holder ul #mobile-menu-item-156-1 > a span {
-        color: #fff !important; }
-    #wrapper header .fusion-mobile-nav-holder ul #mobile-menu-item-156-1 > span {
+  #wrapper header .fusion-header {
+    background-color: #fff;
+    border-bottom: 3px solid #CC0000 !important; }
+    #wrapper header .fusion-header .fusion-row {
+      height: 85px;
+      max-width: none; }
+  #wrapper header .fusion-custom-menu-item-contents {
+    padding: 3px 0;
+    height: 53px;
+    border-bottom: 3px solid #CC0000 !important;
+    background-color: #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 50vw;
+    transition: all .3s;
+    right: 0;
+    z-index: 999999; }
+    #wrapper header .fusion-custom-menu-item-contents input {
+      padding-bottom: 10px;
+      border: none;
+      font-size: 30px;
+      color: #858585;
+      font-weight: 300;
+      position: relative;
+      height: 100%;
+      border: 0;
+      text-align: left;
+      background: transparent;
+      padding: 0 18% 0 3%;
+      margin-top: 10px;
+      float: left;
+      width: 80%; }
+    #wrapper header .fusion-custom-menu-item-contents input:focus {
+      outline: none; }
+  #wrapper header .fusion-main-menu > ul > li > a {
+    line-height: 65px; }
+  #wrapper header .fusion-custom-menu-item-contents .search-field {
+    border: none; }
+  #wrapper header .fusion-mobile-nav-holder ul .eccles-mobile-menu-item {
+    padding-left: 0px; }
+  #wrapper header .fusion-mobile-nav-holder ul #mobile-menu-item-156-1 > a {
+    background-color: #000; }
+    #wrapper header .fusion-mobile-nav-holder ul #mobile-menu-item-156-1 > a span {
       color: #fff !important; }
-    #wrapper header .fusion-mobile-nav-holder ul #mobile-menu-item-156-1 > ul li a {
-      background-color: #afafaf; }
+  #wrapper header .fusion-mobile-nav-holder ul #mobile-menu-item-156-1 > span {
+    color: #fff !important; }
+  #wrapper header .fusion-mobile-nav-holder ul #mobile-menu-item-156-1 > ul li a {
+    background-color: #afafaf; }
   #wrapper .fusion-page-title-bar, #wrapper .fusion-logo-2x.fusion-post-content-wrapper .fusion-post-content-container, #wrapper .fusion-meta-info .fusion-alignright {
     display: none; }
   #wrapper .fusion-logo-1x {
@@ -228,7 +220,8 @@ strong, b {
   #wrapper .fusion-recent-posts {
     margin-bottom: 30px; }
     #wrapper .fusion-recent-posts .fusion-column {
-      padding: 0px; }
+      padding: 0px;
+      display: flex; }
   #wrapper .recent-post-carousel {
     border-bottom: 10px solid #CC0000 !important;
     background-color: #ededed !important;
