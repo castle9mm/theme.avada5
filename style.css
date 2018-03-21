@@ -519,7 +519,7 @@ table.gssb_c {
   color: #333; }
 #wrapper #sidebar .current-menu-item {
   border-right-color: #cc0000 !important;
-  border-right: 3px solid; }
+  border-right: 3px solid !important; }
   #wrapper #sidebar .current-menu-item a {
     color: #CC0000 !important; }
 #wrapper #sidebar .sub-menu li {

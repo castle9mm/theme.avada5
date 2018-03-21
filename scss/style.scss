@@ -825,11 +825,10 @@ strong,b {
       a{
         color:#333;
       }
-      
     }
     .current-menu-item{
         border-right-color: #cc0000 !important;
-        border-right: 3px solid;
+        border-right: 3px solid !important;
       a{
         color:$primary-color;
           
