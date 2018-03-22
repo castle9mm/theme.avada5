@@ -131,6 +131,9 @@ strong,b {
       }
       .fusion-bar-highlight{
         border-top: 0px;
+        span {
+          color: $primary-color;
+        }
       }
       .menu-item{
         padding-right: 25px;
