@@ -864,6 +864,12 @@ display:none;
 .fusion-masonry-element-container .fusion-rollover-link{
 display:none;
 }
+.fusion-portfolio-content-wrapper .fusion-rollover{
+  a{
+    color: white !important;
+    text-shadow: 2px 3px 5px black;
+  }
+}
 }
 /*End Button Links and Title*/
 /**
