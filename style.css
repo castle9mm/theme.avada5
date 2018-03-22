@@ -544,6 +544,8 @@ table.gssb_c {
 #wrapper .fusion-portfolio-content-wrapper .fusion-rollover a {
   color: white !important;
   text-shadow: 2px 3px 5px black; }
+#wrapper .fusion-portfolio-content-wrapper .fusion-rollover .fusion-rollover-title {
+  display: none; }
 
 /*End Button Links and Title*/
 /**
