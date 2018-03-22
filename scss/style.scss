@@ -344,6 +344,12 @@ strong,b {
       min-width: 144px;
     }
   }
+  .job-grid {
+    
+    .fusion-column{
+      display:block !important;
+    }
+  }
   .recent-post-carousel{   
     border-bottom: 10px solid $primary-color;
     background-color: rgb(237, 237, 237) !important;

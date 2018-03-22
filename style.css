@@ -228,6 +228,8 @@ strong, b {
       display: flex; }
     #wrapper .fusion-recent-posts .flex-active-slide {
       min-width: 144px; }
+  #wrapper .job-grid .fusion-column {
+    display: block !important; }
   #wrapper .recent-post-carousel {
     border-bottom: 10px solid #CC0000 !important;
     background-color: #ededed !important;
