@@ -78,6 +78,8 @@ strong, b {
     font-family: icomoon !important;
     cursor: pointer;
     color: #CC0000 !important; }
+  #wrapper .fusion-main-menu .fusion-bar-highlight {
+    border-top: 0px; }
   #wrapper .fusion-main-menu .menu-item {
     padding-right: 25px;
     border: none;
