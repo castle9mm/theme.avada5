@@ -539,6 +539,9 @@ table.gssb_c {
   padding-left: 5px; }
 #wrapper .fusion-portfolio-content .fusion-post-content {
   display: none; }
+  #wrapper .fusion-portfolio-content .fusion-post-content p {
+    color: white !important;
+    text-shadow: 2px 2px 5px black; }
 #wrapper .fusion-portfolio-content:hover .fusion-post-content {
   display: block; }
 #wrapper .fusion-masonry-element-container .fusion-rollover-gallery {
