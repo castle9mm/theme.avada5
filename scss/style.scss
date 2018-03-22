@@ -846,6 +846,24 @@ strong,b {
     }
 
   }
+  .fusion-portfolio-content{
+    background-color: rgba(99, 99, 99, 0.4) !important;
+    height: 100% !important;
+}
+.fusion-portfolio-content a{
+    color: white !important;
+    text-shadow: 2px 3px 5px black;
+    padding-left: 5px;
+}
+.fusion-portfolio-content .fusion-post-content{
+ display:none;
+}
+.fusion-masonry-element-container .fusion-rollover-gallery{
+display:none;
+}
+.fusion-masonry-element-container .fusion-rollover-link{
+display:none;
+}
 }
 /*End Button Links and Title*/
 /**
