@@ -20,7 +20,10 @@
                 <div class="team-image-container">
                     <div class="team-image">
               <a href="<?php the_permalink(); ?>">
-                <?php if ( has_post_thumbnail() ) {the_post_thumbnail(array(300,auto)); } else { ?>  <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/profile-backdrop.jpg" alt="No Photo Available" /> <?php }?>
+                <?php $featured_image_url = wp_get_attachment_url( get_post_thumbnail_id( get_the_ID() ) ); ?>
+                    <?php if ( ! empty( $featured_image_url ) ) {
+                      the_post_thumbnail(300,auto); }
+                    else { ?><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/profile-backdrop.jpg" alt="No Photo Available" /> <?php }?>
             </a>
           </div>
                 </div>

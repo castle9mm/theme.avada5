@@ -364,7 +364,8 @@
 	<div class="directory-right" id="desktop-right">
 		<div class="person-image">
                   <div class="cover">
-                    <?php if ( has_post_thumbnail() ) {
+                    <?php $featured_image_url = wp_get_attachment_url( get_post_thumbnail_id( get_the_ID() ) ); ?>
+                    <?php if ( ! empty( $featured_image_url ) ) {
                       the_post_thumbnail(medium_large); } 
                     else { ?>  
                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/profile-backdrop.jpg" alt="No Photo Available" /> 
