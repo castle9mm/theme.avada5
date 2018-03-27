@@ -366,6 +366,7 @@ echo Avada() -> settings -> get('space_body');
   gtag('js', new Date());
 
   gtag('config', 'UA-1312186-9');
+  
 </script>
 
 </body>
