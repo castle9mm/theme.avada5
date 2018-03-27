@@ -40,7 +40,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			doc.setAttribute('data-useragent', navigator.userAgent);
 		</script>
 		<link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/logos/U_Favicon_55.png" sizes="32x32">
-		<link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/logos/U_Favicon_144.png" sizes="192x192">
+		<link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/logos/U_Favicon_114.png" sizes="192x192">
 		<?php
 		/**
 		 *
