@@ -531,10 +531,10 @@ table.gssb_c {
 #wrapper #sidebar .sub-menu li {
   border-right: 1px solid #e0dede; }
 #wrapper .fusion-portfolio-content {
-  background-color: rgba(99, 99, 99, 0.4) !important;
+  background-color: rgba(99, 99, 99, 0.3) !important;
   height: 100% !important; }
 #wrapper .fusion-portfolio-content:hover {
-  background-color: rgba(99, 99, 99, 0.7) !important; }
+  background-color: rgba(100, 85, 85, 0.7) !important; }
 #wrapper .fusion-portfolio-content a {
   color: white !important;
   text-shadow: 2px 3px 5px black;
