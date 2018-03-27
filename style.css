@@ -539,6 +539,10 @@ table.gssb_c {
   color: white !important;
   text-shadow: 2px 3px 5px black;
   padding-left: 5px; }
+#wrapper .fusion-portfolio-content .entry-title {
+  margin-bottom: 10px !important; }
+  #wrapper .fusion-portfolio-content .entry-title a {
+    font-size: 30px !important; }
 #wrapper .fusion-portfolio-content .fusion-post-content {
   display: none; }
   #wrapper .fusion-portfolio-content .fusion-post-content p {
