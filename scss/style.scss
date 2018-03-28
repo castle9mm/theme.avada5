@@ -39,9 +39,8 @@ $font-quote: 'Times New Roman', Times, serif !important;
 #wrapper{
   
 html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
-  
-       
-    font-size: 18px;
+     
+  font-size: 18px;
 }
 
 }
@@ -63,7 +62,6 @@ html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acro
     color: $text-color;
 }
 
-
 strong,b {
    font-family: $font-bold;
 }
@@ -72,15 +70,10 @@ strong,b {
     color: #cc0000;
   } 
   h1, h2, h3, h4, h5, h6{
-    //border: 0;
     font-family: $font;
-    /*font-style: inherit;*/
-    /*font-weight: inherit;*/
     outline: 0;
     vertical-align: baseline;
     color: $text-color;
-       
-    
   }
   h1{
       font-family: $font-bold;
@@ -92,8 +85,6 @@ strong,b {
     line-height: 35px !important;
   }
   .fusion-body .fusion-main-menu .current-menu-ancestor > a, .fusion-body .fusion-main-menu .current-menu-item > a, .fusion-body .fusion-main-menu .current-menu-item:not(.fusion-main-menu-cart) > a:before, .fusion-body .fusion-main-menu .current-menu-parent > a, .fusion-body .fusion-main-menu .current_page_item > a{
-    
-    
     color: $primary-color;
     border-color: $primary-color;
   }
@@ -148,7 +139,6 @@ strong,b {
             .fusion-megamenu-icon{
               color: #333;
             }
-        
           }
           
           a:hover{
@@ -172,7 +162,6 @@ strong,b {
               font-weight: bold;
             }
           }
-          
       }
     
       #menu-header {
@@ -240,7 +229,7 @@ strong,b {
     .fusion-row {
         height: 85px;
         max-width: none;
-      }
+     }
   }
       
       .fusion-custom-menu-item-contents {
@@ -441,8 +430,6 @@ strong,b {
   }
   @media (max-width: 1129px){
      header .fusion-header {
-   // max-height: 85px;
-    //height: 85px;
     height:auto;
     max-height:none;
     .fusion-icon-bars{
@@ -459,38 +446,30 @@ strong,b {
         float:none !important;       
       }
       .fusion-logo{
-       //width: 85%; 
        padding-top:0px !important;
        display:block !important;
       }
-    .fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header{
-      /*padding-top:0px;*/
-    }
-    .fusion-logo a {
-        //max-width: 60%;
+      .fusion-logo img{
+        width: auto;
+        max-height: 60px !important;
+        
       }
-    .fusion-logo img{
-      width: auto;
-      max-height: 60px !important;
-      
-    }
-    .fusion-header{
-     padding-top:15px;
-     padding-left: 5px; 
-     padding-right: 10px;
-     span{
-       color: #333;
+      .fusion-header{
+         padding-top:15px;
+         padding-left: 5px; 
+         padding-right: 10px;
+         span{
+           color: #333;
+           
+         }
        
-     }
-     
-    }
+      }
     }
   }
     
   header .fusion-header .fusion-mobile-nav-holder {
        li span{
          color: #333 !important;
-         
        }
      }
   
@@ -520,21 +499,21 @@ strong,b {
   .gsc-thumbnail-inside{
     float:left;
     .gs-title{
-    text-align: left;
-    font-size: 22px;
-    a{
+      text-align: left;
       font-size: 22px;
-    font-family: $font;
-    line-height: 25px;
-    b{
-      font-size:22px;
+      a{
+        font-size: 22px;
+      font-family: $font;
+      line-height: 25px;
+      b{
+        font-size:22px;
+      }
+      }
+      a::after{
+        font-family: $font-icon;
+        margin-left: 10px;
+      }
     }
-    }
-    a::after{
-      font-family: $font-icon;
-      margin-left: 10px;
-    }
-  }
   }
   
   .gs-visibleUrl{
@@ -590,33 +569,17 @@ strong,b {
           li{
             border:none;
           }
-          .fusion-alignleft{
-            //float: right;
-       // right: 0;
-        //position: absolute;
-        //margin-right: 20px;
-          }
-          .fusion-alignright{
-          //  float: left;
-        //left: 0;
-        nav{
-          //float:left;
-        }
-      }
+          
+       }
     }
-
-  }
 
   .gsst_b .gsst_a:after{
     display:none !important;
   }
-  
-   
 }
 
 //In top menu but out side of wrapper
   table.gssb_c{
-  // top: 207px !important;
        z-index: 9999999 !important;
     
   }
@@ -660,7 +623,7 @@ strong,b {
       text-shadow: none !important;
       transition: none;
       background-image:none;
-          white-space: nowrap;
+      white-space: nowrap;
   }
   .button-hover,.fusion-button-wrapper .fusion-button:hover,.rev-btn:hover,.btn-red:hover{
       background-color: #fff !important;
@@ -720,8 +683,6 @@ strong,b {
     }
   
   }
-    
-  
   .btn-red, .fusion-date-box,.nav-tabs .active a  {
      background: $primary-color;
   }
@@ -750,7 +711,7 @@ strong,b {
   } 
   .quote-text {
 
-    h6{
+      h6{
         font-family: $font-quote;
         font-style: italic;
         font-size: 38px;
@@ -789,7 +750,6 @@ strong,b {
   }
   .fusion-testimonials{
     padding: 20px;
-    /*background-color: #e5e5e5;*/
     p{
       color: $primary-color;
       font-size: 22px;
@@ -813,12 +773,11 @@ strong,b {
     }
   }
   .post .flex-active-slide {
-  max-height: 500px;
-}
- .news-feed .flex-active-slide {
-  max-height: 230px;
-  
-}
+    max-height: 500px;
+   }
+  .news-feed .flex-active-slide {
+    max-height: 230px;
+  }
   .job-grid .recent-posts-content{
   
     a{
@@ -855,51 +814,51 @@ strong,b {
   .fusion-portfolio-content{
     background-color: rgba(99, 99, 99, 0.3) !important;
     height: 100% !important;
-}
-.fusion-portfolio-content:hover{
-    background-color: rgba(100, 85, 85, 0.7) !important;
-}
-.fusion-portfolio-content a{
-    color: white !important;
-    text-shadow: 2px 3px 5px black;
-    padding-left: 5px;
-}
-.fusion-portfolio-content .entry-title{
-  margin-bottom: 10px !important;
-   a{
-    font-size: 30px !important;
-    
   }
-}
-.fusion-portfolio-content .fusion-post-content{
-  
-  display:none;
-  p{
+  .fusion-portfolio-content:hover{
+      background-color: rgba(100, 85, 85, 0.7) !important;
+  }
+  .fusion-portfolio-content a{
       color: white !important;
-    text-shadow: 2px 2px 5px black;
-    padding-left: 10px;
-    padding-right: 10px;
+      text-shadow: 2px 3px 5px black;
+      padding-left: 5px;
+  }
+  .fusion-portfolio-content .entry-title{
+    margin-bottom: 10px !important;
+     a{
+      font-size: 30px !important;
+      
+    }
+  }
+  .fusion-portfolio-content .fusion-post-content{
     
+    display:none;
+    p{
+      color: white !important;
+      text-shadow: 2px 2px 5px black;
+      padding-left: 10px;
+      padding-right: 10px;
+      
+    }
   }
-}
-.fusion-portfolio-content:hover .fusion-post-content{
-  display:block;
-}
-.fusion-masonry-element-container .fusion-rollover-gallery{
-display:none;
-}
-.fusion-masonry-element-container .fusion-rollover-link{
-display:none;
-}
-.fusion-portfolio-content-wrapper .fusion-rollover{
-  a{
-    color: white !important;
-    text-shadow: 2px 3px 5px black;
+  .fusion-portfolio-content:hover .fusion-post-content{
+    display:block;
   }
-  .fusion-rollover-title{
+  .fusion-masonry-element-container .fusion-rollover-gallery{
     display:none;
   }
-}
+  .fusion-masonry-element-container .fusion-rollover-link{
+    display:none;
+  }
+  .fusion-portfolio-content-wrapper .fusion-rollover{
+    a{
+      color: white !important;
+      text-shadow: 2px 3px 5px black;
+    }
+    .fusion-rollover-title{
+      display:none;
+    }
+  }
 }
 /*End Button Links and Title*/
 /**
@@ -909,9 +868,7 @@ display:none;
  * */
 /* Footer*/
 #wrapper{
-  
-  
-  
+    
   .fusion-footer{ 
       .footer-section h5 {
         margin-bottom: 16px;
@@ -964,7 +921,6 @@ display:none;
         
       }
    }
-   
 }
 #footer{
   background-color: #d8d9da;
@@ -1029,14 +985,12 @@ display:none;
       margin-right: 1.64em;
     }
   }
-  
-  
+   
   ul.uni-links {
 
     display: flex;
     width: fit-content;
     width: -moz-fit-content;
-    
     margin: auto;
     margin-bottom: 15px;
     .first{
@@ -1046,24 +1000,14 @@ display:none;
     a {
       color: #333;
       font-size: 12px;
-      //text-transform: uppercase;
     }
     li {
       color: #333;
       font-size: 18px;
       margin-right: 1.64em;
     }
-    /* IE6+ */
-    li{
-      // display:inline;
-    }
+    
   }
-  
-  /* IE6+ */
-  ul.uni-links {
-    //display:table;
-  }
-  
   .eccles-socials-wrapper {
       padding-top: 15px;
       ul {
@@ -1247,7 +1191,7 @@ display:none;
 
 footer .top-container{
     display: flex;
-  }
+}
 @media(max-width:800px){
   #footer-container{
     .wrapper{
@@ -1312,7 +1256,7 @@ footer .top-container{
 /*
  * 
  * 
- * */
+ * 
 /* Fusion Slider*/
 #wrapper{
  

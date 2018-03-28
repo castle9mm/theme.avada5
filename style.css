@@ -45,8 +45,6 @@ strong, b {
     color: #cc0000; }
   #wrapper h1, #wrapper h2, #wrapper h3, #wrapper h4, #wrapper h5, #wrapper h6 {
     font-family: "Myriad-Pro", arial, sans-serif !important;
-    /*font-style: inherit;*/
-    /*font-weight: inherit;*/
     outline: 0;
     vertical-align: baseline;
     color: #333; }
@@ -294,8 +292,6 @@ strong, b {
     #wrapper header .fusion-logo {
       padding-top: 0px !important;
       display: block !important; }
-    #wrapper header .fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header {
-      /*padding-top:0px;*/ }
     #wrapper header .fusion-logo img {
       width: auto;
       max-height: 60px !important; }
@@ -496,8 +492,7 @@ table.gssb_c {
   #wrapper .fusion-columns .fusion-column:not(.fusion-column-last) {
     margin: 0 0 20px; } }
 #wrapper .fusion-testimonials {
-  padding: 20px;
-  /*background-color: #e5e5e5;*/ }
+  padding: 20px; }
   #wrapper .fusion-testimonials p {
     color: #CC0000 !important;
     font-size: 22px;
@@ -611,8 +606,7 @@ table.gssb_c {
   background-color: #d8d9da;
   border-top: 10px solid #e9eaee;
   /* IE6+*/
-  /* IE6+*/
-  /* IE6+ */ }
+  /* IE6+*/ }
   #footer .fusion-row {
     max-width: 100%; }
   #footer .fusion-body .fusion-footer-copyright-center .fusion-copyright-content {
@@ -658,8 +652,7 @@ table.gssb_c {
     width: fit-content;
     width: -moz-fit-content;
     margin: auto;
-    margin-bottom: 15px;
-    /* IE6+ */ }
+    margin-bottom: 15px; }
     #footer ul.uni-links .first {
       display: -webkit-box !important;
       content: ""; }
@@ -848,7 +841,7 @@ footer .top-container {
 /*
  * 
  * 
- * */
+ * 
 /* Fusion Slider*/
 #wrapper .avada-skin-rev {
   border-top: none; }
