@@ -68,6 +68,9 @@ strong,b {
 #wrapper{ 
   .post-content a{
     color: #cc0000;
+    strong {
+      color: #cc0000;
+    }
   } 
   h1, h2, h3, h4, h5, h6{
     font-family: $font;
@@ -1260,7 +1263,7 @@ footer .top-container{
 /* Fusion Slider*/
 #wrapper{
  
-    .avada-skin-rev{
+  .avada-skin-rev{
       border-top: none;
   }
   .flex-direction-nav{ 
