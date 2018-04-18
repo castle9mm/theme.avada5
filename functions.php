@@ -6,9 +6,10 @@ add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 
 
 function theme_enqueue_child_styles() {
-    wp_enqueue_style( 'avada-child-stylesheet', get_stylesheet_directory_uri() . '/style.css' );
+    wp_enqueue_style( 'avada-child-stylesheet', get_stylesheet_directory_uri() . '/style.css', array(), wp_get_theme()->Version );
 }
-add_action( 'wp_enqueue_scripts', 'theme_enqueue_child_styles' );
+add_action( 'wp_enqueue_scripts', 'theme_enqueue_child_styles' , 1);
+
 
 function avada_header_template_child( $slider_position = 'Below' ) {
 
