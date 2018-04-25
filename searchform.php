@@ -27,15 +27,16 @@ if ( ! defined( 'ABSPATH' ) ) {
   
  
  */?>
- <script>
- (function() {
-   var cx = '010584092752809720990:80-yh2i4hwi';
-   var gcse = document.createElement('script');
-   gcse.type = 'text/javascript';
-   gcse.async = true;
-   gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-   var s = document.getElementsByTagName('script')[0];
-   s.parentNode.insertBefore(gcse, s);
- })();
+
+<script>
+  (function() {
+    var cx = '008932147021757332745:w49kxim_pmo';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
 </script>
 <gcse:search></gcse:search>
