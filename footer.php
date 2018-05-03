@@ -65,89 +65,7 @@ $column_width = ('5' ==  Avada() -> settings -> get('footer_widgets_columns')) ?
 /* Custom HTML Footer*/
 ?>
 
-<div class="footer-sections" style="display: none">
-<div class="footer-section">
-<h5>About Us</h5>
-<ul>
-<li> <a href="http://eccles.utah.edu/directory/">Directory</a> </li>
-<li> <a href="http://eccles.utah.edu/about/">Eccles Experience</a> </li>
-<li> <a href="http://eccles.utah.edu/news/">Eccles Newsroom</a> </li>
-<li> <a href="http://eccles.utah.edu/about/connect/">Connect with Us</a> </li>
-<li> <a href="http://eccles.utah.edu/about/calendar/">Calendar of Events</a> </li>
-<li> <a href="http://eccles.utah.edu/about/campus-facilities/">Campus &amp; Facilities</a> </li>
-<li> <a href="http://eccles.utah.edu/about/lassonde-studios/">Lassonde Studios</a> </li>
-<li> <a href="http://eccles.utah.edu/about/salt-lake-city/">Salt Lake City</a> </li>
-<li> <a href="http://eccles.utah.edu/about/david-eccles/">David Eccles</a> </li>
-<li> <a href="http://eccles.utah.edu/about/diversity-inclusion/">Diversity &amp; Inclusion</a> </li>
-<li> <a href="http://eccles.utah.edu/about/school-values/">School Values</a> </li>
-<li> <a href="http://eccles.utah.edu/about/facts-figures/">Facts &amp; Figures</a> </li>
-<li> <a href="http://eccles.utah.edu/alumni/">Alumni</a> </li>
-<li> <a href="http://eccles.utah.edu/about/advisory-boards/">Advisory Boards</a> </li>
-</ul>
-</div>
-<!-- /.footer-section -->
 
-<div class="footer-section">
-<h5>Programs</h5>
-<ul>
-<li> <a href="http://eccles.utah.edu/programs/undergraduate/">Undergraduate Programs</a> </li>
-<li> <a href="http://eccles.utah.edu/programs/undergraduate/accounting/">Accounting</a> </li>
-<li> <a href="http://eccles.utah.edu/programs/undergraduate/business-administration/">Business Administration</a> </li>
-<li> <a href="http://eccles.utah.edu/programs/undergraduate/entrepreneurship/">Entrepreneurship</a> </li>
-<li> <a href="http://eccles.utah.edu/programs/undergraduate/finance/">Finance</a> </li>
-<li> <a href="http://eccles.utah.edu/programs/undergraduate/information-systems/">Information Systems</a> </li>
-<li> <a href="http://eccles.utah.edu/programs/undergraduate/management/">Management</a> </li>
-<li> <a href="http://eccles.utah.edu/programs/undergraduate/marketing/">Marketing</a> </li>
-<li> <a href="http://eccles.utah.edu/programs/undergraduate/operations-management/">Operations Management</a> </li>
-<li> <a href="http://eccles.utah.edu/programs/undergraduate/academics/majors/qamo/">Quantitative Analysis of Markets &amp; Organizations</a> </li>
-<li> <a href="http://eccles.utah.edu/programs/graduate/">Graduate Programs</a> </li>
-<li> <a href="http://eccles.utah.edu/programs/master-of-accounting/">Master of Accounting</a> </li>
-<li> <a href="http://eccles.utah.edu/programs/mba/">Master of Business Administration</a> </li>
-<li> <a href="http://eccles.utah.edu/programs/master-of-healthcare-administration/">Master of Healthcare Administration</a> </li>
-<li> <a href="http://eccles.utah.edu/programs/master-of-real-estate-development/">Master of Real Estate Development</a> </li>
-<li> <a href="http://eccles.utah.edu/programs/master-of-science-in-business-analytics/">Master of Science in Business Analytics</a> </li>
-<li> <a href="http://eccles.utah.edu/programs/master-of-science-in-finance/">Master of Science in Finance</a> </li>
-<li> <a href="http://eccles.utah.edu/programs/master-of-science-in-information-systems/">Master of Science in Information Systems</a> </li>
-<li> <a href="http://eccles.utah.edu/programs/master-of-science-in-information-systems-online">MSIS Online</a> </li>
-<li> <a href="http://eccles.utah.edu/programs/phd-in-business-administration/">Ph.D.</a> </li>
-<li> <a href="http://eccles.utah.edu/programs/executive-education/">Executive Education</a> </li>
-<li> <a href="http://eccles.utah.edu/programs/certificates/">Certificates</a> </li>
-<li> <a href="http://eccles.utah.edu/programs/online-courses">Online Courses</a> </li>
-</ul>
-</div>
-<!-- /.footer-section -->
-
-<div class="footer-section">
-<h5>Students</h5>
-<ul>
-<li> <a href="http://eccles.utah.edu/students/financial-aid-scholarships/">Financial Aid &amp; Scholarships</a> </li>
-<li> <a href="http://eccles.utah.edu/students/business-career-services/">Business Career Services</a> </li>
-<li> <a href="http://eccles.utah.edu/programs/undergraduate/advising/">Advising</a> </li>
-<li> <a href="http://eccles.utah.edu//programs/undergraduate/business-tutoring-center">Tutoring</a> </li>
-<li> <a href="http://eccles.utah.edu/students/mentoring/">Mentoring</a> </li>
-<li> <a href="http://eccles.utah.edu/students/signature-experiences/">Signature Experiences</a> </li>
-<li> <a href="http://eccles.utah.edu/students/business-scholars/">Business Scholars</a> </li>
-<li> <a href="http://eccles.utah.edu/programs/undergraduate/first-ascent-scholars/">First Ascent Scholars</a> </li>
-<li> <a href="http://eccles.utah.edu/students/innovation-scholars/">Innovation Scholars</a> </li>
-<li> <a href="http://eccles.utah.edu/programs/undergraduate/opportunity-scholars/">Opportunity Scholars</a> </li>
-<li> <a href="http://eccles.utah.edu/faculty-staff/institutes-centers/#A">Lassonde Entrepreneur Institute</a> </li>
-<li> <a href="http://eccles.utah.edu/students/clubs-organizations/">Clubs &amp; Organizations</a> </li>
-<li> <a href="http://eccles.utah.edu/students/military/">Military</a> </li>
-<li> <a href="https://orgsync.com/login/">OrgSync Login</a> </li>
-</ul>
-</div>
-<div class="footer-section">
-<h5>Faculty &amp; Staff</h5>
-<ul>
-<li> <a href="http://eccles.utah.edu/directory/">Directory</a> </li>
-<li> <a href="http://eccles.utah.edu/faculty-staff/academic-departments/">Academic Departments</a> </li>
-<li> <a href="http://eccles.utah.edu/faculty-staff/research/">Research</a> </li>
-<li> <a href="http://eccles.utah.edu/faculty-staff/institutes-centers/">Institutes &amp; Centers</a> </li>
-<li> <a href="http://eccles.utah.edu/faculty-staff/operational-departments/">Operational Departments</a> </li>
-</ul>
-</div>
-<!-- /.footer-section -->
-</div>
 
 <?php
 /**
@@ -314,15 +232,15 @@ if (defined('ICL_SITEPRESS_VERSION') && 'footer_parallax_effect' ===  Avada() ->
 	
 	</section>
 </div>
-<section class="address">
-<div class="spacer">
-<p><a href="/">The University of Utah</a></p>
-<p>201 Presidents Circle Salt Lake City, UT 84112 </p>
-<p>801-581-7200 </p>
-<p><small>© 2017 The University of Utah</small></p>
-
-</div>
-</section>
+	<section class="address">
+	<div class="spacer">
+	<p><a href="/">The University of Utah</a></p>
+	<p>201 Presidents Circle Salt Lake City, UT 84112 </p>
+	<p>801-581-7200 </p>
+	<p><small>© 2017 The University of Utah</small></p>
+	
+	</div>
+	</section>
 
 </footer>
 </div>
@@ -355,7 +273,9 @@ $page_bg_layout = ($c_page_id) ? get_post_meta($c_page_id, 'pyre_page_bg_layout'
  * a user would have to gain access to the database
  * in which case this is the least on your worries.
  */
-echo Avada() -> settings -> get('space_body');
+
+ //We commented this on May 3rd 2018 because it was showing double in the footer - It looks like avada changed that function 
+ //echo Avada() -> settings -> get('space_body');
 // WPCS: XSS ok.
 ?>
 <!-- Global site tag (gtag.js) - Google Analytics -->
