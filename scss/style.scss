@@ -601,6 +601,20 @@ strong,b {
  */
 /* Buttons - Links and Titles*/
 #wrapper{
+  .cd-horizontal-timeline {
+    .filling-line, a:after {
+      background-color: #cc0000;
+    }
+  }
+  .cd-timeline-navigation a.prev.inactive, .cd-timeline-navigation a.next.inactive{
+    background: #f7b1b1 none repeat scroll 0 0 !important;
+    border: 2px solid #f7b1b1 !important;
+    color: #fff !important;
+  }
+  .cd-timeline-navigation a.next, .cd-timeline-navigation a.prev{
+    background: #cc0000 none repeat scroll 0 0 !important;
+    border: 2px solid #cc0000 !important;
+  }
   
   .side-blog{
     .recent-posts-content{

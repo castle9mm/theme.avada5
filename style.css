@@ -394,6 +394,15 @@ table.gssb_c {
  *   
  */
 /* Buttons - Links and Titles*/
+#wrapper .cd-horizontal-timeline .filling-line, #wrapper .cd-horizontal-timeline a:after {
+  background-color: #cc0000; }
+#wrapper .cd-timeline-navigation a.prev.inactive, #wrapper .cd-timeline-navigation a.next.inactive {
+  background: #f7b1b1 none repeat scroll 0 0 !important;
+  border: 2px solid #f7b1b1 !important;
+  color: #fff !important; }
+#wrapper .cd-timeline-navigation a.next, #wrapper .cd-timeline-navigation a.prev {
+  background: #cc0000 none repeat scroll 0 0 !important;
+  border: 2px solid #cc0000 !important; }
 #wrapper .side-blog .recent-posts-content {
   width: 100%;
   border-bottom: 1px solid #000;
