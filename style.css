@@ -394,9 +394,11 @@ table.gssb_c {
  *   
  */
 /* Buttons - Links and Titles*/
-#wrapper .cd-horizontal-timeline .filling-line, #wrapper .cd-horizontal-timeline a:after {
+#wrapper .cd-horizontal-timeline .filling-line, #wrapper .cd-horizontal-timeline .events a:after {
   background-color: #cc0000; }
-#wrapper .cd-timeline-navigation a.prev.inactive, #wrapper .cd-timeline-navigation a.next.inactive {
+#wrapper .cd-horizontal-timeline .events a:after {
+  border-color: #cc0000; }
+#wrapper .cd-timeline-navigation a.prev.inactive, #wrapper .cd-timeline-navigation a.next.inactive, #wrapper .cd-timeline-navigation a.next.inactive:after {
   background: #f7b1b1 none repeat scroll 0 0 !important;
   border: 2px solid #f7b1b1 !important;
   color: #fff !important; }

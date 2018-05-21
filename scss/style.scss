@@ -602,11 +602,14 @@ strong,b {
 /* Buttons - Links and Titles*/
 #wrapper{
   .cd-horizontal-timeline {
-    .filling-line, a:after {
+    .filling-line, .events a:after {
       background-color: #cc0000;
     }
+    .events a:after{
+      border-color: #cc0000;
+    }
   }
-  .cd-timeline-navigation a.prev.inactive, .cd-timeline-navigation a.next.inactive{
+  .cd-timeline-navigation a.prev.inactive, .cd-timeline-navigation a.next.inactive,.cd-timeline-navigation a.next.inactive:after{
     background: #f7b1b1 none repeat scroll 0 0 !important;
     border: 2px solid #f7b1b1 !important;
     color: #fff !important;
