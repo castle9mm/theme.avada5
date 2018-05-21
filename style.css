@@ -397,7 +397,9 @@ table.gssb_c {
 #wrapper .cd-horizontal-timeline .filling-line, #wrapper .cd-horizontal-timeline .events a:after {
   background-color: #cc0000; }
 #wrapper .cd-horizontal-timeline .events a:after {
-  border-color: #cc0000; }
+  border-color: #cc0000;
+  content: " \02C5";
+  color: white; }
 #wrapper .cd-horizontal-timeline .events-content {
   height: auto !important; }
 #wrapper .cd-timeline-navigation a.prev.inactive, #wrapper .cd-timeline-navigation a.next.inactive, #wrapper .cd-timeline-navigation a.next.inactive:after {
