@@ -608,10 +608,13 @@ strong,b {
     .events a:after{
       border-color: #cc0000;
     }
+    .events-content{
+      height: auto !important;
+    }
   }
   .cd-timeline-navigation a.prev.inactive, .cd-timeline-navigation a.next.inactive,.cd-timeline-navigation a.next.inactive:after{
-    background: #f7b1b1 none repeat scroll 0 0 !important;
-    border: 2px solid #f7b1b1 !important;
+    background: #e9eaee none repeat scroll 0 0 !important;
+    border: 2px solid #e9eaee !important;
     color: #fff !important;
   }
   .cd-timeline-navigation a.next, .cd-timeline-navigation a.prev{

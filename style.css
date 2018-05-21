@@ -398,9 +398,11 @@ table.gssb_c {
   background-color: #cc0000; }
 #wrapper .cd-horizontal-timeline .events a:after {
   border-color: #cc0000; }
+#wrapper .cd-horizontal-timeline .events-content {
+  height: auto !important; }
 #wrapper .cd-timeline-navigation a.prev.inactive, #wrapper .cd-timeline-navigation a.next.inactive, #wrapper .cd-timeline-navigation a.next.inactive:after {
-  background: #f7b1b1 none repeat scroll 0 0 !important;
-  border: 2px solid #f7b1b1 !important;
+  background: #e9eaee none repeat scroll 0 0 !important;
+  border: 2px solid #e9eaee !important;
   color: #fff !important; }
 #wrapper .cd-timeline-navigation a.next, #wrapper .cd-timeline-navigation a.prev {
   background: #cc0000 none repeat scroll 0 0 !important;
