@@ -608,7 +608,8 @@ strong,b {
     .events a:after{
       border-color: #cc0000;
       content: " \02C5";
-    color: white;
+      color: white;
+      font-size: 11px;
     }
     .events-content{
       height: auto !important;

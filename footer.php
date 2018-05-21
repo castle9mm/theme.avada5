@@ -289,21 +289,5 @@ $page_bg_layout = ($c_page_id) ? get_post_meta($c_page_id, 'pyre_page_bg_layout'
   
 </script>
 
-
-
-<?php
-//The folowing  javascript code is for the timeline plugin
-
-?>
-
-<script type="application/javascript">
-	jQuery(document).ready(function($){
-		var total_event = $('.cd-horizontal-timeline .timeline .events-wrapper .events ol li').length;		
-		for(var i=1; i<= total_event; i++){
-			$('.cd-horizontal-timeline .timeline .events-wrapper .events ol li:nth-child('+i+') a').css('left',''+i*100+'px');
-		}
-	});
-</script>
-
 </body>
 </html>
