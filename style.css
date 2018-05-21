@@ -394,22 +394,10 @@ table.gssb_c {
  *   
  */
 /* Buttons - Links and Titles*/
-#wrapper .cd-horizontal-timeline .filling-line, #wrapper .cd-horizontal-timeline .events a:after {
+#wrapper .wphtsp-slider-design-2 .wphtsp-slider-nav .wphtsp-slider-nav-title .wphtsp-main-title button {
+  border-color: #cc0000; }
+#wrapper .wphtsp-slider-design-2 .wphtsp-slider-nav .wphtsp-slider-nav-title.slick-current .wphtsp-main-title button {
   background-color: #cc0000; }
-#wrapper .cd-horizontal-timeline .events a:after {
-  border-color: #cc0000;
-  content: " \02C5";
-  color: white;
-  font-size: 11px; }
-#wrapper .cd-horizontal-timeline .events-content {
-  height: auto !important; }
-#wrapper .cd-timeline-navigation a.prev.inactive, #wrapper .cd-timeline-navigation a.next.inactive, #wrapper .cd-timeline-navigation a.next.inactive:after {
-  background: #e9eaee none repeat scroll 0 0 !important;
-  border: 2px solid #e9eaee !important;
-  color: #fff !important; }
-#wrapper .cd-timeline-navigation a.next, #wrapper .cd-timeline-navigation a.prev {
-  background: #cc0000 none repeat scroll 0 0 !important;
-  border: 2px solid #cc0000 !important; }
 #wrapper .side-blog .recent-posts-content {
   width: 100%;
   border-bottom: 1px solid #000;

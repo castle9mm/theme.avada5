@@ -601,29 +601,15 @@ strong,b {
  */
 /* Buttons - Links and Titles*/
 #wrapper{
-  .cd-horizontal-timeline {
-    .filling-line, .events a:after {
-      background-color: #cc0000;
-    }
-    .events a:after{
-      border-color: #cc0000;
-      content: " \02C5";
-      color: white;
-      font-size: 11px;
-    }
-    .events-content{
-      height: auto !important;
-    }
+  .wphtsp-slider-design-2 .wphtsp-slider-nav .wphtsp-slider-nav-title .wphtsp-main-title button{
+     border-color: #cc0000;
+     
   }
-  .cd-timeline-navigation a.prev.inactive, .cd-timeline-navigation a.next.inactive,.cd-timeline-navigation a.next.inactive:after{
-    background: #e9eaee none repeat scroll 0 0 !important;
-    border: 2px solid #e9eaee !important;
-    color: #fff !important;
+  .wphtsp-slider-design-2 .wphtsp-slider-nav .wphtsp-slider-nav-title.slick-current .wphtsp-main-title button{
+    background-color: #cc0000;
   }
-  .cd-timeline-navigation a.next, .cd-timeline-navigation a.prev{
-    background: #cc0000 none repeat scroll 0 0 !important;
-    border: 2px solid #cc0000 !important;
-  }
+  
+  
   
   .side-blog{
     .recent-posts-content{
