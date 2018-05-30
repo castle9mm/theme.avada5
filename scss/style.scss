@@ -4,7 +4,7 @@
  Author: ThemeFusion
  Author URI: https://theme-fusion.com
  Template: Avada
- Version: 1.1.4
+ Version: 1.1.5
  Text Domain:  Avada
  */
 
@@ -905,7 +905,10 @@ strong,b {
  * */
 /* Footer*/
 #wrapper{
-    
+    #footer,.fusion-footer{
+      
+      display:none !important;
+    }
   .fusion-footer{ 
       .footer-section h5 {
         margin-bottom: 16px;
@@ -959,7 +962,7 @@ strong,b {
       }
    }
 }
-#footer{
+#footer-custom{
   background-color: #d8d9da;
   border-top: 10px solid #e9eaee;
   .fusion-row {
@@ -1274,7 +1277,7 @@ footer .top-container{
     
   }  
   
-    #footer {
+    #footer-custom {
       .shell{
       
         width: 100%;
@@ -1394,7 +1397,7 @@ footer .top-container{
       }
   }
  
-  #footer {
+  #footer-custom {
     .EcclesLogo,.shell {
       text-align: -webkit-center;
     }

@@ -4,7 +4,7 @@
  Author: ThemeFusion
  Author URI: https://theme-fusion.com
  Template: Avada
- Version: 1.1.4
+ Version: 1.1.5
  Text Domain:  Avada
  */
 @font-face {
@@ -581,6 +581,8 @@ table.gssb_c {
  *
  * */
 /* Footer*/
+#wrapper #footer, #wrapper .fusion-footer {
+  display: none !important; }
 #wrapper .fusion-footer .footer-section h5 {
   margin-bottom: 16px;
   font-size: 18px;
@@ -619,81 +621,81 @@ table.gssb_c {
   #wrapper .fusion-footer-widget-area .current-menu-item a {
     color: #CC0000 !important; }
 
-#footer {
+#footer-custom {
   background-color: #d8d9da;
   border-top: 10px solid #e9eaee;
   /* IE6+*/
   /* IE6+*/ }
-  #footer .fusion-row {
+  #footer-custom .fusion-row {
     max-width: 100%; }
-  #footer .fusion-body .fusion-footer-copyright-center .fusion-copyright-content {
+  #footer-custom .fusion-body .fusion-footer-copyright-center .fusion-copyright-content {
     display: block;
     text-align: center; }
-  #footer .footer-bar {
+  #footer-custom .footer-bar {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around; }
-    #footer .footer-bar a:hover {
+    #footer-custom .footer-bar a:hover {
       text-decoration: underline; }
-  #footer .shell {
+  #footer-custom .shell {
     padding-top: 20px;
     width: 50%; }
-  #footer .shell {
+  #footer-custom .shell {
     display: table; }
-  #footer .shell .row-two, #footer .shell .row-one {
+  #footer-custom .shell .row-two, #footer-custom .shell .row-one {
     display: table;
     margin: auto; }
-  #footer .EcclesLogo, #footer .eccles-socials-wrapper {
+  #footer-custom .EcclesLogo, #footer-custom .eccles-socials-wrapper {
     width: 25%; }
-  #footer .EcclesLogo img {
+  #footer-custom .EcclesLogo img {
     padding-top: 10px; }
-  #footer .eccles-socials-wrapper ul {
+  #footer-custom .eccles-socials-wrapper ul {
     float: right; }
-  #footer ul.eccles-links {
+  #footer-custom ul.eccles-links {
     display: flex;
     width: fit-content;
     width: -moz-fit-content;
     margin: auto; }
-    #footer ul.eccles-links .first {
+    #footer-custom ul.eccles-links .first {
       display: -webkit-box !important;
       content: ""; }
-    #footer ul.eccles-links a {
+    #footer-custom ul.eccles-links a {
       color: #333;
       font-size: 14px; }
-    #footer ul.eccles-links li {
+    #footer-custom ul.eccles-links li {
       color: #333;
       font-size: 14px;
       margin-right: 1.64em; }
-  #footer ul.uni-links {
+  #footer-custom ul.uni-links {
     display: flex;
     width: fit-content;
     width: -moz-fit-content;
     margin: auto;
     margin-bottom: 15px; }
-    #footer ul.uni-links .first {
+    #footer-custom ul.uni-links .first {
       display: -webkit-box !important;
       content: ""; }
-    #footer ul.uni-links a {
+    #footer-custom ul.uni-links a {
       color: #333;
       font-size: 12px; }
-    #footer ul.uni-links li {
+    #footer-custom ul.uni-links li {
       color: #333;
       font-size: 18px;
       margin-right: 1.64em; }
-  #footer .eccles-socials-wrapper {
+  #footer-custom .eccles-socials-wrapper {
     padding-top: 15px; }
-    #footer .eccles-socials-wrapper ul {
+    #footer-custom .eccles-socials-wrapper ul {
       display: flex; }
-      #footer .eccles-socials-wrapper ul li {
+      #footer-custom .eccles-socials-wrapper ul li {
         display: block;
         padding-left: 15px; }
-        #footer .eccles-socials-wrapper ul li a {
+        #footer-custom .eccles-socials-wrapper ul li a {
           font-size: 14px; }
-          #footer .eccles-socials-wrapper ul li a .fa-circle {
+          #footer-custom .eccles-socials-wrapper ul li a .fa-circle {
             color: #8f8f8f; }
-        #footer .eccles-socials-wrapper ul li a:hover .fa-circle {
+        #footer-custom .eccles-socials-wrapper ul li a:hover .fa-circle {
           color: #CC0000 !important; }
-      #footer .eccles-socials-wrapper ul li:first-child {
+      #footer-custom .eccles-socials-wrapper ul li:first-child {
         padding-left: 0px; }
 
 #toTop:hover {
@@ -848,11 +850,11 @@ footer .top-container {
   footer .top-container {
     display: block; }
 
-  #footer .shell {
+  #footer-custom .shell {
     width: 100%; }
-  #footer .EcclesLogo, #footer .eccles-socials-wrapper {
+  #footer-custom .EcclesLogo, #footer-custom .eccles-socials-wrapper {
     width: 100%; }
-  #footer .shell {
+  #footer-custom .shell {
     padding-top: 20px; } }
 /*End Footer*/
 /*
@@ -926,19 +928,19 @@ footer .top-container {
   #wrapper ul.eccles-links li, #wrapper ul.uni-links li {
     display: block; }
 
-  #footer .EcclesLogo, #footer .shell {
+  #footer-custom .EcclesLogo, #footer-custom .shell {
     text-align: -webkit-center; }
-  #footer .eccles-socials-wrapper {
+  #footer-custom .eccles-socials-wrapper {
     width: fit-content;
     margin: auto; }
-  #footer .eccles-socials-wrapper ul {
+  #footer-custom .eccles-socials-wrapper ul {
     padding-left: 0px !important; }
-  #footer .shell {
+  #footer-custom .shell {
     margin-top: 10px; }
-  #footer .footer-bar {
+  #footer-custom .footer-bar {
     display: block;
     justify-content: none; }
-    #footer .footer-bar .eccles-links a, #footer .footer-bar .eccles-links li, #footer .footer-bar .uni-links a, #footer .footer-bar .uni-links li {
+    #footer-custom .footer-bar .eccles-links a, #footer-custom .footer-bar .eccles-links li, #footer-custom .footer-bar .uni-links a, #footer-custom .footer-bar .uni-links li {
       font-size: 16px;
       margin-right: 0px; } }
 
