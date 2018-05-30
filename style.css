@@ -914,18 +914,18 @@ footer .top-container {
   opacity: 0.9; }
 
 @media (max-width: 600px) {
-  #wrapper .fusion-copyright-content {
+  #footer-custom .fusion-copyright-content {
     display: inline-block; }
-  #wrapper .sub-menu .dotted {
+  #footer-custom .sub-menu .dotted {
     border-top: none !important;
     padding-top: 0px; }
-  #wrapper #custom-header-logo {
+  #footer-custom #custom-header-logo {
     width: 245px; }
-  #wrapper .tfs-slider .slide-content-container {
+  #footer-custom .tfs-slider .slide-content-container {
     top: 65%; }
-  #wrapper ul.eccles-links, #wrapper ul.uni-links {
+  #footer-custom ul.eccles-links, #footer-custom ul.uni-links {
     display: initial !important; }
-  #wrapper ul.eccles-links li, #wrapper ul.uni-links li {
+  #footer-custom ul.eccles-links li, #footer-custom ul.uni-links li {
     display: block; }
 
   #footer-custom .EcclesLogo, #footer-custom .shell {
