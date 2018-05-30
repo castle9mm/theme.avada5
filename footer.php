@@ -66,9 +66,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<?php endif; ?>
 		<?php endif; ?>
 		<a class="fusion-one-page-text-link fusion-page-load-link"></a>
-
 		
-
 
 
 <footer id="footer-custom" class="fusion-footer-copyright-area<?php echo esc_attr($footer_copyright_center_class); ?>">
@@ -135,15 +133,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 </div>
 
-<?php
-/**
- * Footer Content (Copyright area) avada_footer_copyright_content hook.
- *
- * @hooked avada_render_footer_copyright_notice - 10 (outputs the HTML for the Theme Options footer copyright text)
- * @hooked avada_render_footer_social_icons - 15 (outputs the HTML for the footer social icons)..
- */
-//do_action( 'avada_footer_copyright_content' );
-?>
+
 
 </div> <!-- fusion-fusion-copyright-content -->
 </div> <!-- fusion-row -->
@@ -198,7 +188,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 </footer>
 </div>
-</div> <!-- fusion-footer -->
+<!-- fusion-footer -->
 </div> <!-- wrapper -->
 
 
