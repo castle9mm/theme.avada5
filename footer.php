@@ -47,7 +47,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<?php if ( Avada()->settings->get( 'slidingbar_widgets' ) && ! is_page_template( 'blank.php' ) ) : ?>
 				<?php get_template_part( 'sliding_bar' ); ?>
 			<?php endif; ?>
-		</div> <!-- wrapper -->
 
 		<?php
 		/**
