@@ -148,19 +148,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 </div> <!-- fusion-fusion-copyright-content -->
 </div> <!-- fusion-row -->
 </footer> <!-- #footer -->
-<?php
-// Displays WPML language switcher inside footer if parallax effect is used.
-if (defined('ICL_SITEPRESS_VERSION') && 'footer_parallax_effect' ===  Avada() -> settings -> get('footer_special_effects')) {
-	global $wpml_language_switcher;
-	$slot = $wpml_language_switcher -> get_slot('statics', 'footer');
-	if ($slot -> is_enabled()) {
-		echo $wpml_language_switcher -> render($slot);
-		// WPCS: XSS ok.
-	}
-}
-?>
-</div> <!-- fusion-footer -->
-</div> <!-- wrapper -->
+
 
 <div id="footer-container" class="clearfix">
 <footer class="wrapper clearfix">
@@ -210,6 +198,9 @@ if (defined('ICL_SITEPRESS_VERSION') && 'footer_parallax_effect' ===  Avada() ->
 
 </footer>
 </div>
+</div> <!-- fusion-footer -->
+</div> <!-- wrapper -->
+
 
 <?php wp_footer(); ?>
 
