@@ -68,73 +68,70 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<a class="fusion-one-page-text-link fusion-page-load-link"></a>
 		
 
-
-<footer id="footer-custom" class="fusion-footer-copyright-area<?php echo esc_attr($footer_copyright_center_class); ?>">
-<div class="fusion-row">
-<div class="fusion-copyright-content">
 <?php
 /*Custom Footer*/
 ?>
-<div class="footer-bar">
-<div class="EcclesLogo"><a href="http://eccles.utah.edu"><img width="300px" src="<?php echo get_stylesheet_directory_uri(); ?>/logos/eccles_logo_footer.png"></a></div>
-<div class="shell clear">
-
-<div class="row-one"><ul class="uni-links">
-<li class="first"><a rel="nofollow" href="tel:18015817676">801-581-7676</a></li>
-<li><a rel="nofollow" href="http://eccles.utah.edu/about/connect-with-us/">Contact</a></li>
-<li><a rel="nofollow" href="http://eccles.utah.edu/directory">Eccles Directory</a></li>
-<li><a rel="nofollow" href="http://eccles.link/help">IT Support</a></li>
-<li><a rel="nofollow" href="http://intranet.eccles.utah.edu">Intranet</a></li>
-<li><a rel="nofollow" href="http://eccles.utah.edu/alumni/invest/ways-to-give/">Give</a></li>
-
-</ul></div>
-<div class="row-two"><ul class="eccles-links">
-<li class="first">Spencer Fox Eccles Business Building,  1655 East Campus Center Drive,  Salt Lake City, Utah  84112-8939</li>
-</ul></div>
-<div><ul class="uni-links" style="display: none !important">
-<li class="first">© <a href="http://www.utah.edu">University of Utah</a></li>
-<li><a href="http://www.utah.edu/a-z/">A - Z Index</a></li>
-<li><a href="http://people.utah.edu/uWho/basic.hml">U of U Directory</a></li>
-<li><a href="http://map.utah.edu/">Map</a></li>
-<li><a href="http://www.utah.edu/disclaimer/index.php">Disclaimer</a></li>
-<li><a href="http://www.utah.edu/privacy/">Privacy</a></li>
-<li><a href="http://www.utah.edu/nondiscrimination/">Nondiscrimination</a></li>
-</ul></div>
-</div>
-
-<div class="eccles-socials-wrapper">
-<ul>
-<li><a href="https://www.facebook.com/ubusiness" target="_blank"><span class="fa-stack fa-lg">
-<i class="fa fa-circle fa-stack-2x"></i>
-<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-</span></a></li>
-<li><a href="https://twitter.com/UBusiness" target="_blank"><span class="fa-stack fa-lg">
-<i class="fa fa-circle fa-stack-2x"></i>
-<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-</span></a></li>
-<li><a href="https://www.instagram.com/ubusiness/" target="_blank"><span class="fa-stack fa-lg">
-<i class="fa fa-circle fa-stack-2x"></i>
-<i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-</span></a></li>
-<li><a href="https://www.linkedin.com/edu/school?id=19557" target="_blank"><span class="fa-stack fa-lg">
-<i class="fa fa-circle fa-stack-2x"></i>
-<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-</span></a></li>
-<li><a href="http://is.gd/ecclesgplus" target="_blank"><span class="fa-stack fa-lg">
-<i class="fa fa-circle fa-stack-2x"></i>
-<i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-</span></a></li>
-<li><a href="https://www.youtube.com/user/davidecclesbusiness" target="_blank"><span class="fa-stack fa-lg">
-<i class="fa fa-circle fa-stack-2x"></i>
-<i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
-</span></a></li>
-</ul>
-</div>
-
-</div>
-
-
-
+<footer id="footer-custom" class="">
+<div class="fusion-row">
+<div class="fusion-copyright-content">
+	
+	<div class="footer-bar">
+	<div class="EcclesLogo"><a href="http://eccles.utah.edu"><img width="300px" src="<?php echo get_stylesheet_directory_uri(); ?>/logos/eccles_logo_footer.png"></a></div>
+	<div class="shell clear">
+	
+	<div class="row-one"><ul class="uni-links">
+	<li class="first"><a rel="nofollow" href="tel:18015817676">801-581-7676</a></li>
+	<li><a rel="nofollow" href="http://eccles.utah.edu/about/connect-with-us/">Contact</a></li>
+	<li><a rel="nofollow" href="http://eccles.utah.edu/directory">Eccles Directory</a></li>
+	<li><a rel="nofollow" href="http://eccles.link/help">IT Support</a></li>
+	<li><a rel="nofollow" href="http://intranet.eccles.utah.edu">Intranet</a></li>
+	<li><a rel="nofollow" href="http://eccles.utah.edu/alumni/invest/ways-to-give/">Give</a></li>
+	
+	</ul></div>
+	<div class="row-two"><ul class="eccles-links">
+	<li class="first">Spencer Fox Eccles Business Building,  1655 East Campus Center Drive,  Salt Lake City, Utah  84112-8939</li>
+	</ul></div>
+	<div><ul class="uni-links" style="display: none !important">
+	<li class="first">© <a href="http://www.utah.edu">University of Utah</a></li>
+	<li><a href="http://www.utah.edu/a-z/">A - Z Index</a></li>
+	<li><a href="http://people.utah.edu/uWho/basic.hml">U of U Directory</a></li>
+	<li><a href="http://map.utah.edu/">Map</a></li>
+	<li><a href="http://www.utah.edu/disclaimer/index.php">Disclaimer</a></li>
+	<li><a href="http://www.utah.edu/privacy/">Privacy</a></li>
+	<li><a href="http://www.utah.edu/nondiscrimination/">Nondiscrimination</a></li>
+	</ul></div>
+	</div>
+	
+	<div class="eccles-socials-wrapper">
+	<ul>
+	<li><a href="https://www.facebook.com/ubusiness" target="_blank"><span class="fa-stack fa-lg">
+	<i class="fa fa-circle fa-stack-2x"></i>
+	<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+	</span></a></li>
+	<li><a href="https://twitter.com/UBusiness" target="_blank"><span class="fa-stack fa-lg">
+	<i class="fa fa-circle fa-stack-2x"></i>
+	<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+	</span></a></li>
+	<li><a href="https://www.instagram.com/ubusiness/" target="_blank"><span class="fa-stack fa-lg">
+	<i class="fa fa-circle fa-stack-2x"></i>
+	<i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+	</span></a></li>
+	<li><a href="https://www.linkedin.com/edu/school?id=19557" target="_blank"><span class="fa-stack fa-lg">
+	<i class="fa fa-circle fa-stack-2x"></i>
+	<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+	</span></a></li>
+	<li><a href="http://is.gd/ecclesgplus" target="_blank"><span class="fa-stack fa-lg">
+	<i class="fa fa-circle fa-stack-2x"></i>
+	<i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+	</span></a></li>
+	<li><a href="https://www.youtube.com/user/davidecclesbusiness" target="_blank"><span class="fa-stack fa-lg">
+	<i class="fa fa-circle fa-stack-2x"></i>
+	<i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+	</span></a></li>
+	</ul>
+	</div>
+	
+	</div>
 </div> <!-- fusion-fusion-copyright-content -->
 </div> <!-- fusion-row -->
 </footer> <!-- #footer -->

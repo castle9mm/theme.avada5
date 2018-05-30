@@ -627,7 +627,8 @@ table.gssb_c {
   /* IE6+*/
   /* IE6+*/ }
   #footer-custom .fusion-row {
-    max-width: 100%; }
+    max-width: 100%;
+    padding: 10px 20px; }
   #footer-custom .fusion-body .fusion-footer-copyright-center .fusion-copyright-content {
     display: block;
     text-align: center; }
