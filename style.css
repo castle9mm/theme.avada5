@@ -394,6 +394,9 @@ table.gssb_c {
  *   
  */
 /* Buttons - Links and Titles*/
+#wrapper .icon-right .fusion-megamenu-icon {
+  float: right;
+  margin-left: 10px; }
 @media (min-width: 320px) {
   #wrapper .team .container {
     width: 100%; } }
