@@ -602,11 +602,14 @@ strong,b {
 /* Buttons - Links and Titles*/
 #wrapper{
   
-  .icon-right {
-    margin-right: 0px;
-    .fusion-megamenu-icon{
-      float: right;
-      margin-left: 10px;
+  nav{
+    .icon-right {
+      margin-right: 0px !important;
+      padding-right: 5px !important;
+      .fusion-megamenu-icon{
+        float: right;
+        margin-left: 10px;
+      }
     }
   }
   @media (min-width: 320px) {
