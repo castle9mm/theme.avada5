@@ -230,4 +230,14 @@ function custom_header(){
 		}
 		return $custom_header;
 }
+
+add_filter( 'wp_update_attachment_metadata', 'rips_unlink_tempfix' );
+
+function rips_unlink_tempfix( $data ) {
+    if( isset($data['thumb']) ) {
+        $data['thumb'] = basename($data['thumb']);
+    }
+
+    return $data;
+}
 ?>
