@@ -135,7 +135,7 @@ acf_add_local_field_group(array (
         'PARK' => 'PARK',
         'FTDG' => '602 Fort Douglas',
         'Monson Center' => 'Thomas S. Monson Center',
-        'GARFF' => 'Garff MBA'
+        'GARFF' => 'Garff'
       ),
       'default_value' => array (
       ),
