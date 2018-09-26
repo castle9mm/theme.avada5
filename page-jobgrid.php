@@ -230,19 +230,38 @@
 	foreach ($partners_obj as $partner) {
 		$partners[$partner -> term_id] = array('id'=>$partner->term_id,'name' => $partner -> name, 'slug' => $partner -> slug, 'description' => $partner -> description, );
 	}
-
+?>
+<style>
+	
+	.radio{
+		order: 1;
+		
+	}
+	.check{
+		order: 99;
+	}
+	.radio-label{
+		order:0;
+	}
+	.check-label{
+		order:50;
+	}
+</style>
+<label class="radio-label"><b>Sector</b></label>
+<label class="check-label"><b>Type</b></label>
+<?php
 	foreach ($partners as $key => $value) {
 		
 		if($value['name']=="Internship" || $value['name']=="Full Time" || $value['name']=="Part Time"){
 				?>
-		<label><input class="checkbox" type="checkbox" name="checkbox" value="<?php echo $value['id']; ?>"><?php echo $value['name']; ?></label>	
+		<label class="check"><input class="checkbox" type="checkbox" name="checkbox" value="<?php echo $value['id']; ?>"><?php echo $value['name']; ?></label>	
 			
 			<?php
 			
 		}else{
 			?>
 		
-		<label><input class="checkbox" type="radio" name="checkbox" style="border-radius: 100%" value="<?php echo $value['id']; ?>"><?php echo $value['name']; ?></label>
+		<label class="radio"><input class="checkbox" type="radio" name="checkbox" style="border-radius: 100%" value="<?php echo $value['id']; ?>"><?php echo $value['name']; ?></label>
 		
 		<?php
 			
