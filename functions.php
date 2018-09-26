@@ -1,6 +1,6 @@
 <?php
 
-include_once 'admin-ajax.php';
+include_once 'job-ajax.php';
 add_action( 'wp_ajax_search_companies', 'search_companies' );
 add_action( 'wp_ajax_nopriv_search_companies', 'search_companies' );
 
