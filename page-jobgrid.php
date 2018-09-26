@@ -233,10 +233,22 @@
 
 	foreach ($partners as $key => $value) {
 		
-		?>
-		<label><input class="checkbox" type="checkbox" name="checkbox" value="<?php echo $value['id']; ?>"><?php echo $value['name']; ?></label>
+		if($value['name']=="Internship" || $value['name']=="Full Time" || $value['name']=="Part Time"){
+				?>
+		<label><input class="checkbox" type="checkbox" name="checkbox" value="<?php echo $value['id']; ?>"><?php echo $value['name']; ?></label>	
+			
+			<?php
+			
+		}else{
+			?>
+		
+		<label><input class="checkbox" type="radio" name="checkbox" style="border-radius: 100%" value="<?php echo $value['id']; ?>"><?php echo $value['name']; ?></label>
 		
 		<?php
+			
+		}
+		
+		
 	}
 	
 	?>
