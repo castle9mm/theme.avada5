@@ -426,7 +426,7 @@
 			
 			function timerIncrement() {
 			    idleTime = idleTime + 1;
-			    if (idleTime > 2) { // 3 minutes
+			    if (idleTime > 1) { // 2 minutes
 			    	updateModal();
 			    }
 			}
