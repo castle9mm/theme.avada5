@@ -428,6 +428,12 @@
 			    idleTime = idleTime + 1;
 			    if (idleTime > 1) { // 2 minutes
 			    	updateModal();
+			    	var text = jQuery('#filter-status').val();
+			    	if(text=="1"){
+			    		
+			    		expandFilter();	
+			    	}
+			    	
 			    }
 			}
 			//jQuery('a').addClass('modal-link');
