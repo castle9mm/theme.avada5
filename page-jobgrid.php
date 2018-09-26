@@ -140,11 +140,11 @@
 			.filter-expand{
 				
 				position: absolute;
-				width:50px;
+				width:100px;
 				z-index: 9999;
 				border: 3px #CC0000 solid;
 				border-left:0px;
-				height: 50px;
+				height: 110px;
 				top:40%;
 				background-color: #ffffff;
 				left:-0px;
@@ -279,7 +279,7 @@
 		<input id="filter-button-remove" type="button" value="Clear Selection" onclick="unselectCheckboxs()"/>
 	</div>
 <div id="filter-expand"  class="filter-expand" onclick="expandFilter();">
-	Filter >>
+	Filter for your next Job or Internship >>
 	</div>
 	<input id="filter-status" type="hidden" value="0" />
 
