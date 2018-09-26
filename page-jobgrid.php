@@ -314,7 +314,8 @@
 						'action': 'search_companies',
 						'job_types': filters
 					};
-			 		 var ajaxurl = "<?php get_template_directory_uri().'job-ajax.php'; ?>";
+			 		 var ajaxurl = "<?php echo admin_url('admin-ajax.php') ?>";
+			 		 //alert(ajaxurl);
 					// since 2.8 ajaxurl is always defined in the admin header and points to admin-ajax.php
 						jQuery.post(ajaxurl, data, function(response) {
 						jQuery('#main-container').empty();
