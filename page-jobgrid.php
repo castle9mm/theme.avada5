@@ -296,7 +296,7 @@
 				jQuery('#filter-sidebar').css('left', '0px');
 			
 				jQuery('#filter-expand').empty();
-				jQuery('#filter-expand').append("Filter <<");
+				jQuery('#filter-expand').append("Filter for your next Job or Internship <<");
 				
 				jQuery('#filter-status').val("1");
 				jQuery('#filter-cover').css('display', 'block');
@@ -305,7 +305,7 @@
 				jQuery('#filter-sidebar').css('left', '-300px');
 			
 				jQuery('#filter-expand').empty();
-				jQuery('#filter-expand').append("Filter >>");
+				jQuery('#filter-expand').append("Filter for your next Job or Internship >>");
 				
 				jQuery('#filter-status').val("0");
 				jQuery('#filter-cover').css('display', 'none');
