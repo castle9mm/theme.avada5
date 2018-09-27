@@ -80,7 +80,7 @@
 				position: absolute;
 				width:300px;
 				z-index: 9999;
-				border-right: 2px #CC0000 solid;
+				border-right: 3px #CC0000 solid;
 				height: 100%;
 				top:0px;
 				background-color: #FFFFFF;
@@ -260,21 +260,13 @@
 			
 		}else{
 			?>
-		
 		<label class="radio"><input class="checkbox" type="radio" name="checkbox" style="border-radius: 100%" value="<?php echo $value['id']; ?>"><?php echo $value['name']; ?></label>
 		
 		<?php
-			
 		}
-		
-		
 	}
-	
 	?>
-		 
-	
 		</div>
-	
 		<input id="filter-button" type="button" value="Submit" onclick="updateList();"/>
 		<input id="filter-button-remove" type="button" value="Clear Selection" onclick="unselectCheckboxs()"/>
 	</div>
@@ -282,9 +274,6 @@
 	Filter for your next Job or Internship >>
 	</div>
 	<input id="filter-status" type="hidden" value="0" />
-
-
-		
 <footer>
 	<img src="https://eccles.utah.edu/programs/undergraduate/wp-content/uploads/2018/08/Untitled-2.png" width="800" height="104" alt="" title="Untitled-2" class="img-responsive wp-image-8897" srcset="https://eccles.utah.edu/programs/undergraduate/wp-content/uploads/2018/08/Untitled-2-200x26.png 200w, https://eccles.utah.edu/programs/undergraduate/wp-content/uploads/2018/08/Untitled-2-400x52.png 400w, https://eccles.utah.edu/programs/undergraduate/wp-content/uploads/2018/08/Untitled-2-600x78.png 600w, https://eccles.utah.edu/programs/undergraduate/wp-content/uploads/2018/08/Untitled-2.png 800w" sizes="(max-width: 800px) 100vw, 600px">
 	<script>
@@ -323,12 +312,7 @@
 			});
 
 		</script>
-	
 	<script>
-	
-	
-	
-	
 			function updateList(){
 				var filters=[];
 				var selected = [];
@@ -426,7 +410,7 @@
 			
 			function timerIncrement() {
 			    idleTime = idleTime + 1;
-			    if (idleTime > 1) { // 2 minutes
+			    if (idleTime > 0) { // 2 minutes
 			    	updateModal();
 			    	var text = jQuery('#filter-status').val();
 			    	if(text=="1"){
@@ -449,8 +433,6 @@
 			}
 			
 		</script>
-			
-	
 </footer>
 	</body>
 </html>
