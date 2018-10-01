@@ -8,6 +8,8 @@
 		
 	
 		<style>
+	
+  
 		a,p,div{
 			font-family: "Myriad-Pro", arial, sans-serif !important;
 		}
@@ -321,7 +323,6 @@
 				  
 				});
 				//alert(filters);
-				
 				//expandFilter();
 				jQuery(document).ready(function($) {
 
@@ -397,7 +398,7 @@
 			var idleTime = 0;
 			$(document).ready(function () {
 			    //Increment the idle time counter every minute.
-			    var idleInterval = setInterval(timerIncrement, 60000); // 1 minute
+			    var idleInterval = setInterval(timerIncrement, 30000); // 0.5 minutes
 			
 			    //Zero the idle timer on mouse movement.
 			    $(this).mousemove(function (e) {
@@ -410,7 +411,7 @@
 			
 			function timerIncrement() {
 			    idleTime = idleTime + 1;
-			    if (idleTime > 0) { // 2 minutes
+			    if (idleTime > 1) { // 2 minutes
 			    	updateModal();
 			    	var text = jQuery('#filter-status').val();
 			    	if(text=="1"){
