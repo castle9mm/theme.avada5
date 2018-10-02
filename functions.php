@@ -1,4 +1,11 @@
 <?php
+
+include_once 'job-ajax.php';
+add_action( 'wp_ajax_search_companies', 'search_companies' );
+add_action( 'wp_ajax_nopriv_search_companies', 'search_companies' );
+
+include_once 'custom-taxonomies-postypes.php';
+
 function theme_enqueue_styles() {
     wp_enqueue_style( 'avada-parent-stylesheet', get_template_directory_uri() . '/style.css' );
 }

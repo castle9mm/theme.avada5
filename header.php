@@ -28,6 +28,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-NZQ4NSL');</script>
 <!-- End Google Tag Manager -->
 
+
 		<?php Avada() -> head -> the_viewport(); ?>
 
 		<?php wp_head(); ?>
@@ -71,6 +72,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZQ4NSL"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+
 
 		<?php do_action('avada_before_body_content');
 
