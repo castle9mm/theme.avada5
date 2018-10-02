@@ -190,24 +190,6 @@
 		    <a class="btn btn-red" href="<?php the_field('far_url'); ?>" target="_blank">Faculty Profile</a>
 		  </div>
 		<?php } ?>
-		<?php if(get_field('full_page_or_short') == 'short') { 
-		  $values = get_field('areas_of_expertise_short'); 
-		  if (!empty($values)){
-		    if(in_array('include', $values )) { ?>
-                      <div class="attribute-section">
-                      <div class="att-section-title-short">Areas of Expertise</div>
-                      <?php 
-                        $terms = get_the_terms( $post->ID, 'areas_of_expertise' );
-                        if (!empty($terms)) {
-                          foreach($terms as $term) {
-                            $link = get_term_link( $term );?>
-                            <div class="red-box"><a href="<?php echo $link; ?>"><?php echo $term->name; ?></a></div>
-                          <?php }
-                        } ?>
-            </div>
-          <?php } ?>
-        <?php } ?>  
-		<?php } ?>
 		
 		
 		<div class="attribute-section">
