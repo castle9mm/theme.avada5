@@ -97,6 +97,8 @@
 				padding-left: 10px;
 				display: grid;
 				margin-top: 35px;
+				    height: 800px;
+    overflow-y: scroll;
 			}
 			#filter-sidebar div label{
 				width: 100%;
@@ -180,7 +182,7 @@
 				font-weight: bold;
 				border: 2px solid #CC0000;
 				box-shadow: 2px 3px 5px gray;
-				top:80%;
+				top:85%;
 				left:45px;
 				font-size:20px;
 				position:absolute;
@@ -249,7 +251,7 @@
 		order:50;
 	}
 </style>
-<label class="radio-label"><b>Sector</b></label>
+<label class="radio-label"><b>Mayor</b></label>
 <label class="check-label"><b>Type</b></label>
 <?php
 	foreach ($partners as $key => $value) {
