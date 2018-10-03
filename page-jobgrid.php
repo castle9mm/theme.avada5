@@ -251,7 +251,7 @@
 		order:50;
 	}
 </style>
-<label class="radio-label"><b>Mayor</b></label>
+<label class="radio-label"><b>Mayors</b></label>
 <label class="check-label"><b>Type</b></label>
 <?php
 	foreach ($partners as $key => $value) {
