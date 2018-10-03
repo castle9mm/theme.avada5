@@ -100,8 +100,8 @@
 			}
 			#filter-sidebar div label{
 				width: 100%;
-				margin-bottom: 25px;
-				font-size: 25px;
+				margin-bottom: 15px;
+				font-size: 20px;
 			    position:relative;
 			    display:inline-block;    
     			vertical-align:middle; 

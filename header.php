@@ -111,7 +111,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		
 	//if true displays custom top menu for subpages
 		if(custom_header()){
-
 				?>
 				<div id="menu-eccles" class="fusion-header-wrapper-eccles">
 					<div class="fusion-header-v1 fusion-logo-left f fusion-mobile-logo- fusion-mobile-menu-design-modern ">
