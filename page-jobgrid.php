@@ -154,7 +154,7 @@
 				background-color: #ffffff;
 				left:-0px;
 				padding: 10px;
-				padding-top: 20px;
+				padding-top: 5px;
 				text-align: center;
 				font-weight: bold;
 				box-shadow: 4px 4px 5px gray;
