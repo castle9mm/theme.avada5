@@ -8,6 +8,7 @@
  */
 //get_header(); 
 ?>
+ <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>">
 <style>
 
 	body{
