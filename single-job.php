@@ -5,6 +5,7 @@ $post = get_post();
 
 
 ?>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <style>
 div, a, p, span,h1,h2,h3,h4{
 		
