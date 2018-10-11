@@ -271,7 +271,7 @@ if($url=='https://eccles.utah.edu/programs/undergraduate/' || $url=='//localhost
 	echo '<input id="filter-status" type="hidden" value="1" />';
 	echo "</div>";
 }
-echo get_page_link();
+//echo get_page_link();
 if(get_page_link()!=$url."/"){
 	
 	?>
