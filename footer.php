@@ -224,7 +224,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				height: 60px;
 				background-color: #ffffff;
 				left:200px;
-				padding: 10px;
+				padding: 13px;
 				text-align: center;
 				font-weight: bold;
 				transition: 0.300s;
