@@ -207,7 +207,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	}
 	.floating-link div{
 		width: 200px;
-		height: 55px;
+		height: 60px;
 		background: #cc0000;
 		color: white;
 		text-align: center;
@@ -221,7 +221,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				z-index: 9999;
 				border: 3px #CC0000 solid;
 				border-left:0px;
-				height: 55px;
+				height: 60px;
 				background-color: #ffffff;
 				left:200px;
 				padding: 10px;
