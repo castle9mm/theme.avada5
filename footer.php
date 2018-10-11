@@ -182,10 +182,102 @@ if ( ! defined( 'ABSPATH' ) ) {
 	</div>
 	</section>
 
+
+
 </footer>
+
+<style>
+
+.link-container{
+	position: fixed;
+		left: 0px;
+		top: 270px;
+		z-index: 99999;
+		display: flex;
+		box-shadow: 3px 3px 5px #333;
+		border-radius: 0px 5px 5px 0px;
+}
+	.floating-link{
+		text-decoration: none;
+		
+		z-index: 999999;
+		color: white;
+		transition: 0.300s;
+		
+	}
+	.floating-link div{
+		width: 200px;
+		height: 50px;
+		background: #cc0000;
+		color: white;
+		text-align: center;
+		padding:5px;
+		
+	}
+	
+			.link-expand{
+				
+				width:50px;
+				z-index: 9999;
+				border: 3px #CC0000 solid;
+				border-left:0px;
+				height: 50px;
+				background-color: #ffffff;
+				left:200px;
+				padding: 10px;
+				text-align: center;
+				font-weight: bold;
+				transition: 0.300s;
+				border-radius: 0px 5px 5px 0px;
+				font-size:20px;
+				cursor: pointer;
+			}
+	
+</style>
+<script>
+	
+	function expandFilter(){
+			var text = jQuery('#filter-status').val();
+			
+			if(text=="0"){
+			//	jQuery('#link-expand').css('left', '200px');
+				jQuery('#floating-link').css('left', '0px');
+			
+				jQuery('#link-expand').empty();
+				jQuery('#link-expand').append("<<");
+				
+				jQuery('#filter-status').val("1");
+			}else{
+				//jQuery('#link-expand').css('left', '0px');
+				jQuery('#floating-link').css('left', '-200px');
+			
+				jQuery('#link-expand').empty();
+				jQuery('#link-expand').append(">>");
+				
+				jQuery('#filter-status').val("0");
+				
+			}
+	}
+
+</script>
+
+<?php
+$url=get_option( 'siteurl' );
+echo $url;
+if($url=='https://eccles.utah.edu/programs/undergraduate' || $url=='//localhost/Workspace/Wordpress_New/eccles' ){
+	echo "<div  id='floating-link' class='link-container'>";
+	echo "<a  class='floating-link' href='https://eccles.utah.edu/programs/undergraduate/schedule-an-appointment/'><div>Schedule an Appointment</div></a>";
+	echo '<div  class="link-expand" onclick="expandFilter();"> << </div>';
+	echo '<input id="filter-status" type="hidden" value="1" />';
+	echo "</div>";
+}
+ ?>
+ 
+
 </div>
 <!-- fusion-footer -->
 </div> <!-- wrapper -->
+
 
 
 <?php wp_footer(); ?>
