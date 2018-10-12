@@ -16,7 +16,7 @@
 		}
 			.companies-section {
 				display: flex;
-				    flex-wrap: wrap;
+				flex-wrap: wrap;
 			}
 			.company-container {
 
@@ -252,7 +252,7 @@
 		order:50;
 	}
 </style>
-<label class="radio-label"><b>Mayors</b></label>
+<label class="radio-label"><b>Majors</b></label>
 <label class="check-label"><b>Type</b></label>
 <?php
 	foreach ($partners as $key => $value) {

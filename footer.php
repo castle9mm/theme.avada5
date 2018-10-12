@@ -191,7 +191,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 .link-container{
 	position: fixed;
 		left: 0px;
-		top: 70%;
+		top: 75%;
 		z-index: 99999;
 		display: flex;
 		box-shadow: 3px 3px 5px #333;
@@ -264,7 +264,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 <?php
 $url=get_option( 'siteurl' );
 
-if($url=='https://eccles.utah.edu/programs/undergraduate/' || $url=='//localhost/Workspace/Wordpress_New/eccles' ){
+if($url=='https://eccles.utah.edu/programs/undergraduate' || $url=='//localhost/Workspace/Wordpress_New/eccles' ){
 	echo "<div  id='floating-link' class='link-container'>";
 	echo "<a  class='floating-link' href='https://eccles.utah.edu/programs/undergraduate/schedule-an-appointment/'><div>Schedule an Appointment</div></a>";
 	echo '<div id="link-expand" class="link-expand" onclick="expandFilter();"> << </div>';
@@ -272,12 +272,15 @@ if($url=='https://eccles.utah.edu/programs/undergraduate/' || $url=='//localhost
 	echo "</div>";
 }
 //echo get_page_link();
-if(get_page_link()!=$url."/"){
+if(get_page_link()=="https://eccles.utah.edu/programs/undergraduate/schedule-an-appointment/"){
 	
 	?>
-	<script>
-		expandFilter();
-	</script>
+	<style>
+		#floating-link{
+			display: none !important;
+		}
+		
+	</style>
 	<?php
 }
  ?>
