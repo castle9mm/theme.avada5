@@ -280,7 +280,7 @@ if(get_page_link()=="https://eccles.utah.edu/programs/undergraduate/schedule-an-
 	?>
 	<style>
 		#floating-link{
-			display: none !important;
+			/*display: none !important;*/
 		}
 		
 	</style>
