@@ -199,16 +199,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 		transition: 0.300s;
 }
 	.floating-link{
-		text-decoration: none;
-		
+		text-decoration: underline !important;
+		text-decoration-color: #cc0000 !important; 
 		z-index: 999999;
 		color: white;
 	}
-	.link-container:hover .floating-link,.floating-link:hover{
-		text-decoration: none;
-	}
+	
 	.floating-link div{
-			text-decoration: none;
 		width: 170px;
 		height: 60px;
 		background: #cc0000;
