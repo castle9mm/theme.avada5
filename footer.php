@@ -266,7 +266,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <?php
 $url=get_option( 'siteurl' );
-
+echo $url;
 if($url=='https://eccles.utah.edu/programs/undergraduate' || $url=='//localhost/Workspace/Wordpress_New/eccles' ){
 	echo "<div  id='floating-link' class='link-container'>";
 	echo "<a  class='floating-link' href='https://eccles.utah.edu/programs/undergraduate/schedule-an-appointment/'><div>Schedule an Appointment</div></a>";
@@ -280,7 +280,7 @@ if(get_page_link()=="https://eccles.utah.edu/programs/undergraduate/schedule-an-
 	?>
 	<style>
 		#floating-link{
-			/*display: none !important;*/
+			display: none !important;
 		}
 		
 	</style>
