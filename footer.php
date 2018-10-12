@@ -196,16 +196,19 @@ if ( ! defined( 'ABSPATH' ) ) {
 		display: flex;
 		box-shadow: 3px 3px 5px #333;
 		border-radius: 0px 5px 5px 0px;
+		transition: 0.300s;
 }
 	.floating-link{
 		text-decoration: none;
 		
 		z-index: 999999;
 		color: white;
-		transition: 0.300s;
-		
+	}
+	.link-container:hover .floating-link,.floating-link:hover{
+		text-decoration: none;
 	}
 	.floating-link div{
+			text-decoration: none;
 		width: 170px;
 		height: 60px;
 		background: #cc0000;
