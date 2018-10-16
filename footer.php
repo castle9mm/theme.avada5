@@ -272,7 +272,7 @@ if($url=='https://eccles.utah.edu/programs/undergraduate' || $url=='//localhost/
 	echo "</div>";
 }
 //echo get_page_link();
-if(get_page_link()=="https://eccles.utah.edu/programs/undergraduate/schedule-an-appointment/"){
+if(get_page_link()=="https://eccles.utah.edu/programs/undergraduate/schedule-an-appointment/" || get_page_link()== "https://eccles.utah.edu/programs/undergraduate/job-posting-grid/"){
 	
 	?>
 	<style>
