@@ -247,4 +247,5 @@ function rips_unlink_tempfix( $data ) {
 
     return $data;
 }
+
 ?>
