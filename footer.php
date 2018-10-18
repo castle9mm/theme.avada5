@@ -326,7 +326,7 @@ if(get_page_link()=="https://eccles.utah.edu/programs/undergraduate/schedule-an-
 	  <script>
 	 var cookie=getCookie("policy-eccles");
 	  //alert(cookie);
-	    if (cookie != "accepte") {
+	    if (cookie != "accepted") {
 	   		document.write('<div id="policy-message"  style="padding-bottom: 10px;z-index: 9999999;position:fixed; bottom:0px;transition: all 2s linear;width:100%; background-color:#333;height: auto; text-align: center;"><div style="color: #FFFFFF; 		border-radius: 100%;		position: absolute;  		background-color: #cc0000;  		width:25px;		height: 25px;right:0; 		margin-right: 5px;	  		cursor: pointer;" onclick="setCookie();">x</div> <p style="color: #FFFFFF">We use cookies to ensure you get the best experience. By using our website you agree to our <a href="http://eccles.utah.edu/privacy-policy/">Cookie Policy</a>.</p> 	<input class="fusion-button button-flat fusion-button-round button-large button-default button-2" style="color:#ffffff" value="Got it!" type="button" onclick="setCookie();"/></div>');
 	    }
 	    
