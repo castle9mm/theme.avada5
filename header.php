@@ -19,7 +19,7 @@ if (!defined('ABSPATH')) {
 	  var cookie=getCookie("policy-eccles");
 	  //alert(cookie);
 	    if (cookie != "accepted") {
-	   		document.write('<div id="policy-message"  style="padding-bottom: 10px;z-index: 9999999;position:fixed; bottom:0px;transition: all 2s linear;width:100%; background-color:#333;height: auto; text-align: center;"><div id="close-policy" onclick="setCookie();">x</div> <p style="color: #FFFFFF">We use cookies to ensure you get the best experience. By using our website you agree to our <a href="http://eccles.utah.edu/privacy-policy/">Cookie Policy</a>.</p> 	<input class="fusion-button button-flat fusion-button-round button-large button-default button-2" value="Got it!" type="button" onclick="setCookie();"/></div>');
+	   		//document.write('<div id="policy-message"  style="padding-bottom: 10px;z-index: 9999999;position:fixed; bottom:0px;transition: all 2s linear;width:100%; background-color:#333;height: auto; text-align: center;"><div id="close-policy" onclick="setCookie();">x</div> <p style="color: #FFFFFF">We use cookies to ensure you get the best experience. By using our website you agree to our <a href="http://eccles.utah.edu/privacy-policy/">Cookie Policy</a>.</p> 	<input class="fusion-button button-flat fusion-button-round button-large button-default button-2" value="Got it!" type="button" onclick="setCookie();"/></div>');
 	    }
 	    
 	    
