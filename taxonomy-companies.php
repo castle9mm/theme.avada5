@@ -60,7 +60,7 @@
 	$id = (get_queried_object()->term_id);
 	echo "<h1>".get_queried_object()->name."</h1>";
 
-	$args = array(get_query_var( 'taxonomy' ) => get_query_var( 'term' ), 'post_type' =>  'job' ); 
+	$args = array(get_query_var( 'taxonomy' ) => get_query_var( 'term' ), 'post_type' =>  'job' ,'numberposts' => 20); 
     $postslist = get_posts( $args );  
 	$filtered_post =  $_GET['posts'];
 	$filtered=false;
@@ -68,6 +68,8 @@
 		$filtered=true;
 	} 
 	$filtered_post = explode(',', $filtered_post);
+	
+	
     foreach ($postslist as $post) :  setup_postdata($post); 
 		if(in_array($post->ID,$filtered_post)  || !$filtered){
 	    ?>      
