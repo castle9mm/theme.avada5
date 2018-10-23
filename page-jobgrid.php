@@ -80,7 +80,7 @@
 			}
 			#filter-sidebar{
 				
-				position: absolute;
+				position: fixed;
 				width:300px;
 				z-index: 9999;
 				border-right: 3px #CC0000 solid;
@@ -144,7 +144,7 @@
 			
 			.filter-expand{
 				
-				position: absolute;
+				position: fixed;
 				width:100px;
 				z-index: 9999;
 				border: 3px #CC0000 solid;
@@ -196,7 +196,7 @@
 				height:100%;
 				z-index: 999;
 				background-color: rgba(51, 51, 51, 0.7);
-				position: absolute;
+				position: fixed;
 				top:0;
 				left:0;
 				display: none;
